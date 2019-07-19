@@ -1,0 +1,320 @@
+===============
+===============
+===============
+===============
+Array: level, size = 256, partitions = 8, word size = 1, reads = 5120, writes = 233
+Array: edges, size = 32768, partitions = 32, word size = 8, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 8, word size = 1, reads = 466, writes = 0
+Array: level_counts, size = 80, partitions = 8, word size = 1, reads = 0, writes = 5
+===============
+Array: level, size = 256, partitions = 8, word size = 1, reads = 5120, writes = 233
+Array: edges, size = 32768, partitions = 32, word size = 8, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 8, word size = 1, reads = 466, writes = 0
+Array: level_counts, size = 80, partitions = 8, word size = 1, reads = 0, writes = 5
+===============
+Array: level, size = 256, partitions = 1, word size = 1, reads = 5120, writes = 233
+Array: edges, size = 32768, partitions = 32, word size = 8, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 8, word size = 1, reads = 466, writes = 0
+Array: level_counts, size = 80, partitions = 1, word size = 1, reads = 0, writes = 5
+===============
+Array: level, size = 256, partitions = 1, word size = 1, reads = 5120, writes = 233
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: level_counts, size = 80, partitions = 1, word size = 1, reads = 0, writes = 5
+===============
+Array: level, size = 256, partitions = 1, word size = 1, reads = 5120, writes = 233
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: level_counts, size = 80, partitions = 1, word size = 1, reads = 0, writes = 5
+===============
+Array: level, size = 256, partitions = 1, word size = 1, reads = 5120, writes = 233
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 40960, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 3276800, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 40960, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 3276800, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 40960, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 3276800, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 40960, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 3276800, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 40960, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 3276800, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 64, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 64, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 64, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 32, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 32, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 8, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 65536, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 65536, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: level, size = 256, partitions = 1, word size = 1, reads = 3424, writes = 233
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: level_counts, size = 80, partitions = 1, word size = 1, reads = 0, writes = 5
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: level, size = 256, partitions = 1, word size = 1, reads = 3424, writes = 233
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+===============
+Array: level, size = 256, partitions = 1, word size = 1, reads = 3424, writes = 233
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 8, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 8, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 4, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 8, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 2, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 2, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 4, word size = 1, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 2, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 4, word size = 2, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 4, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 4, word size = 4, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 4, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 4, reads = 4096, writes = 0
+===============
+Array: nodes, size = 4096, partitions = 4, word size = 4, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 8, word size = 8, reads = 4096, writes = 0
+===============

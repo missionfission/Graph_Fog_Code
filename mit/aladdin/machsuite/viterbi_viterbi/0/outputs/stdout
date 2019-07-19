@@ -1,0 +1,111 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  2 2019 14:47:48
+gem5 started Jun 11 2019 01:20:34
+gem5 executing on 5e24d8f23dc5, pid 18657
+command line: /workspace/gem5-aladdin/build/X86/gem5.opt --stats-db-file=stats.db --outdir=/workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0/outputs /workspace/gem5-aladdin/configs/aladdin/aladdin_se.py --num-cpus=0 --mem-size=4GB --enable-stats-dump --enable_prefetchers --prefetcher-type=stride --mem-type=DDR3_1600_8x8 --sys-clock=499MHz --cpu-type=DerivO3CPU --caches --cacheline_size=32 --accel_cfg_file=/workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0/gem5.cfg -c viterbi-viterbi-gem5-accel -o ''
+
+Global frequency set at 1000000000000 ticks per second
+-------------------------------
+      Setting ScratchPad       
+-------------------------------
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Num of Nodes: 10429230
+Num of Edges: 26044402
+Num of Reg Edges: 15036730
+Num of MEM Edges: 578443
+Num of Control Edges: 10429229
+-------------------------------
+-------------------------------
+    Initializing BaseDatapath      
+-------------------------------
+ Top level: viterbi
+=============================================
+      Optimizing...            /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0/outputs/viterbi_viterbi
+=============================================
+-------------------------------
+  Remove PHI and Convert Nodes 
+-------------------------------
+  Removing 10374374 edges.
+  Adding 8575246 new edges.
+  Removing 1120742 isolated nodes.
+-------------------------------
+  Remove Induction Dependence  
+-------------------------------
+-------------------------------
+       Init Base Address       
+-------------------------------
+-------------------------------
+     Init DMA Base Address     
+-------------------------------
+-------------------------------
+        Mem to Reg Conv        
+-------------------------------
+-------------------------------
+      ScratchPad Partition     
+-------------------------------
+-------------------------------
+         Loop Flatten          
+-------------------------------
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+         Loop Unrolling        
+-------------------------------
+  Adding 14442858 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+          Load Buffer          
+-------------------------------
+  Adding 567296 new edges.
+  Removing 623424 edges.
+  Removing 0 isolated nodes.
+-------------------------------
+          Store Buffer         
+-------------------------------
+  Adding 9035 new edges.
+  Removing 139 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+    Remove Repeated Stores     
+-------------------------------
+-------------------------------
+      Memory Ambiguation       
+-------------------------------
+  Adding 0 new edges.
+-------------------------------
+     Tree Height Reduction     
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Fuse register loads/stores   
+-------------------------------
+  Removing 18275 edges.
+  Adding 18275 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+   Fuse consecutive branches   
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+      Per Loop Pipelining      
+-------------------------------
+-------------------------------
+         Loop Pipelining        
+-------------------------------
+=============================================
+      Scheduling...            /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0/outputs/viterbi_viterbi
+=============================================
+  Total connected nodes: 7548250
+  Total edges: 34094215
+=============================================
+**** REAL SIMULATION ****

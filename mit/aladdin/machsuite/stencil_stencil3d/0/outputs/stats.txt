@@ -1,0 +1,649 @@
+
+---------- Begin Simulation Statistics ----------
+sim_seconds                                  0.000217                       # Number of seconds simulated
+sim_ticks                                   216800000                       # Number of ticks simulated
+final_tick                                  216800000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+sim_freq                                 1000000000000                       # Frequency of simulated ticks
+host_tick_rate                               40605539                       # Simulator tick rate (ticks/s)
+host_mem_usage                                5501724                       # Number of bytes of host memory used
+host_seconds                                     5.34                       # Real time elapsed on the host
+system.voltage_domain.voltage                       1                       # Voltage in Volts
+system.clk_domain.clock                          2004                       # Clock period in ticks
+system.mem_ctrls.pwrStateResidencyTicks::UNDEFINED    216800000                       # Cumulative time (in ticks) in various power states
+system.mem_ctrls.bytes_read::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache       120192                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::.stencil_stencil3d_datapath.cache.prefetcher        96480                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::total             216672                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_written::.writebacks        91424                       # Number of bytes written to this memory
+system.mem_ctrls.bytes_written::total           91424                       # Number of bytes written to this memory
+system.mem_ctrls.num_reads::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         3756                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::.stencil_stencil3d_datapath.cache.prefetcher         3015                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::total                6771                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_writes::.writebacks         2857                       # Number of write requests responded to by this memory
+system.mem_ctrls.num_writes::total               2857                       # Number of write requests responded to by this memory
+system.mem_ctrls.bw_read::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    554391144                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::.stencil_stencil3d_datapath.cache.prefetcher    445018450                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::total             999409594                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::.writebacks      421697417                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::total            421697417                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_total::.writebacks      421697417                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    554391144                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.stencil_stencil3d_datapath.cache.prefetcher    445018450                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::total           1421107011                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.avgPriority_.writebacks::samples      1982.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.avgPriority_.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache::samples      3756.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.avgPriority_.stencil_stencil3d_datapath.cache.prefetcher::samples      3016.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.priorityMinLatency      0.000000018750                       # per QoS priority minimum request to response latency (s)
+system.mem_ctrls.priorityMaxLatency      0.000023988582                       # per QoS priority maximum request to response latency (s)
+system.mem_ctrls.numReadWriteTurnArounds          119                       # Number of turnarounds from READ to WRITE
+system.mem_ctrls.numWriteReadTurnArounds          119                       # Number of turnarounds from WRITE to READ
+system.mem_ctrls.numStayReadState               13503                       # Number of times bus staying in READ state
+system.mem_ctrls.numStayWriteState               1839                       # Number of times bus staying in WRITE state
+system.mem_ctrls.readReqs                        6772                       # Number of read requests accepted
+system.mem_ctrls.writeReqs                       2857                       # Number of write requests accepted
+system.mem_ctrls.readBursts                      6772                       # Number of DRAM read bursts, including those serviced by the write queue
+system.mem_ctrls.writeBursts                     2857                       # Number of DRAM write bursts, including those merged in the write queue
+system.mem_ctrls.bytesReadDRAM                 433408                       # Total number of bytes read from DRAM
+system.mem_ctrls.bytesReadWrQ                       0                       # Total number of bytes read from write queue
+system.mem_ctrls.bytesWritten                  124992                       # Total number of bytes written to DRAM
+system.mem_ctrls.bytesReadSys                  216704                       # Total read bytes from the system interface side
+system.mem_ctrls.bytesWrittenSys                91424                       # Total written bytes from the system interface side
+system.mem_ctrls.servicedByWrQ                      0                       # Number of DRAM read bursts serviced by the write queue
+system.mem_ctrls.mergedWrBursts                   875                       # Number of DRAM write bursts merged with an existing one
+system.mem_ctrls.neitherReadNorWriteReqs            0                       # Number of requests that are neither read nor write
+system.mem_ctrls.perBankRdBursts::0               404                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::1               403                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::2               403                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::3               404                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::4               403                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::5               403                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::6               440                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::7               404                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::8               450                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::9               442                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::10              444                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::11              436                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::12              445                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::13              445                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::14              432                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::15              414                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::0                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::1                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::2                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::3                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::4                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::5                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::6                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::7               250                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::8               261                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::9               260                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::10              261                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::11              260                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::12              260                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::13              233                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::14              166                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::15                2                       # Per bank write bursts
+system.mem_ctrls.numRdRetry                         0                       # Number of times read queue was full causing retry
+system.mem_ctrls.numWrRetry                         0                       # Number of times write queue was full causing retry
+system.mem_ctrls.totGap                     216672006                       # Total gap between requests
+system.mem_ctrls.readPktSize::0                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::1                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::2                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::3                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::4                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::5                  6772                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::6                     0                       # Read request sizes (log2)
+system.mem_ctrls.writePktSize::0                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::1                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::2                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::3                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::4                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::5                 2857                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::6                    0                       # Write request sizes (log2)
+system.mem_ctrls.rdQLenPdf::0                    1845                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::1                    1678                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::2                     356                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::3                     342                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::4                     251                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::5                     305                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::6                     452                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::7                     350                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::8                     256                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::9                     239                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::10                    237                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::11                    206                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::12                    110                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::13                     73                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::14                     37                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::15                     35                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::16                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::17                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::18                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::19                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::20                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::21                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::22                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::23                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::24                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::25                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::26                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::27                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::28                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::29                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::30                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::31                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::0                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::1                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::2                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::3                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::4                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::5                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::6                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::7                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::8                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::9                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::10                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::11                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::12                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::13                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::14                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::15                      7                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::16                     12                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::17                     66                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::18                     72                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::19                     75                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::20                     74                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::21                     80                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::22                     84                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::23                     88                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::24                     92                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::25                    104                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::26                    127                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::27                    138                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::28                    151                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::29                    145                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::30                    135                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::31                    128                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::32                    143                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::33                     58                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::34                     47                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::35                     47                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::36                     32                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::37                     23                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::38                     11                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::39                     12                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::40                      7                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::41                      5                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::42                      3                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::43                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::44                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::45                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::46                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::47                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::48                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::49                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::50                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::51                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::52                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::53                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::54                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::55                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::56                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::57                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::58                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::59                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::60                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::61                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::62                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::63                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.bytesPerActivate::samples          607                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::mean    918.352554                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::gmean   841.542743                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::stdev   249.825974                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::0-127            9      1.48%      1.48% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::128-255           18      2.97%      4.45% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::256-383           21      3.46%      7.91% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::384-511           14      2.31%     10.21% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::512-639           13      2.14%     12.36% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::640-767           11      1.81%     14.17% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::768-895           14      2.31%     16.47% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::896-1023           20      3.29%     19.77% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::1024-1151          487     80.23%    100.00% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::total          607                       # Bytes accessed per row activation
+system.mem_ctrls.rdPerTurnAround::samples          119                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::mean      56.470588                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::gmean     46.856428                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::stdev     47.135007                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::0-15              5      4.20%      4.20% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::16-31            27     22.69%     26.89% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::32-47            13     10.92%     37.82% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::48-63            37     31.09%     68.91% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::64-79            29     24.37%     93.28% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::80-95             3      2.52%     95.80% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::96-111            1      0.84%     96.64% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::112-127            1      0.84%     97.48% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::160-175            1      0.84%     98.32% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::208-223            1      0.84%     99.16% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::448-463            1      0.84%    100.00% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::total           119                       # Reads before turning the bus around for writes
+system.mem_ctrls.wrPerTurnAround::samples          119                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::mean      16.411765                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::gmean     16.369791                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::stdev      1.278318                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::16              103     86.55%     86.55% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::17                5      4.20%     90.76% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::18                3      2.52%     93.28% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::19                1      0.84%     94.12% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::20                3      2.52%     96.64% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::21                3      2.52%     99.16% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::24                1      0.84%    100.00% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::total           119                       # Writes before turning the bus around for reads
+system.mem_ctrls.masterReadBytes::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache       120192                       # Per-master bytes read from memory
+system.mem_ctrls.masterReadBytes::.stencil_stencil3d_datapath.cache.prefetcher        96512                       # Per-master bytes read from memory
+system.mem_ctrls.masterWriteBytes::.writebacks        62496                       # Per-master bytes write to memory
+system.mem_ctrls.masterReadRate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 554391143.911439061165                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrls.masterReadRate::.stencil_stencil3d_datapath.cache.prefetcher 445166051.660516560078                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrls.masterWriteRate::.writebacks 288265682.656826555729                       # Per-master bytes write to memory rate (Bytes/sec)
+system.mem_ctrls.masterReadAccesses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         3756                       # Per-master read serviced memory accesses
+system.mem_ctrls.masterReadAccesses::.stencil_stencil3d_datapath.cache.prefetcher         3016                       # Per-master read serviced memory accesses
+system.mem_ctrls.masterWriteAccesses::.writebacks         2857                       # Per-master write serviced memory accesses
+system.mem_ctrls.masterReadTotalLat::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    207520447                       # Per-master read total memory access latency
+system.mem_ctrls.masterReadTotalLat::.stencil_stencil3d_datapath.cache.prefetcher    155894246                       # Per-master read total memory access latency
+system.mem_ctrls.masterWriteTotalLat::.writebacks   5175680928                       # Per-master write total memory access latency
+system.mem_ctrls.masterReadAvgLat::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     55250.39                       # Per-master read average memory access latency
+system.mem_ctrls.masterReadAvgLat::.stencil_stencil3d_datapath.cache.prefetcher     51689.07                       # Per-master read average memory access latency
+system.mem_ctrls.masterWriteAvgLat::.writebacks   1811578.90                       # Per-master write average memory access latency
+system.mem_ctrls.totQLat                    236439693                       # Total ticks spent queuing
+system.mem_ctrls.totMemAccLat               363414693                       # Total ticks spent from burst creation until serviced by the DRAM
+system.mem_ctrls.totBusLat                   33860000                       # Total ticks spent in databus transfers
+system.mem_ctrls.avgQLat                     34914.31                       # Average queueing delay per DRAM burst
+system.mem_ctrls.avgBusLat                    5000.00                       # Average bus latency per DRAM burst
+system.mem_ctrls.avgMemAccLat                53664.31                       # Average memory access latency per DRAM burst
+system.mem_ctrls.avgRdBW                      1999.11                       # Average DRAM read bandwidth in MiByte/s
+system.mem_ctrls.avgWrBW                       576.53                       # Average achieved write bandwidth in MiByte/s
+system.mem_ctrls.avgRdBWSys                    999.56                       # Average system read bandwidth in MiByte/s
+system.mem_ctrls.avgWrBWSys                    421.70                       # Average system write bandwidth in MiByte/s
+system.mem_ctrls.peakBW                      12800.00                       # Theoretical peak bandwidth in MiByte/s
+system.mem_ctrls.busUtil                        20.12                       # Data bus utilization in percentage
+system.mem_ctrls.busUtilRead                    15.62                       # Data bus utilization in percentage for reads
+system.mem_ctrls.busUtilWrite                    4.50                       # Data bus utilization in percentage for writes
+system.mem_ctrls.avgRdQLen                       3.42                       # Average read queue length when enqueuing
+system.mem_ctrls.avgWrQLen                      24.84                       # Average write queue length when enqueuing
+system.mem_ctrls.readRowHits                     6291                       # Number of row buffer hits during reads
+system.mem_ctrls.writeRowHits                    1824                       # Number of row buffer hits during writes
+system.mem_ctrls.readRowHitRate                 92.90                       # Row buffer hit rate for reads
+system.mem_ctrls.writeRowHitRate                92.03                       # Row buffer hit rate for writes
+system.mem_ctrls.avgGap                      22502.03                       # Average gap between requests
+system.mem_ctrls.pageHitRate                    92.70                       # Row buffer hit rate, read and write combined
+system.mem_ctrls_0.actEnergy                  1785000                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_0.preEnergy                   941160                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_0.readEnergy                23304960                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_0.writeEnergy                1305000                       # Energy for write commands per rank (pJ)
+system.mem_ctrls_0.refreshEnergy         16595280.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_0.actBackEnergy             27655260                       # Energy for active background per rank (pJ)
+system.mem_ctrls_0.preBackEnergy               980160                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_0.actPowerDownEnergy        65773440                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_0.prePowerDownEnergy         3594240                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_0.selfRefreshEnergy                0                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_0.totalEnergy              141934500                       # Total energy per rank (pJ)
+system.mem_ctrls_0.averagePower            654.679428                       # Core power per rank (mW)
+system.mem_ctrls_0.totalIdleTime            153505995                       # Total Idle time Per DRAM Rank
+system.mem_ctrls_0.memoryStateTime::IDLE       617356                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::REF       7020000                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::SREF            0                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::PRE_PDN      9359247                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::ACT      55543149                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::ACT_PDN    144260248                       # Time in different power states
+system.mem_ctrls_1.actEnergy                  2570400                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_1.preEnergy                  1362405                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_1.readEnergy                25047120                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_1.writeEnergy                8889660                       # Energy for write commands per rank (pJ)
+system.mem_ctrls_1.refreshEnergy         16595280.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_1.actBackEnergy             33629430                       # Energy for active background per rank (pJ)
+system.mem_ctrls_1.preBackEnergy               884640                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_1.actPowerDownEnergy        60986580                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_1.prePowerDownEnergy         2590080                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_1.selfRefreshEnergy     614640.000000                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_1.totalEnergy              153263295                       # Total energy per rank (pJ)
+system.mem_ctrls_1.averagePower            706.934018                       # Core power per rank (mW)
+system.mem_ctrls_1.totalIdleTime            140561051                       # Total Idle time Per DRAM Rank
+system.mem_ctrls_1.memoryStateTime::IDLE       706000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::REF       7020000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::SREF        53756                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::PRE_PDN      6740925                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::ACT      68512949                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::ACT_PDN    133766370                       # Time in different power states
+system.pwrStateResidencyTicks::UNDEFINED    216800000                       # Cumulative time (in ticks) in various power states
+system.cpu_voltage_domain.voltage                   1                       # Voltage in Volts
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+system.membus.snoop_filter.tot_requests         13076                       # Total number of requests made to the snoop filter.
+system.membus.snoop_filter.hit_single_requests         6281                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_multi_requests            0                       # Number of requests hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.snoop_filter.tot_snoops               0                       # Total number of snoops made to the snoop filter.
+system.membus.snoop_filter.hit_single_snoops            0                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_multi_snoops            0                       # Number of snoops hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.pwrStateResidencyTicks::UNDEFINED    216800000                       # Cumulative time (in ticks) in various power states
+system.membus.trans_dist::ReadResp               6001                       # Transaction distribution
+system.membus.trans_dist::WritebackDirty         2857                       # Transaction distribution
+system.membus.trans_dist::CleanEvict             3424                       # Transaction distribution
+system.membus.trans_dist::ReadExReq               770                       # Transaction distribution
+system.membus.trans_dist::ReadExResp              770                       # Transaction distribution
+system.membus.trans_dist::ReadSharedReq          6002                       # Transaction distribution
+system.membus.trans_dist::InvalidateReq            23                       # Transaction distribution
+system.membus.pkt_count_system.stencil_stencil3d_datapath.cache.mem_side::system.mem_ctrls.port        19847                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count::total                  19847                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_size_system.stencil_stencil3d_datapath.cache.mem_side::system.mem_ctrls.port       308096                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size::total                  308096                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.snoops                                0                       # Total snoops (count)
+system.membus.snoopTraffic                          0                       # Total snoop traffic (bytes)
+system.membus.snoop_fanout::samples              6795                       # Request fanout histogram
+system.membus.snoop_fanout::mean                    0                       # Request fanout histogram
+system.membus.snoop_fanout::stdev                   0                       # Request fanout histogram
+system.membus.snoop_fanout::underflows              0      0.00%      0.00% # Request fanout histogram
+system.membus.snoop_fanout::0                    6795    100.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::1                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::2                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::overflows               0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::min_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::max_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::total                6795                       # Request fanout histogram
+system.membus.reqLayer0.occupancy            44600347                       # Layer occupancy (ticks)
+system.membus.reqLayer0.utilization              20.6                       # Layer utilization (%)
+system.membus.respLayer1.occupancy           43701979                       # Layer occupancy (ticks)
+system.membus.respLayer1.utilization             20.2                       # Layer utilization (%)
+system.stencil_stencil3d_datapath.clk_domain.clock         2000                       # Clock period in ticks
+system.stencil_stencil3d_datapath.pwrStateResidencyTicks::UNDEFINED    216800000                       # Cumulative time (in ticks) in various power states
+system.stencil_stencil3d_datapath.cache_queue_reads            0                       # Number of reads to the stencil_stencil3d_datapath.cache_queue
+system.stencil_stencil3d_datapath.cache_queue_writes            0                       # Number of writes to the stencil_stencil3d_datapath.cache_queue
+system.stencil_stencil3d_datapath.total_dcache_loads        15682                       # Total number of dcache loads
+system.stencil_stencil3d_datapath.total_dcache_stores        16532                       # Total number of dcache stores.
+system.stencil_stencil3d_datapath.dcache_latency::samples        32214                       # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::mean 17009.440461                       # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::gmean  3523.107973                       # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::stdev 42328.882436                       # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::0-16383        27527     85.45%     85.45% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::16384-32767          218      0.68%     86.13% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::32768-49151           53      0.16%     86.29% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::49152-65535           68      0.21%     86.50% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::65536-81919         1754      5.44%     91.95% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::81920-98303          702      2.18%     94.13% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::98304-114687          696      2.16%     96.29% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::114688-131071          430      1.33%     97.62% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::131072-147455           99      0.31%     97.93% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::147456-163839           81      0.25%     98.18% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::163840-180223           94      0.29%     98.47% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::180224-196607           95      0.29%     98.77% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::196608-212991           77      0.24%     99.01% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::212992-229375           63      0.20%     99.20% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::229376-245759           79      0.25%     99.45% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::245760-262143           79      0.25%     99.69% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::262144-278527           31      0.10%     99.79% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::278528-294911            5      0.02%     99.80% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::294912-311295            2      0.01%     99.81% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::311296-327679           10      0.03%     99.84% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::327680-344063            4      0.01%     99.85% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::344064-360447           13      0.04%     99.89% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::360448-376831            4      0.01%     99.91% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::376832-393215           13      0.04%     99.95% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::393216-409599           11      0.03%     99.98% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::409600-425983            3      0.01%     99.99% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::425984-442367            3      0.01%    100.00% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::442368-458751            0      0.00%    100.00% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::458752-475135            0      0.00%    100.00% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::475136-491519            0      0.00%    100.00% # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_latency::total        32214                       # Histogram of dcache total access latency
+system.stencil_stencil3d_datapath.dcache_queue_time::samples        31257                       # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::mean 44965.223790                       # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::gmean 44251.953342                       # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::stdev 13519.340295                       # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::0-16383            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::16384-32767            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::32768-49151        30378     97.19%     97.19% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::49152-65535          180      0.58%     97.76% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::65536-81919          190      0.61%     98.37% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::81920-98303          323      1.03%     99.40% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::98304-114687           35      0.11%     99.52% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::114688-131071           25      0.08%     99.60% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::131072-147455           29      0.09%     99.69% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::147456-163839           11      0.04%     99.72% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::163840-180223           17      0.05%     99.78% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::180224-196607            8      0.03%     99.80% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::196608-212991            6      0.02%     99.82% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::212992-229375            7      0.02%     99.85% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::229376-245759            0      0.00%     99.85% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::245760-262143            5      0.02%     99.86% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::262144-278527            8      0.03%     99.89% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::278528-294911            9      0.03%     99.92% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::294912-311295           10      0.03%     99.95% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::311296-327679            6      0.02%     99.97% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::327680-344063            8      0.03%     99.99% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::344064-360447            1      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::360448-376831            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::376832-393215            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::393216-409599            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::409600-425983            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::425984-442367            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::442368-458751            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::458752-475135            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::475136-491519            1      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.dcache_queue_time::total        31257                       # Histogram of time dcache request spent in queue
+system.stencil_stencil3d_datapath.total_acp_loads            0                       # Total number of ACP loads
+system.stencil_stencil3d_datapath.total_acp_stores            0                       # Total number of ACP stores.
+system.stencil_stencil3d_datapath.acp_latency::samples            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::mean          nan                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::gmean          nan                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::stdev          nan                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::0            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::1            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::2            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::3            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::4            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::5            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::6            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::7            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::8            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::9            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::10            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::11            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::12            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::13            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::14            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::15            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::16            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::17            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::18            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::19            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::20            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::21            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::22            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::23            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::24            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::25            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::26            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::27            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::28            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::29            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_latency::total            0                       # Histogram of ACP transaction total latency
+system.stencil_stencil3d_datapath.acp_queue_time::samples            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::mean          nan                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::gmean          nan                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::stdev          nan                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::0            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::1            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::2            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::3            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::4            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::5            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::6            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::7            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::8            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::9            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::10            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::11            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::12            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::13            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::14            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::15            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::16            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::17            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::18            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::19            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::20            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::21            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::22            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::23            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::24            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::25            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::26            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::27            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::28            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::29            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.acp_queue_time::total            0                       # Histogram of time ACP request spent in queue
+system.stencil_stencil3d_datapath.dma_setup_cycles           15                       # Total number of cycles spent on setting up DMA transfers.
+system.stencil_stencil3d_datapath.sim_cycles       108385                       # Total accelerator cycles
+system.stencil_stencil3d_datapath.tlb.hits        32214                       # TLB hits
+system.stencil_stencil3d_datapath.tlb.misses          440                       # TLB misses
+system.stencil_stencil3d_datapath.tlb.reads        32654                       # TLB reads
+system.stencil_stencil3d_datapath.tlb.updates          100                       # TLB updates
+system.stencil_stencil3d_datapath.tlb.hitRate     0.986525                       # TLB hit rate
+system.stencil_stencil3d_datapath.cache.prefetcher.pwrStateResidencyTicks::UNDEFINED    216800000                       # Cumulative time (in ticks) in various power states
+system.stencil_stencil3d_datapath.cache.prefetcher.num_hwpf_issued        38011                       # number of hwpf issued
+system.stencil_stencil3d_datapath.cache.prefetcher.pfIdentified       129747                       # number of prefetch candidates identified
+system.stencil_stencil3d_datapath.cache.prefetcher.pfBufferHit        89218                       # number of redundant prefetches already in prefetch queue
+system.stencil_stencil3d_datapath.cache.prefetcher.pfInCache            0                       # number of redundant prefetches already in cache/mshr dropped
+system.stencil_stencil3d_datapath.cache.prefetcher.pfRemovedFull          164                       # number of prefetches dropped due to prefetch queue size
+system.stencil_stencil3d_datapath.cache.prefetcher.pfSpanPage         6629                       # number of prefetches not generated due to page crossing
+system.stencil_stencil3d_datapath.cache.tags.pwrStateResidencyTicks::UNDEFINED    216800000                       # Cumulative time (in ticks) in various power states
+system.stencil_stencil3d_datapath.cache.tags.tagsinuse   481.584466                       # Cycle average of tags in use
+system.stencil_stencil3d_datapath.cache.tags.total_refs        34257                       # Total number of references to valid blocks.
+system.stencil_stencil3d_datapath.cache.tags.sampled_refs         6793                       # Sample count of references to valid blocks.
+system.stencil_stencil3d_datapath.cache.tags.avg_refs     5.042985                       # Average number of references to valid blocks.
+system.stencil_stencil3d_datapath.cache.tags.warmup_cycle       192384                       # Cycle when the warmup percentage was hit.
+system.stencil_stencil3d_datapath.cache.tags.occ_blocks::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache   283.441935                       # Average occupied blocks per requestor
+system.stencil_stencil3d_datapath.cache.tags.occ_blocks::.stencil_stencil3d_datapath.cache.prefetcher   198.142530                       # Average occupied blocks per requestor
+system.stencil_stencil3d_datapath.cache.tags.occ_percent::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.553598                       # Average percentage of cache occupancy
+system.stencil_stencil3d_datapath.cache.tags.occ_percent::.stencil_stencil3d_datapath.cache.prefetcher     0.386997                       # Average percentage of cache occupancy
+system.stencil_stencil3d_datapath.cache.tags.occ_percent::total     0.940595                       # Average percentage of cache occupancy
+system.stencil_stencil3d_datapath.cache.tags.occ_task_id_blocks::1022          198                       # Occupied blocks per task id
+system.stencil_stencil3d_datapath.cache.tags.occ_task_id_blocks::1024          314                       # Occupied blocks per task id
+system.stencil_stencil3d_datapath.cache.tags.age_task_id_blocks_1022::0          103                       # Occupied blocks per task id
+system.stencil_stencil3d_datapath.cache.tags.age_task_id_blocks_1022::1           95                       # Occupied blocks per task id
+system.stencil_stencil3d_datapath.cache.tags.age_task_id_blocks_1024::0          108                       # Occupied blocks per task id
+system.stencil_stencil3d_datapath.cache.tags.age_task_id_blocks_1024::1          205                       # Occupied blocks per task id
+system.stencil_stencil3d_datapath.cache.tags.age_task_id_blocks_1024::2            1                       # Occupied blocks per task id
+system.stencil_stencil3d_datapath.cache.tags.occ_task_id_percent::1022     0.386719                       # Percentage of cache occupancy per task id
+system.stencil_stencil3d_datapath.cache.tags.occ_task_id_percent::1024     0.613281                       # Percentage of cache occupancy per task id
+system.stencil_stencil3d_datapath.cache.tags.tag_accesses       135649                       # Number of tag accesses
+system.stencil_stencil3d_datapath.cache.tags.data_accesses       135649                       # Number of data accesses
+system.stencil_stencil3d_datapath.cache.pwrStateResidencyTicks::UNDEFINED    216800000                       # Cumulative time (in ticks) in various power states
+system.stencil_stencil3d_datapath.cache.ReadReq_hits::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache        12647                       # number of ReadReq hits
+system.stencil_stencil3d_datapath.cache.ReadReq_hits::total        12647                       # number of ReadReq hits
+system.stencil_stencil3d_datapath.cache.WriteReq_hits::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache        14817                       # number of WriteReq hits
+system.stencil_stencil3d_datapath.cache.WriteReq_hits::total        14817                       # number of WriteReq hits
+system.stencil_stencil3d_datapath.cache.demand_hits::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache        27464                       # number of demand (read+write) hits
+system.stencil_stencil3d_datapath.cache.demand_hits::total        27464                       # number of demand (read+write) hits
+system.stencil_stencil3d_datapath.cache.overall_hits::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache        27464                       # number of overall hits
+system.stencil_stencil3d_datapath.cache.overall_hits::total        27464                       # number of overall hits
+system.stencil_stencil3d_datapath.cache.ReadReq_misses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         3035                       # number of ReadReq misses
+system.stencil_stencil3d_datapath.cache.ReadReq_misses::total         3035                       # number of ReadReq misses
+system.stencil_stencil3d_datapath.cache.WriteReq_misses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         1715                       # number of WriteReq misses
+system.stencil_stencil3d_datapath.cache.WriteReq_misses::total         1715                       # number of WriteReq misses
+system.stencil_stencil3d_datapath.cache.demand_misses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         4750                       # number of demand (read+write) misses
+system.stencil_stencil3d_datapath.cache.demand_misses::total         4750                       # number of demand (read+write) misses
+system.stencil_stencil3d_datapath.cache.overall_misses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         4750                       # number of overall misses
+system.stencil_stencil3d_datapath.cache.overall_misses::total         4750                       # number of overall misses
+system.stencil_stencil3d_datapath.cache.ReadReq_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    297069325                       # number of ReadReq miss cycles
+system.stencil_stencil3d_datapath.cache.ReadReq_miss_latency::total    297069325                       # number of ReadReq miss cycles
+system.stencil_stencil3d_datapath.cache.WriteReq_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    195432278                       # number of WriteReq miss cycles
+system.stencil_stencil3d_datapath.cache.WriteReq_miss_latency::total    195432278                       # number of WriteReq miss cycles
+system.stencil_stencil3d_datapath.cache.demand_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    492501603                       # number of demand (read+write) miss cycles
+system.stencil_stencil3d_datapath.cache.demand_miss_latency::total    492501603                       # number of demand (read+write) miss cycles
+system.stencil_stencil3d_datapath.cache.overall_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    492501603                       # number of overall miss cycles
+system.stencil_stencil3d_datapath.cache.overall_miss_latency::total    492501603                       # number of overall miss cycles
+system.stencil_stencil3d_datapath.cache.ReadReq_accesses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache        15682                       # number of ReadReq accesses(hits+misses)
+system.stencil_stencil3d_datapath.cache.ReadReq_accesses::total        15682                       # number of ReadReq accesses(hits+misses)
+system.stencil_stencil3d_datapath.cache.WriteReq_accesses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache        16532                       # number of WriteReq accesses(hits+misses)
+system.stencil_stencil3d_datapath.cache.WriteReq_accesses::total        16532                       # number of WriteReq accesses(hits+misses)
+system.stencil_stencil3d_datapath.cache.demand_accesses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache        32214                       # number of demand (read+write) accesses
+system.stencil_stencil3d_datapath.cache.demand_accesses::total        32214                       # number of demand (read+write) accesses
+system.stencil_stencil3d_datapath.cache.overall_accesses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache        32214                       # number of overall (read+write) accesses
+system.stencil_stencil3d_datapath.cache.overall_accesses::total        32214                       # number of overall (read+write) accesses
+system.stencil_stencil3d_datapath.cache.ReadReq_miss_rate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.193534                       # miss rate for ReadReq accesses
+system.stencil_stencil3d_datapath.cache.ReadReq_miss_rate::total     0.193534                       # miss rate for ReadReq accesses
+system.stencil_stencil3d_datapath.cache.WriteReq_miss_rate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.103738                       # miss rate for WriteReq accesses
+system.stencil_stencil3d_datapath.cache.WriteReq_miss_rate::total     0.103738                       # miss rate for WriteReq accesses
+system.stencil_stencil3d_datapath.cache.demand_miss_rate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.147451                       # miss rate for demand accesses
+system.stencil_stencil3d_datapath.cache.demand_miss_rate::total     0.147451                       # miss rate for demand accesses
+system.stencil_stencil3d_datapath.cache.overall_miss_rate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.147451                       # miss rate for overall accesses
+system.stencil_stencil3d_datapath.cache.overall_miss_rate::total     0.147451                       # miss rate for overall accesses
+system.stencil_stencil3d_datapath.cache.ReadReq_avg_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 97881.161450                       # average ReadReq miss latency
+system.stencil_stencil3d_datapath.cache.ReadReq_avg_miss_latency::total 97881.161450                       # average ReadReq miss latency
+system.stencil_stencil3d_datapath.cache.WriteReq_avg_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 113954.681050                       # average WriteReq miss latency
+system.stencil_stencil3d_datapath.cache.WriteReq_avg_miss_latency::total 113954.681050                       # average WriteReq miss latency
+system.stencil_stencil3d_datapath.cache.demand_avg_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 103684.548000                       # average overall miss latency
+system.stencil_stencil3d_datapath.cache.demand_avg_miss_latency::total 103684.548000                       # average overall miss latency
+system.stencil_stencil3d_datapath.cache.overall_avg_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 103684.548000                       # average overall miss latency
+system.stencil_stencil3d_datapath.cache.overall_avg_miss_latency::total 103684.548000                       # average overall miss latency
+system.stencil_stencil3d_datapath.cache.blocked_cycles::no_mshrs         5436                       # number of cycles access was blocked
+system.stencil_stencil3d_datapath.cache.blocked_cycles::no_targets            0                       # number of cycles access was blocked
+system.stencil_stencil3d_datapath.cache.blocked::no_mshrs          995                       # number of cycles access was blocked
+system.stencil_stencil3d_datapath.cache.blocked::no_targets            0                       # number of cycles access was blocked
+system.stencil_stencil3d_datapath.cache.avg_blocked_cycles::no_mshrs     5.463317                       # average number of cycles each access was blocked
+system.stencil_stencil3d_datapath.cache.avg_blocked_cycles::no_targets          nan                       # average number of cycles each access was blocked
+system.stencil_stencil3d_datapath.cache.unused_prefetches          600                       # number of HardPF blocks evicted w/o reference
+system.stencil_stencil3d_datapath.cache.writebacks::.writebacks         2857                       # number of writebacks
+system.stencil_stencil3d_datapath.cache.writebacks::total         2857                       # number of writebacks
+system.stencil_stencil3d_datapath.cache.ReadReq_mshr_hits::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache           48                       # number of ReadReq MSHR hits
+system.stencil_stencil3d_datapath.cache.ReadReq_mshr_hits::total           48                       # number of ReadReq MSHR hits
+system.stencil_stencil3d_datapath.cache.WriteReq_mshr_hits::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache          923                       # number of WriteReq MSHR hits
+system.stencil_stencil3d_datapath.cache.WriteReq_mshr_hits::total          923                       # number of WriteReq MSHR hits
+system.stencil_stencil3d_datapath.cache.demand_mshr_hits::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache          971                       # number of demand (read+write) MSHR hits
+system.stencil_stencil3d_datapath.cache.demand_mshr_hits::total          971                       # number of demand (read+write) MSHR hits
+system.stencil_stencil3d_datapath.cache.overall_mshr_hits::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache          971                       # number of overall MSHR hits
+system.stencil_stencil3d_datapath.cache.overall_mshr_hits::total          971                       # number of overall MSHR hits
+system.stencil_stencil3d_datapath.cache.ReadReq_mshr_misses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         2987                       # number of ReadReq MSHR misses
+system.stencil_stencil3d_datapath.cache.ReadReq_mshr_misses::total         2987                       # number of ReadReq MSHR misses
+system.stencil_stencil3d_datapath.cache.WriteReq_mshr_misses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache          792                       # number of WriteReq MSHR misses
+system.stencil_stencil3d_datapath.cache.WriteReq_mshr_misses::total          792                       # number of WriteReq MSHR misses
+system.stencil_stencil3d_datapath.cache.HardPFReq_mshr_misses::.stencil_stencil3d_datapath.cache.prefetcher         3016                       # number of HardPFReq MSHR misses
+system.stencil_stencil3d_datapath.cache.HardPFReq_mshr_misses::total         3016                       # number of HardPFReq MSHR misses
+system.stencil_stencil3d_datapath.cache.demand_mshr_misses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         3779                       # number of demand (read+write) MSHR misses
+system.stencil_stencil3d_datapath.cache.demand_mshr_misses::total         3779                       # number of demand (read+write) MSHR misses
+system.stencil_stencil3d_datapath.cache.overall_mshr_misses::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache         3779                       # number of overall MSHR misses
+system.stencil_stencil3d_datapath.cache.overall_mshr_misses::.stencil_stencil3d_datapath.cache.prefetcher         3016                       # number of overall MSHR misses
+system.stencil_stencil3d_datapath.cache.overall_mshr_misses::total         6795                       # number of overall MSHR misses
+system.stencil_stencil3d_datapath.cache.ReadReq_mshr_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    284109437                       # number of ReadReq MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.ReadReq_mshr_miss_latency::total    284109437                       # number of ReadReq MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.WriteReq_mshr_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    108694676                       # number of WriteReq MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.WriteReq_mshr_miss_latency::total    108694676                       # number of WriteReq MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.HardPFReq_mshr_miss_latency::.stencil_stencil3d_datapath.cache.prefetcher    292582149                       # number of HardPFReq MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.HardPFReq_mshr_miss_latency::total    292582149                       # number of HardPFReq MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.demand_mshr_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    392804113                       # number of demand (read+write) MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.demand_mshr_miss_latency::total    392804113                       # number of demand (read+write) MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.overall_mshr_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache    392804113                       # number of overall MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.overall_mshr_miss_latency::.stencil_stencil3d_datapath.cache.prefetcher    292582149                       # number of overall MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.overall_mshr_miss_latency::total    685386262                       # number of overall MSHR miss cycles
+system.stencil_stencil3d_datapath.cache.ReadReq_mshr_miss_rate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.190473                       # mshr miss rate for ReadReq accesses
+system.stencil_stencil3d_datapath.cache.ReadReq_mshr_miss_rate::total     0.190473                       # mshr miss rate for ReadReq accesses
+system.stencil_stencil3d_datapath.cache.WriteReq_mshr_miss_rate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.047907                       # mshr miss rate for WriteReq accesses
+system.stencil_stencil3d_datapath.cache.WriteReq_mshr_miss_rate::total     0.047907                       # mshr miss rate for WriteReq accesses
+system.stencil_stencil3d_datapath.cache.HardPFReq_mshr_miss_rate::.stencil_stencil3d_datapath.cache.prefetcher          inf                       # mshr miss rate for HardPFReq accesses
+system.stencil_stencil3d_datapath.cache.HardPFReq_mshr_miss_rate::total          inf                       # mshr miss rate for HardPFReq accesses
+system.stencil_stencil3d_datapath.cache.demand_mshr_miss_rate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.117309                       # mshr miss rate for demand accesses
+system.stencil_stencil3d_datapath.cache.demand_mshr_miss_rate::total     0.117309                       # mshr miss rate for demand accesses
+system.stencil_stencil3d_datapath.cache.overall_mshr_miss_rate::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache     0.117309                       # mshr miss rate for overall accesses
+system.stencil_stencil3d_datapath.cache.overall_mshr_miss_rate::.stencil_stencil3d_datapath.cache.prefetcher          inf                       # mshr miss rate for overall accesses
+system.stencil_stencil3d_datapath.cache.overall_mshr_miss_rate::total     0.210933                       # mshr miss rate for overall accesses
+system.stencil_stencil3d_datapath.cache.ReadReq_avg_mshr_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 95115.312019                       # average ReadReq mshr miss latency
+system.stencil_stencil3d_datapath.cache.ReadReq_avg_mshr_miss_latency::total 95115.312019                       # average ReadReq mshr miss latency
+system.stencil_stencil3d_datapath.cache.WriteReq_avg_mshr_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 137240.752525                       # average WriteReq mshr miss latency
+system.stencil_stencil3d_datapath.cache.WriteReq_avg_mshr_miss_latency::total 137240.752525                       # average WriteReq mshr miss latency
+system.stencil_stencil3d_datapath.cache.HardPFReq_avg_mshr_miss_latency::.stencil_stencil3d_datapath.cache.prefetcher 97009.996353                       # average HardPFReq mshr miss latency
+system.stencil_stencil3d_datapath.cache.HardPFReq_avg_mshr_miss_latency::total 97009.996353                       # average HardPFReq mshr miss latency
+system.stencil_stencil3d_datapath.cache.demand_avg_mshr_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 103943.930405                       # average overall mshr miss latency
+system.stencil_stencil3d_datapath.cache.demand_avg_mshr_miss_latency::total 103943.930405                       # average overall mshr miss latency
+system.stencil_stencil3d_datapath.cache.overall_avg_mshr_miss_latency::.stencil_stencil3d_datapath.system.stencil_stencil3d_datapath.cache 103943.930405                       # average overall mshr miss latency
+system.stencil_stencil3d_datapath.cache.overall_avg_mshr_miss_latency::.stencil_stencil3d_datapath.cache.prefetcher 97009.996353                       # average overall mshr miss latency
+system.stencil_stencil3d_datapath.cache.overall_avg_mshr_miss_latency::total 100866.263723                       # average overall mshr miss latency
+system.stencil_stencil3d_datapath.cache.replacements         6281                       # number of replacements
+
+---------- End Simulation Statistics   ----------

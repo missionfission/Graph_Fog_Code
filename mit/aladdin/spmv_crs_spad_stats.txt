@@ -1,0 +1,84 @@
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 988, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 988, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 988, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 988, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 618, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1391, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 618, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1391, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 556, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1287, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 556, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1287, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 556, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1287, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 618, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1391, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 618, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1391, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 556, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1287, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 556, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1287, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============
+Array: cols, size = 6664, partitions = 1, word size = 1, reads = 1666, writes = 0
+Array: rowDelimiters, size = 1980, partitions = 1, word size = 1, reads = 556, writes = 0
+Array: out, size = 3952, partitions = 1, word size = 1, reads = 0, writes = 494
+Array: vec, size = 3952, partitions = 1, word size = 1, reads = 1287, writes = 0
+Array: val, size = 13328, partitions = 1, word size = 1, reads = 1666, writes = 0
+===============

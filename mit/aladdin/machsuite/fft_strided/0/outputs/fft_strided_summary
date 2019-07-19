@@ -1,0 +1,25 @@
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/outputs/fft_strided
+Top level function: fft
+Cycle : 322778 cycles
+Avg Power: 10.2017 mW
+Idle FU Cycles: 253355 cycles
+Avg FU Power: 6.48684 mW
+Avg FU Dynamic Power: 5.48625 mW
+Avg FU leakage Power: 1.00058 mW
+Avg MEM Power: 3.71489 mW
+Avg MEM Dynamic Power: 2.42212 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 402661 uM^2
+FU Area: 100219 uM^2
+MEM Area: 302442 uM^2
+Num of Double Precision FP Multipliers: 4
+Num of Double Precision FP Adders: 4
+Num of Bit-wise Operators (32-bit): 3
+Num of Shifters (32-bit): 1
+Num of Registers (32-bit): 16
+===============================
+        Aladdin Results        
+===============================

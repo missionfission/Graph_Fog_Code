@@ -1,0 +1,98 @@
+Array: temp, size = 8192, partitions = 16, word size = 4, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 16, word size = 4, reads = 43009, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 16, word size = 4, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 16, word size = 4, reads = 26625, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 32, word size = 1, reads = 23297, writes = 22528
+Array: a, size = 8192, partitions = 32, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 32, word size = 4, reads = 23297, writes = 22528
+Array: a, size = 8192, partitions = 32, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 32, word size = 4, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 32, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 32, word size = 16, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 32, word size = 16, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 16, word size = 4, reads = 43009, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 16, word size = 4, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 4, reads = 22528, writes = 22528
+===============
+===============
+===============
+===============
+===============
+===============
+===============
+===============
+Array: temp, size = 8192, partitions = 16, word size = 4, reads = 26625, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 4, word size = 1, reads = 20480, writes = 22528
+Array: a, size = 8192, partitions = 4, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 4, word size = 1, reads = 20480, writes = 22528
+Array: a, size = 8192, partitions = 4, word size = 1, reads = 22528, writes = 22528
+===============
+===============
+===============
+Array: temp, size = 8192, partitions = 4, word size = 1, reads = 22528, writes = 22528
+Array: a, size = 8192, partitions = 4, word size = 1, reads = 22528, writes = 22528
+===============
+===============
+===============
+===============
+===============
+Array: temp, size = 8192, partitions = 4, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 4, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 4, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 4, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 16, word size = 4, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 8, word size = 4, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 8, word size = 4, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 16, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 16, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 1, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 8, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 8, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 8, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 8, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 8, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 8, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 8, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 8, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 8, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 8, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 8, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 8, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 8, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 8, reads = 22528, writes = 22528
+===============
+Array: temp, size = 32768, partitions = 16, word size = 8, reads = 0, writes = 22528
+Array: a, size = 32768, partitions = 16, word size = 8, reads = 22528, writes = 22528
+===============
+===============

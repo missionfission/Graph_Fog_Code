@@ -1,0 +1,24 @@
+===============================
+        Aladdin Results        
+===============================
+Running : gemm_ncubed
+Top level function: gemm
+Cycle : 458953 cycles
+Avg Power: 136.279 mW
+Idle FU Cycles: 16521 cycles
+Avg FU Power: 120.45 mW
+Avg FU Dynamic Power: 100.769 mW
+Avg FU leakage Power: 19.6805 mW
+Avg MEM Power: 15.8295 mW
+Avg MEM Dynamic Power: 15.1178 mW
+Avg MEM Leakage Power: 0.71168 mW
+Total Area: 1.86164e+06 uM^2
+FU Area: 1.56849e+06 uM^2
+MEM Area: 293157 uM^2
+Num of Double Precision FP Multipliers: 56
+Num of Double Precision FP Adders: 29
+Num of Shifters (32-bit): 64
+Num of Registers (32-bit): 98
+===============================
+        Aladdin Results        
+===============================

@@ -1,0 +1,7 @@
+Array: input, size = 64822, partitions = 256, word size = 1, reads = 32411, writes = 0
+Array: pattern, size = 4, partitions = 4, word size = 1, reads = 8, writes = 0
+Array: kmpNext, size = 16, partitions = 4, word size = 4, reads = 2, writes = 4
+Array: n_matches, size = 8, partitions = 1, word size = 4, reads = 1, writes = 13
+Array: avail, size = 8, partitions = 1, word size = 4, reads = 0, writes = 0
+Array: enable, size = 32, partitions = 1, word size = 4, reads = 0, writes = 0
+===============

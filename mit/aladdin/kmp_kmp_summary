@@ -1,0 +1,22 @@
+===============================
+        Aladdin Results        
+===============================
+Running : kmp_kmp
+Top level function: kmp
+Cycle : 16217 cycles
+Avg Power: 34.0301 mW
+Idle FU Cycles: 9 cycles
+Avg FU Power: 3.00606 mW
+Avg FU Dynamic Power: 1.88446 mW
+Avg FU leakage Power: 1.1216 mW
+Avg MEM Power: 31.024 mW
+Avg MEM Dynamic Power: 30.574 mW
+Avg MEM Leakage Power: 0.45 mW
+Total Area: 510545 uM^2
+FU Area: 90812.9 uM^2
+MEM Area: 419732 uM^2
+Num of Adders (32-bit): 1
+Num of Registers (32-bit): 456
+===============================
+        Aladdin Results        
+===============================

@@ -1,0 +1,39 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+[WARNING]: Overlapping array declarations found!
+  val: 0x207bb00 - 0x207ef10
+  cols: 0x207ef10 - 0x2080918
+[WARNING]: Overlapping array declarations found!
+  val: 0x207bb00 - 0x207ef10
+  out: 0x2082048 - 0x2082fb8
+[WARNING]: Overlapping array declarations found!
+  val: 0x207bb00 - 0x207ef10
+  rowDelimiters: 0x2080918 - 0x20810d4
+[WARNING]: Overlapping array declarations found!
+  val: 0x207bb00 - 0x207ef10
+  vec: 0x20810d8 - 0x2082048
+[WARNING]: Overlapping array declarations found!
+  cols: 0x207ef10 - 0x2080918
+  out: 0x2082048 - 0x2082fb8
+[WARNING]: Overlapping array declarations found!
+  cols: 0x207ef10 - 0x2080918
+  rowDelimiters: 0x2080918 - 0x20810d4
+[WARNING]: Overlapping array declarations found!
+  cols: 0x207ef10 - 0x2080918
+  vec: 0x20810d8 - 0x2082048
+[WARNING]: Overlapping array declarations found!
+  rowDelimiters: 0x2080918 - 0x20810d4
+  out: 0x2082048 - 0x2082fb8
+[WARNING]: Overlapping array declarations found!
+  rowDelimiters: 0x2080918 - 0x20810d4
+  vec: 0x20810d8 - 0x2082048
+[WARNING]: Overlapping array declarations found!
+  vec: 0x20810d8 - 0x2082048
+  out: 0x2082048 - 0x2082fb8
+[WARNING]: Overlapping array declarations found!
+  vec: 0x20810d8 - 0x2082048
+  rowDelimiters: 0x2080918 - 0x20810d4
+Overlapping array address ranges can lead to incorrect behavior, such as DMA nodes trying to access the wrong arrays, ACP accessing the wrong memory, etc. Please check your Aladdin configuration file and the mapArrayToAccelerator() calls to verify that they are correct.
+Global loop pipelining is not ON.
+info: Entering event queue @ 0.  Starting simulation...
+ Current power model supports trig functions running at 10 ns. 
+ Cycle time: 2 is not supported yet. Use 10ns power model instead.

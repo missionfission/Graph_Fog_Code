@@ -1,0 +1,3 @@
+Array: work_y, size = 4096, partitions = 1, word size = 8, reads = 512, writes = 512
+Array: work_x, size = 4096, partitions = 1, word size = 8, reads = 512, writes = 512
+===============

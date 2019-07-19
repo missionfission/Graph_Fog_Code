@@ -1,0 +1,142 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  2 2019 14:47:48
+gem5 started Jun 11 2019 01:16:29
+gem5 executing on 5e24d8f23dc5, pid 18449
+command line: /workspace/gem5-aladdin/build/X86/gem5.opt --stats-db-file=stats.db --outdir=/workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/outputs /workspace/gem5-aladdin/configs/aladdin/aladdin_se.py --num-cpus=0 --mem-size=4GB --enable-stats-dump --enable_prefetchers --prefetcher-type=stride --mem-type=DDR3_1600_8x8 --sys-clock=499MHz --cpu-type=DerivO3CPU --caches --cacheline_size=32 --accel_cfg_file=/workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/gem5.cfg -c md-knn-gem5-accel -o ''
+
+Global frequency set at 1000000000000 ticks per second
+-------------------------------
+      Setting ScratchPad       
+-------------------------------
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Num of Nodes: 160258
+Num of Edges: 381440
+Num of Reg Edges: 237567
+Num of MEM Edges: 0
+Num of Control Edges: 160257
+-------------------------------
+-------------------------------
+    Initializing BaseDatapath      
+-------------------------------
+ Top level: md_kernel
+=============================================
+      Optimizing...            /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/outputs/md_knn
+=============================================
+-------------------------------
+  Remove PHI and Convert Nodes 
+-------------------------------
+  Removing 75263 edges.
+  Adding 53239 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Remove Induction Dependence  
+-------------------------------
+-------------------------------
+       Init Base Address       
+-------------------------------
+-------------------------------
+     Init DMA Base Address     
+-------------------------------
+-------------------------------
+        Mem to Reg Conv        
+-------------------------------
+-------------------------------
+      ScratchPad Partition     
+-------------------------------
+-------------------------------
+         Loop Flatten          
+-------------------------------
+  Removing 4352 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+         Loop Unrolling        
+-------------------------------
+  Adding 278784 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+          Load Buffer          
+-------------------------------
+  Adding 0 new edges.
+  Removing 0 edges.
+  Removing 0 isolated nodes.
+-------------------------------
+          Store Buffer         
+-------------------------------
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+    Remove Repeated Stores     
+-------------------------------
+-------------------------------
+      Memory Ambiguation       
+-------------------------------
+  Adding 0 new edges.
+-------------------------------
+     Tree Height Reduction     
+-------------------------------
+  Removing 23040 edges.
+  Adding 23040 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Fuse register loads/stores   
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+   Fuse consecutive branches   
+-------------------------------
+  Removing 4352 edges.
+  Adding 4352 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+      Per Loop Pipelining      
+-------------------------------
+-------------------------------
+         Loop Pipelining        
+-------------------------------
+=============================================
+      Scheduling...            /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/outputs/md_knn
+=============================================
+  Total connected nodes: 139522
+  Total edges: 609785
+=============================================
+**** REAL SIMULATION ****
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/outputs/md_knn
+Top level function: md_kernel
+Cycle : 54399 cycles
+Avg Power: 91.8821 mW
+Idle FU Cycles: 27631 cycles
+Avg FU Power: 86.8343 mW
+Avg FU Dynamic Power: 76.7253 mW
+Avg FU leakage Power: 10.109 mW
+Avg MEM Power: 5.04778 mW
+Avg MEM Dynamic Power: 3.75501 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 1.29384e+06 uM^2
+FU Area: 991398 uM^2
+MEM Area: 302442 uM^2
+Num of Double Precision FP Multipliers: 44
+Num of Double Precision FP Adders: 29
+Num of Shifters (32-bit): 1
+Num of Registers (32-bit): 98
+===============================
+        Aladdin Results        
+===============================
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Reached end of trace.
+-------------------------------
+Exiting @ tick 108798000 because Aladdin called exit()

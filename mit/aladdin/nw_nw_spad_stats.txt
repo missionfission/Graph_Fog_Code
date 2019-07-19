@@ -1,0 +1,27 @@
+Array: M, size = 66564, partitions = 1, word size = 1, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 1, word size = 1, reads = 151, writes = 16384
+===============
+Array: M, size = 66564, partitions = 1, word size = 1, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 1, word size = 1, reads = 151, writes = 16384
+===============
+Array: M, size = 66564, partitions = 1, word size = 1, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 1, word size = 1, reads = 151, writes = 16384
+===============
+Array: M, size = 66564, partitions = 1, word size = 1, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 1, word size = 1, reads = 151, writes = 16384
+===============
+Array: M, size = 66564, partitions = 2, word size = 1, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 2, word size = 1, reads = 151, writes = 16384
+===============
+Array: M, size = 66564, partitions = 4, word size = 4, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 4, word size = 4, reads = 151, writes = 16384
+===============
+Array: M, size = 66564, partitions = 8, word size = 4, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 8, word size = 4, reads = 151, writes = 16384
+===============
+Array: M, size = 66564, partitions = 4, word size = 4, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 4, word size = 4, reads = 151, writes = 16384
+===============
+Array: M, size = 66564, partitions = 4, word size = 4, reads = 16640, writes = 16642
+Array: ptr, size = 16641, partitions = 4, word size = 4, reads = 151, writes = 16384
+===============

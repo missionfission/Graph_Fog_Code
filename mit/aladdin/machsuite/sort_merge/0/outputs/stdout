@@ -1,0 +1,140 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  2 2019 14:47:48
+gem5 started Jun 11 2019 01:17:07
+gem5 executing on 5e24d8f23dc5, pid 18501
+command line: /workspace/gem5-aladdin/build/X86/gem5.opt --stats-db-file=stats.db --outdir=/workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/outputs /workspace/gem5-aladdin/configs/aladdin/aladdin_se.py --num-cpus=0 --mem-size=4GB --enable-stats-dump --enable_prefetchers --prefetcher-type=stride --mem-type=DDR3_1600_8x8 --sys-clock=499MHz --cpu-type=DerivO3CPU --caches --cacheline_size=32 --accel_cfg_file=/workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/gem5.cfg -c sort-merge-gem5-accel -o ''
+
+Global frequency set at 1000000000000 ticks per second
+-------------------------------
+      Setting ScratchPad       
+-------------------------------
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Num of Nodes: 769063
+Num of Edges: 1817652
+Num of Reg Edges: 989195
+Num of MEM Edges: 65536
+Num of Control Edges: 769062
+-------------------------------
+-------------------------------
+    Initializing BaseDatapath      
+-------------------------------
+ Top level: ms_mergesort
+=============================================
+      Optimizing...            /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/outputs/sort_merge
+=============================================
+-------------------------------
+  Remove PHI and Convert Nodes 
+-------------------------------
+  Removing 821264 edges.
+  Adding 715504 new edges.
+  Removing 150458 isolated nodes.
+-------------------------------
+  Remove Induction Dependence  
+-------------------------------
+-------------------------------
+       Init Base Address       
+-------------------------------
+-------------------------------
+     Init DMA Base Address     
+-------------------------------
+-------------------------------
+        Mem to Reg Conv        
+-------------------------------
+-------------------------------
+      ScratchPad Partition     
+-------------------------------
+-------------------------------
+         Loop Flatten          
+-------------------------------
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+         Loop Unrolling        
+-------------------------------
+  Adding 968759 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+          Load Buffer          
+-------------------------------
+  Adding 2047 new edges.
+  Removing 14329 edges.
+  Removing 0 isolated nodes.
+-------------------------------
+          Store Buffer         
+-------------------------------
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+    Remove Repeated Stores     
+-------------------------------
+-------------------------------
+      Memory Ambiguation       
+-------------------------------
+  Adding 0 new edges.
+-------------------------------
+     Tree Height Reduction     
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Fuse register loads/stores   
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+   Fuse consecutive branches   
+-------------------------------
+  Removing 2047 edges.
+  Adding 2047 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+      Per Loop Pipelining      
+-------------------------------
+-------------------------------
+         Loop Pipelining        
+-------------------------------
+=============================================
+      Scheduling...            /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/outputs/sort_merge
+=============================================
+  Total connected nodes: 515103
+  Total edges: 2206682
+=============================================
+**** REAL SIMULATION ****
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/outputs/sort_merge
+Top level function: ms_mergesort
+Cycle : 2249350 cycles
+Avg Power: 2.08826 mW
+Idle FU Cycles: 2249328 cycles
+Avg FU Power: 0.0272726 mW
+Avg FU Dynamic Power: 0.0160965 mW
+Avg FU leakage Power: 0.0111761 mW
+Avg MEM Power: 2.06099 mW
+Avg MEM Dynamic Power: 0.768221 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 303457 uM^2
+FU Area: 1015.27 uM^2
+MEM Area: 302442 uM^2
+Num of Shifters (32-bit): 1
+Num of Registers (32-bit): 4
+===============================
+        Aladdin Results        
+===============================
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Reached end of trace.
+-------------------------------
+Exiting @ tick 4498700000 because Aladdin called exit()

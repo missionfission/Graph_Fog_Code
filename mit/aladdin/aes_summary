@@ -1,0 +1,23 @@
+===============================
+        Aladdin Results        
+===============================
+Running : aes
+Top level function: aes256_encrypt_ecb
+Cycle : 942 cycles
+Avg Power: 25.6591 mW
+Idle FU Cycles: 313 cycles
+Avg FU Power: 22.7615 mW
+Avg FU Dynamic Power: 3.2005 mW
+Avg FU leakage Power: 19.561 mW
+Avg MEM Power: 2.89758 mW
+Avg MEM Dynamic Power: 2.8829 mW
+Avg MEM Leakage Power: 0.0146758 mW
+Total Area: 1.63213e+06 uM^2
+FU Area: 1.58253e+06 uM^2
+MEM Area: 49598.2 uM^2
+Num of Bit-wise Operators (32-bit): 79
+Num of Shifters (32-bit): 3
+Num of Registers (32-bit): 51
+===============================
+        Aladdin Results        
+===============================

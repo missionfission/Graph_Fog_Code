@@ -1,0 +1,24 @@
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/0/outputs/gemm_blocked
+Top level function: bbgemm
+Cycle : 128277 cycles
+Avg Power: 183.52 mW
+Idle FU Cycles: 37661 cycles
+Avg FU Power: 169.937 mW
+Avg FU Dynamic Power: 155.135 mW
+Avg FU leakage Power: 14.8019 mW
+Avg MEM Power: 13.5832 mW
+Avg MEM Dynamic Power: 12.2904 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 1.82005e+06 uM^2
+FU Area: 1.51761e+06 uM^2
+MEM Area: 302442 uM^2
+Num of Double Precision FP Multipliers: 56
+Num of Double Precision FP Adders: 64
+Num of Shifters (32-bit): 288
+Num of Registers (32-bit): 220
+===============================
+        Aladdin Results        
+===============================

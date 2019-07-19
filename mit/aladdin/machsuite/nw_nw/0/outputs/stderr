@@ -1,0 +1,54 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+[WARNING]: Overlapping array declarations found!
+  SEQB: 0x1b34b80 - 0x1b34c00
+  alignedA: 0x1b34c00 - 0x1b34d00
+[WARNING]: Overlapping array declarations found!
+  SEQB: 0x1b34b80 - 0x1b34c00
+  alignedB: 0x1b34d00 - 0x1b34e00
+[WARNING]: Overlapping array declarations found!
+  SEQB: 0x1b34b80 - 0x1b34c00
+  ptr: 0x1b45204 - 0x1b49305
+[WARNING]: Overlapping array declarations found!
+  SEQB: 0x1b34b80 - 0x1b34c00
+  M: 0x1b34e00 - 0x1b45204
+[WARNING]: Overlapping array declarations found!
+  SEQA: 0x1b34b00 - 0x1b34b80
+  SEQB: 0x1b34b80 - 0x1b34c00
+[WARNING]: Overlapping array declarations found!
+  SEQA: 0x1b34b00 - 0x1b34b80
+  alignedA: 0x1b34c00 - 0x1b34d00
+[WARNING]: Overlapping array declarations found!
+  SEQA: 0x1b34b00 - 0x1b34b80
+  alignedB: 0x1b34d00 - 0x1b34e00
+[WARNING]: Overlapping array declarations found!
+  SEQA: 0x1b34b00 - 0x1b34b80
+  ptr: 0x1b45204 - 0x1b49305
+[WARNING]: Overlapping array declarations found!
+  SEQA: 0x1b34b00 - 0x1b34b80
+  M: 0x1b34e00 - 0x1b45204
+[WARNING]: Overlapping array declarations found!
+  alignedA: 0x1b34c00 - 0x1b34d00
+  alignedB: 0x1b34d00 - 0x1b34e00
+[WARNING]: Overlapping array declarations found!
+  alignedA: 0x1b34c00 - 0x1b34d00
+  ptr: 0x1b45204 - 0x1b49305
+[WARNING]: Overlapping array declarations found!
+  alignedA: 0x1b34c00 - 0x1b34d00
+  M: 0x1b34e00 - 0x1b45204
+[WARNING]: Overlapping array declarations found!
+  alignedB: 0x1b34d00 - 0x1b34e00
+  ptr: 0x1b45204 - 0x1b49305
+[WARNING]: Overlapping array declarations found!
+  alignedB: 0x1b34d00 - 0x1b34e00
+  M: 0x1b34e00 - 0x1b45204
+[WARNING]: Overlapping array declarations found!
+  M: 0x1b34e00 - 0x1b45204
+  ptr: 0x1b45204 - 0x1b49305
+[WARNING]: Overlapping array declarations found!
+  M: 0x1b34e00 - 0x1b45204
+  alignedB: 0x1b34d00 - 0x1b34e00
+Overlapping array address ranges can lead to incorrect behavior, such as DMA nodes trying to access the wrong arrays, ACP accessing the wrong memory, etc. Please check your Aladdin configuration file and the mapArrayToAccelerator() calls to verify that they are correct.
+Global loop pipelining is not ON.
+info: Entering event queue @ 0.  Starting simulation...
+ Current power model supports trig functions running at 10 ns. 
+ Cycle time: 2 is not supported yet. Use 10ns power model instead.

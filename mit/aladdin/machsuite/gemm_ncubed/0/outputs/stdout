@@ -1,0 +1,142 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  2 2019 14:47:48
+gem5 started Jun 11 2019 01:12:40
+gem5 executing on 5e24d8f23dc5, pid 18371
+command line: /workspace/gem5-aladdin/build/X86/gem5.opt --stats-db-file=stats.db --outdir=/workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/outputs /workspace/gem5-aladdin/configs/aladdin/aladdin_se.py --num-cpus=0 --mem-size=4GB --enable-stats-dump --enable_prefetchers --prefetcher-type=stride --mem-type=DDR3_1600_8x8 --sys-clock=499MHz --cpu-type=DerivO3CPU --caches --cacheline_size=32 --accel_cfg_file=/workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/gem5.cfg -c gemm-ncubed-gem5-accel -o ''
+
+Global frequency set at 1000000000000 ticks per second
+-------------------------------
+      Setting ScratchPad       
+-------------------------------
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Num of Nodes: 3703170
+Num of Edges: 8450688
+Num of Reg Edges: 4747519
+Num of MEM Edges: 0
+Num of Control Edges: 3703169
+-------------------------------
+-------------------------------
+    Initializing BaseDatapath      
+-------------------------------
+ Top level: gemm
+=============================================
+      Optimizing...            /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/outputs/gemm_ncubed
+=============================================
+-------------------------------
+  Remove PHI and Convert Nodes 
+-------------------------------
+  Removing 2367679 edges.
+  Adding 1818621 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Remove Induction Dependence  
+-------------------------------
+-------------------------------
+       Init Base Address       
+-------------------------------
+-------------------------------
+     Init DMA Base Address     
+-------------------------------
+-------------------------------
+        Mem to Reg Conv        
+-------------------------------
+-------------------------------
+      ScratchPad Partition     
+-------------------------------
+-------------------------------
+         Loop Flatten          
+-------------------------------
+  Removing 266240 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+         Loop Unrolling        
+-------------------------------
+  Adding 6345280 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+          Load Buffer          
+-------------------------------
+  Adding 0 new edges.
+  Removing 0 edges.
+  Removing 0 isolated nodes.
+-------------------------------
+          Store Buffer         
+-------------------------------
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+    Remove Repeated Stores     
+-------------------------------
+-------------------------------
+      Memory Ambiguation       
+-------------------------------
+  Adding 0 new edges.
+-------------------------------
+     Tree Height Reduction     
+-------------------------------
+  Removing 516096 edges.
+  Adding 516096 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Fuse register loads/stores   
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+   Fuse consecutive branches   
+-------------------------------
+  Removing 266240 edges.
+  Adding 266240 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+      Per Loop Pipelining      
+-------------------------------
+-------------------------------
+         Loop Pipelining        
+-------------------------------
+=============================================
+      Scheduling...            /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/outputs/gemm_ncubed
+=============================================
+  Total connected nodes: 3174722
+  Total edges: 13194111
+=============================================
+**** REAL SIMULATION ****
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/outputs/gemm_ncubed
+Top level function: gemm
+Cycle : 1595533 cycles
+Avg Power: 29.9895 mW
+Idle FU Cycles: 1371963 cycles
+Avg FU Power: 25.6327 mW
+Avg FU Dynamic Power: 11.612 mW
+Avg FU leakage Power: 14.0207 mW
+Avg MEM Power: 4.3568 mW
+Avg MEM Dynamic Power: 3.06403 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 1.66376e+06 uM^2
+FU Area: 1.36132e+06 uM^2
+MEM Area: 302442 uM^2
+Num of Double Precision FP Multipliers: 62
+Num of Double Precision FP Adders: 31
+Num of Shifters (32-bit): 64
+Num of Registers (32-bit): 186
+===============================
+        Aladdin Results        
+===============================
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Reached end of trace.
+-------------------------------
+Exiting @ tick 3191066000 because Aladdin called exit()

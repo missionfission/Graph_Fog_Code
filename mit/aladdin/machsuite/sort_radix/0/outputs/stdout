@@ -1,0 +1,142 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  2 2019 14:47:48
+gem5 started Jun 11 2019 01:17:36
+gem5 executing on 5e24d8f23dc5, pid 18527
+command line: /workspace/gem5-aladdin/build/X86/gem5.opt --stats-db-file=stats.db --outdir=/workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/outputs /workspace/gem5-aladdin/configs/aladdin/aladdin_se.py --num-cpus=0 --mem-size=4GB --enable-stats-dump --enable_prefetchers --prefetcher-type=stride --mem-type=DDR3_1600_8x8 --sys-clock=499MHz --cpu-type=DerivO3CPU --caches --cacheline_size=32 --accel_cfg_file=/workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/gem5.cfg -c sort-radix-gem5-accel -o ''
+
+Global frequency set at 1000000000000 ticks per second
+-------------------------------
+      Setting ScratchPad       
+-------------------------------
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Num of Nodes: 2291970
+Num of Edges: 5621759
+Num of Reg Edges: 3039006
+Num of MEM Edges: 290784
+Num of Control Edges: 2291969
+-------------------------------
+-------------------------------
+    Initializing BaseDatapath      
+-------------------------------
+ Top level: ss_sort
+=============================================
+      Optimizing...            /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/outputs/sort_radix
+=============================================
+-------------------------------
+  Remove PHI and Convert Nodes 
+-------------------------------
+  Removing 1279950 edges.
+  Adding 919004 new edges.
+  Removing 32704 isolated nodes.
+-------------------------------
+  Remove Induction Dependence  
+-------------------------------
+-------------------------------
+       Init Base Address       
+-------------------------------
+-------------------------------
+     Init DMA Base Address     
+-------------------------------
+-------------------------------
+        Mem to Reg Conv        
+-------------------------------
+-------------------------------
+      ScratchPad Partition     
+-------------------------------
+-------------------------------
+         Loop Flatten          
+-------------------------------
+  Removing 149504 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+         Loop Unrolling        
+-------------------------------
+  Adding 3832192 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+          Load Buffer          
+-------------------------------
+  Adding 63488 new edges.
+  Removing 380928 edges.
+  Removing 0 isolated nodes.
+-------------------------------
+          Store Buffer         
+-------------------------------
+  Adding 160888 new edges.
+  Removing 50064 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+    Remove Repeated Stores     
+-------------------------------
+-------------------------------
+      Memory Ambiguation       
+-------------------------------
+  Adding 98252 new edges.
+-------------------------------
+     Tree Height Reduction     
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Fuse register loads/stores   
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+   Fuse consecutive branches   
+-------------------------------
+  Removing 149568 edges.
+  Adding 149568 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+      Per Loop Pipelining      
+-------------------------------
+-------------------------------
+         Loop Pipelining        
+-------------------------------
+=============================================
+      Scheduling...            /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/outputs/sort_radix
+=============================================
+  Total connected nodes: 1830226
+  Total edges: 7929050
+=============================================
+**** REAL SIMULATION ****
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/outputs/sort_radix
+Top level function: ss_sort
+Cycle : 3732463 cycles
+Avg Power: 2.85079 mW
+Idle FU Cycles: 3527919 cycles
+Avg FU Power: 0.290583 mW
+Avg FU Dynamic Power: 0.0645087 mW
+Avg FU leakage Power: 0.226075 mW
+Avg MEM Power: 2.56021 mW
+Avg MEM Dynamic Power: 1.26744 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 322443 uM^2
+FU Area: 20001 uM^2
+MEM Area: 302442 uM^2
+Num of Adders (32-bit): 48
+Num of Bit-wise Operators (32-bit): 8
+Num of Shifters (32-bit): 21
+Num of Registers (32-bit): 30
+===============================
+        Aladdin Results        
+===============================
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Reached end of trace.
+-------------------------------
+Exiting @ tick 7464926000 because Aladdin called exit()

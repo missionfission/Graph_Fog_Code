@@ -1,0 +1,24 @@
+===============================
+        Aladdin Results        
+===============================
+Running : nw_nw
+Top level function: needwun
+Cycle : 2571 cycles
+Avg Power: 546.227 mW
+Idle FU Cycles: 1011 cycles
+Avg FU Power: 12.4988 mW
+Avg FU Dynamic Power: 10.5038 mW
+Avg FU leakage Power: 1.99502 mW
+Avg MEM Power: 533.728 mW
+Avg MEM Dynamic Power: 443.968 mW
+Avg MEM Leakage Power: 89.76 mW
+Total Area: 1.47884e+06 uM^2
+FU Area: 156545 uM^2
+MEM Area: 1.32229e+06 uM^2
+Num of Adders (32-bit): 384
+Num of Bit-wise Operators (32-bit): 1
+Num of Shifters (32-bit): 2
+Num of Registers (32-bit): 263
+===============================
+        Aladdin Results        
+===============================

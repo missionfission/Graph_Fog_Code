@@ -1,0 +1,24 @@
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/outputs/sort_radix
+Top level function: ss_sort
+Cycle : 3732463 cycles
+Avg Power: 2.85079 mW
+Idle FU Cycles: 3527919 cycles
+Avg FU Power: 0.290583 mW
+Avg FU Dynamic Power: 0.0645087 mW
+Avg FU leakage Power: 0.226075 mW
+Avg MEM Power: 2.56021 mW
+Avg MEM Dynamic Power: 1.26744 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 322443 uM^2
+FU Area: 20001 uM^2
+MEM Area: 302442 uM^2
+Num of Adders (32-bit): 48
+Num of Bit-wise Operators (32-bit): 8
+Num of Shifters (32-bit): 21
+Num of Registers (32-bit): 30
+===============================
+        Aladdin Results        
+===============================

@@ -1,0 +1,24 @@
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/0/outputs/spmv_ellpack
+Top level function: ellpack
+Cycle : 68129 cycles
+Avg Power: 10.2083 mW
+Idle FU Cycles: 54561 cycles
+Avg FU Power: 7.72731 mW
+Avg FU Dynamic Power: 5.69081 mW
+Avg FU leakage Power: 2.0365 mW
+Avg MEM Power: 2.48097 mW
+Avg MEM Dynamic Power: 1.1882 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 500473 uM^2
+FU Area: 198031 uM^2
+MEM Area: 302442 uM^2
+Num of Double Precision FP Multipliers: 9
+Num of Double Precision FP Adders: 5
+Num of Shifters (32-bit): 1
+Num of Registers (32-bit): 24
+===============================
+        Aladdin Results        
+===============================

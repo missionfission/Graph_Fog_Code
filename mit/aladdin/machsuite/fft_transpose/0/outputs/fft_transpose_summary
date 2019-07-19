@@ -1,0 +1,26 @@
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/0/outputs/fft_transpose
+Top level function: fft1D_512
+Cycle : 51439 cycles
+Avg Power: 36.7841 mW
+Idle FU Cycles: 35951 cycles
+Avg FU Power: 31.7123 mW
+Avg FU Dynamic Power: 22.1813 mW
+Avg FU leakage Power: 9.53096 mW
+Avg MEM Power: 5.07184 mW
+Avg MEM Dynamic Power: 3.4128 mW
+Avg MEM Leakage Power: 1.65904 mW
+Total Area: 1.27089e+06 uM^2
+FU Area: 946910 uM^2
+MEM Area: 323976 uM^2
+Num of Double Precision FP Multipliers: 37
+Num of Double Precision FP Adders: 30
+Num of Trigonometric Units: 7
+Num of Bit-wise Operators (32-bit): 9
+Num of Shifters (32-bit): 6
+Num of Registers (32-bit): 58
+===============================
+        Aladdin Results        
+===============================

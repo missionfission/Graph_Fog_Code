@@ -1,0 +1,10 @@
+Array: nodes, size = 4096, partitions = 1, word size = 1, reads = 466, writes = 0
+Array: edges, size = 32768, partitions = 1, word size = 1, reads = 4096, writes = 0
+===============
+Array: img, size = 65536, partitions = 1, word size = 8, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 8, reads = 4095, writes = 0
+Array: avail, size = 8, partitions = 1, word size = 4, reads = 0, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 8, reads = 151553, writes = 151553
+Array: enable, size = 20, partitions = 1, word size = 4, reads = 0, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 8, reads = 4095, writes = 0
+===============

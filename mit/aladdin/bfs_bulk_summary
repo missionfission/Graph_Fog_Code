@@ -1,0 +1,22 @@
+===============================
+        Aladdin Results        
+===============================
+Running : bfs_bulk
+Top level function: bfs
+Cycle : 596 cycles
+Avg Power: 202.621 mW
+Idle FU Cycles: 592 cycles
+Avg FU Power: 9.81401 mW
+Avg FU Dynamic Power: 8.49999 mW
+Avg FU leakage Power: 1.31402 mW
+Avg MEM Power: 192.807 mW
+Avg MEM Dynamic Power: 190.517 mW
+Avg MEM Leakage Power: 2.28925 mW
+Total Area: 228813 uM^2
+FU Area: 106281 uM^2
+MEM Area: 122532 uM^2
+Num of Bit-wise Operators (32-bit): 1
+Num of Registers (32-bit): 471
+===============================
+        Aladdin Results        
+===============================

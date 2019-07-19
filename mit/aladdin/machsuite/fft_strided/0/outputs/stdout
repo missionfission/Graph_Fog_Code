@@ -1,0 +1,143 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  2 2019 14:47:48
+gem5 started Jun 11 2019 01:09:45
+gem5 executing on 5e24d8f23dc5, pid 18277
+command line: /workspace/gem5-aladdin/build/X86/gem5.opt --stats-db-file=stats.db --outdir=/workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/outputs /workspace/gem5-aladdin/configs/aladdin/aladdin_se.py --num-cpus=0 --mem-size=4GB --enable-stats-dump --enable_prefetchers --prefetcher-type=stride --mem-type=DDR3_1600_8x8 --sys-clock=499MHz --cpu-type=DerivO3CPU --caches --cacheline_size=32 --accel_cfg_file=/workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/gem5.cfg -c fft-strided-gem5-accel -o ''
+
+Global frequency set at 1000000000000 ticks per second
+-------------------------------
+      Setting ScratchPad       
+-------------------------------
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Num of Nodes: 208994
+Num of Edges: 529608
+Num of Reg Edges: 293989
+Num of MEM Edges: 26626
+Num of Control Edges: 208993
+-------------------------------
+-------------------------------
+    Initializing BaseDatapath      
+-------------------------------
+ Top level: fft
+=============================================
+      Optimizing...            /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/outputs/fft_strided
+=============================================
+-------------------------------
+  Remove PHI and Convert Nodes 
+-------------------------------
+  Removing 88136 edges.
+  Adding 67127 new edges.
+  Removing 9 isolated nodes.
+-------------------------------
+  Remove Induction Dependence  
+-------------------------------
+-------------------------------
+       Init Base Address       
+-------------------------------
+-------------------------------
+     Init DMA Base Address     
+-------------------------------
+-------------------------------
+        Mem to Reg Conv        
+-------------------------------
+-------------------------------
+      ScratchPad Partition     
+-------------------------------
+-------------------------------
+         Loop Flatten          
+-------------------------------
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+         Loop Unrolling        
+-------------------------------
+  Adding 373890 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+          Load Buffer          
+-------------------------------
+  Adding 0 new edges.
+  Removing 0 edges.
+  Removing 0 isolated nodes.
+-------------------------------
+          Store Buffer         
+-------------------------------
+  Adding 32776 new edges.
+  Removing 8194 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+    Remove Repeated Stores     
+-------------------------------
+-------------------------------
+      Memory Ambiguation       
+-------------------------------
+  Adding 0 new edges.
+-------------------------------
+     Tree Height Reduction     
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Fuse register loads/stores   
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+   Fuse consecutive branches   
+-------------------------------
+  Removing 0 edges.
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+      Per Loop Pipelining      
+-------------------------------
+-------------------------------
+         Loop Pipelining        
+-------------------------------
+=============================================
+      Scheduling...            /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/outputs/fft_strided
+=============================================
+  Total connected nodes: 181323
+  Total edges: 816887
+=============================================
+**** REAL SIMULATION ****
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/outputs/fft_strided
+Top level function: fft
+Cycle : 322778 cycles
+Avg Power: 10.2017 mW
+Idle FU Cycles: 253355 cycles
+Avg FU Power: 6.48684 mW
+Avg FU Dynamic Power: 5.48625 mW
+Avg FU leakage Power: 1.00058 mW
+Avg MEM Power: 3.71489 mW
+Avg MEM Dynamic Power: 2.42212 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 402661 uM^2
+FU Area: 100219 uM^2
+MEM Area: 302442 uM^2
+Num of Double Precision FP Multipliers: 4
+Num of Double Precision FP Adders: 4
+Num of Bit-wise Operators (32-bit): 3
+Num of Shifters (32-bit): 1
+Num of Registers (32-bit): 16
+===============================
+        Aladdin Results        
+===============================
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Reached end of trace.
+-------------------------------
+Exiting @ tick 645556000 because Aladdin called exit()

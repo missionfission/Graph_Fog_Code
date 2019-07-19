@@ -1,0 +1,634 @@
+
+---------- Begin Simulation Statistics ----------
+sim_seconds                                  0.003191                       # Number of seconds simulated
+sim_ticks                                  3191066000                       # Number of ticks simulated
+final_tick                                 3191066000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+sim_freq                                 1000000000000                       # Frequency of simulated ticks
+host_tick_rate                               73306968                       # Simulator tick rate (ticks/s)
+host_mem_usage                                8993216                       # Number of bytes of host memory used
+host_seconds                                    43.53                       # Real time elapsed on the host
+system.voltage_domain.voltage                       1                       # Voltage in Volts
+system.clk_domain.clock                          2004                       # Clock period in ticks
+system.mem_ctrls.pwrStateResidencyTicks::UNDEFINED   3191066000                       # Cumulative time (in ticks) in various power states
+system.mem_ctrls.bytes_read::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache      8400672                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::.gemm_ncubed_datapath.cache.prefetcher       743456                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::total            9144128                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_written::.writebacks       130560                       # Number of bytes written to this memory
+system.mem_ctrls.bytes_written::total          130560                       # Number of bytes written to this memory
+system.mem_ctrls.num_reads::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       262521                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::.gemm_ncubed_datapath.cache.prefetcher        23233                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::total              285754                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_writes::.writebacks         4080                       # Number of write requests responded to by this memory
+system.mem_ctrls.num_writes::total               4080                       # Number of write requests responded to by this memory
+system.mem_ctrls.bw_read::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache   2632559778                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::.gemm_ncubed_datapath.cache.prefetcher    232980452                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::total            2865540230                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::.writebacks       40914227                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::total             40914227                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_total::.writebacks       40914227                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache   2632559778                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.gemm_ncubed_datapath.cache.prefetcher    232980452                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::total           2906454458                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.avgPriority_.writebacks::samples       545.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.avgPriority_.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache::samples    261047.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.avgPriority_.gemm_ncubed_datapath.cache.prefetcher::samples     22870.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.priorityMinLatency      0.000000018750                       # per QoS priority minimum request to response latency (s)
+system.mem_ctrls.priorityMaxLatency      0.000988573676                       # per QoS priority maximum request to response latency (s)
+system.mem_ctrls.numReadWriteTurnArounds           33                       # Number of turnarounds from READ to WRITE
+system.mem_ctrls.numWriteReadTurnArounds           33                       # Number of turnarounds from WRITE to READ
+system.mem_ctrls.numStayReadState              528755                       # Number of times bus staying in READ state
+system.mem_ctrls.numStayWriteState                496                       # Number of times bus staying in WRITE state
+system.mem_ctrls.readReqs                      285754                       # Number of read requests accepted
+system.mem_ctrls.writeReqs                       4080                       # Number of write requests accepted
+system.mem_ctrls.readBursts                    285754                       # Number of DRAM read bursts, including those serviced by the write queue
+system.mem_ctrls.writeBursts                     4080                       # Number of DRAM write bursts, including those merged in the write queue
+system.mem_ctrls.bytesReadDRAM               18170688                       # Total number of bytes read from DRAM
+system.mem_ctrls.bytesReadWrQ                  117568                       # Total number of bytes read from write queue
+system.mem_ctrls.bytesWritten                   33792                       # Total number of bytes written to DRAM
+system.mem_ctrls.bytesReadSys                 9144128                       # Total read bytes from the system interface side
+system.mem_ctrls.bytesWrittenSys               130560                       # Total written bytes from the system interface side
+system.mem_ctrls.servicedByWrQ                   1837                       # Number of DRAM read bursts serviced by the write queue
+system.mem_ctrls.mergedWrBursts                  3535                       # Number of DRAM write bursts merged with an existing one
+system.mem_ctrls.neitherReadNorWriteReqs            0                       # Number of requests that are neither read nor write
+system.mem_ctrls.perBankRdBursts::0               357                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::1              2116                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::2              2123                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::3              2122                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::4             11957                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::5             65536                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::6             65536                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::7             65536                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::8             65188                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::9               894                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::10              895                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::11              894                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::12              763                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::13                0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::14                0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::15                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::0                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::1                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::2                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::3                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::4                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::5                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::6                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::7                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::8                20                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::9               129                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::10              141                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::11              135                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::12              103                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::13                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::14                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::15                0                       # Per bank write bursts
+system.mem_ctrls.numRdRetry                         0                       # Number of times read queue was full causing retry
+system.mem_ctrls.numWrRetry                         0                       # Number of times write queue was full causing retry
+system.mem_ctrls.totGap                    3190870000                       # Total gap between requests
+system.mem_ctrls.readPktSize::0                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::1                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::2                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::3                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::4                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::5                285754                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::6                     0                       # Read request sizes (log2)
+system.mem_ctrls.writePktSize::0                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::1                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::2                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::3                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::4                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::5                 4080                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::6                    0                       # Write request sizes (log2)
+system.mem_ctrls.rdQLenPdf::0                    6764                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::1                    6105                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::2                   19297                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::3                   40044                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::4                   53655                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::5                   50689                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::6                   46161                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::7                   20530                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::8                   12006                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::9                    8902                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::10                   7755                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::11                   6473                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::12                   2869                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::13                   1621                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::14                    620                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::15                    426                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::16                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::17                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::18                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::19                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::20                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::21                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::22                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::23                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::24                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::25                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::26                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::27                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::28                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::29                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::30                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::31                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::0                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::1                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::2                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::3                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::4                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::5                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::6                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::7                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::8                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::9                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::10                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::11                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::12                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::13                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::14                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::15                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::16                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::17                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::18                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::19                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::20                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::21                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::22                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::23                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::24                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::25                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::26                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::27                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::28                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::29                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::30                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::31                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::32                     33                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::33                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::34                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::35                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::36                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::37                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::38                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::39                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::40                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::41                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::42                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::43                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::44                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::45                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::46                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::47                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::48                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::49                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::50                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::51                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::52                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::53                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::54                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::55                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::56                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::57                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::58                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::59                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::60                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::61                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::62                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::63                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.bytesPerActivate::samples        18415                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::mean    988.508933                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::gmean   967.559368                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::stdev   140.543199                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::0-127           38      0.21%      0.21% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::128-255           83      0.45%      0.66% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::256-383          201      1.09%      1.75% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::384-511          182      0.99%      2.74% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::512-639          327      1.78%      4.51% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::640-767          217      1.18%      5.69% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::768-895          137      0.74%      6.43% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::896-1023          201      1.09%      7.53% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::1024-1151        17029     92.47%    100.00% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::total        18415                       # Bytes accessed per row activation
+system.mem_ctrls.rdPerTurnAround::samples           33                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::mean    8590.636364                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::gmean   8362.766167                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::stdev   2067.602640                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::3072-4095            1      3.03%      3.03% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::4096-5119            1      3.03%      6.06% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::5120-6143            1      3.03%      9.09% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::6144-7167            2      6.06%     15.15% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::7168-8191            1      3.03%     18.18% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::8192-9215           26     78.79%     96.97% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::17408-18431            1      3.03%    100.00% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::total            33                       # Reads before turning the bus around for writes
+system.mem_ctrls.wrPerTurnAround::samples           33                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::mean             16                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::gmean     16.000000                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::16               33    100.00%    100.00% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::total            33                       # Writes before turning the bus around for reads
+system.mem_ctrls.masterReadBytes::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache      8353504                       # Per-master bytes read from memory
+system.mem_ctrls.masterReadBytes::.gemm_ncubed_datapath.cache.prefetcher       731840                       # Per-master bytes read from memory
+system.mem_ctrls.masterWriteBytes::.writebacks        16896                       # Per-master bytes write to memory
+system.mem_ctrls.masterReadRate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 2617778510.378663063049                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrls.masterReadRate::.gemm_ncubed_datapath.cache.prefetcher 229340289.420525908470                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrls.masterWriteRate::.writebacks 5294782.370530725457                       # Per-master bytes write to memory rate (Bytes/sec)
+system.mem_ctrls.masterReadAccesses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       262521                       # Per-master read serviced memory accesses
+system.mem_ctrls.masterReadAccesses::.gemm_ncubed_datapath.cache.prefetcher        23233                       # Per-master read serviced memory accesses
+system.mem_ctrls.masterWriteAccesses::.writebacks         4080                       # Per-master write serviced memory accesses
+system.mem_ctrls.masterReadTotalLat::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache  10284920875                       # Per-master read total memory access latency
+system.mem_ctrls.masterReadTotalLat::.gemm_ncubed_datapath.cache.prefetcher    912576438                       # Per-master read total memory access latency
+system.mem_ctrls.masterWriteTotalLat::.writebacks  76285658332                       # Per-master write total memory access latency
+system.mem_ctrls.masterReadAvgLat::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     39177.52                       # Per-master read average memory access latency
+system.mem_ctrls.masterReadAvgLat::.gemm_ncubed_datapath.cache.prefetcher     39279.32                       # Per-master read average memory access latency
+system.mem_ctrls.masterWriteAvgLat::.writebacks  18697465.28                       # Per-master write average memory access latency
+system.mem_ctrls.totQLat                   5874053563                       # Total ticks spent queuing
+system.mem_ctrls.totMemAccLat             11197497313                       # Total ticks spent from burst creation until serviced by the DRAM
+system.mem_ctrls.totBusLat                 1419585000                       # Total ticks spent in databus transfers
+system.mem_ctrls.avgQLat                     20689.33                       # Average queueing delay per DRAM burst
+system.mem_ctrls.avgBusLat                    5000.00                       # Average bus latency per DRAM burst
+system.mem_ctrls.avgMemAccLat                39439.33                       # Average memory access latency per DRAM burst
+system.mem_ctrls.avgRdBW                      5694.24                       # Average DRAM read bandwidth in MiByte/s
+system.mem_ctrls.avgWrBW                        10.59                       # Average achieved write bandwidth in MiByte/s
+system.mem_ctrls.avgRdBWSys                   2865.54                       # Average system read bandwidth in MiByte/s
+system.mem_ctrls.avgWrBWSys                     40.91                       # Average system write bandwidth in MiByte/s
+system.mem_ctrls.peakBW                      12800.00                       # Theoretical peak bandwidth in MiByte/s
+system.mem_ctrls.busUtil                        44.57                       # Data bus utilization in percentage
+system.mem_ctrls.busUtilRead                    44.49                       # Data bus utilization in percentage for reads
+system.mem_ctrls.busUtilWrite                    0.08                       # Data bus utilization in percentage for writes
+system.mem_ctrls.avgRdQLen                       5.76                       # Average read queue length when enqueuing
+system.mem_ctrls.avgWrQLen                      25.10                       # Average write queue length when enqueuing
+system.mem_ctrls.readRowHits                   265536                       # Number of row buffer hits during reads
+system.mem_ctrls.writeRowHits                     492                       # Number of row buffer hits during writes
+system.mem_ctrls.readRowHitRate                 93.53                       # Row buffer hit rate for reads
+system.mem_ctrls.writeRowHitRate                90.28                       # Row buffer hit rate for writes
+system.mem_ctrls.avgGap                      11009.30                       # Average gap between requests
+system.mem_ctrls.pageHitRate                    93.52                       # Row buffer hit rate, read and write combined
+system.mem_ctrls_0.actEnergy                 98953260                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_0.preEnergy                 52591110                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_0.readEnergy              1537120620                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_0.writeEnergy                      0                       # Energy for write commands per rank (pJ)
+system.mem_ctrls_0.refreshEnergy         251387760.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_0.actBackEnergy           1019726010                       # Energy for active background per rank (pJ)
+system.mem_ctrls_0.preBackEnergy              6036480                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_0.actPowerDownEnergy       416891160                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_0.prePowerDownEnergy         8793120                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_0.selfRefreshEnergy     3786540.000000                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_0.totalEnergy             3395473530                       # Total energy per rank (pJ)
+system.mem_ctrls_0.averagePower           1064.056190                       # Core power per rank (mW)
+system.mem_ctrls_0.totalIdleTime            938234255                       # Total Idle time Per DRAM Rank
+system.mem_ctrls_0.memoryStateTime::IDLE      3590500                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::REF     106340000                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::SREF      1553000                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::PRE_PDN     22867569                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::ACT    2142562245                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::ACT_PDN    914152686                       # Time in different power states
+system.mem_ctrls_1.actEnergy                 32544120                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_1.preEnergy                 17293815                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_1.readEnergy               490046760                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_1.writeEnergy                2756160                       # Energy for write commands per rank (pJ)
+system.mem_ctrls_1.refreshEnergy         251387760.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_1.actBackEnergy            762962100                       # Energy for active background per rank (pJ)
+system.mem_ctrls_1.preBackEnergy             10689600                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_1.actPowerDownEnergy       546065700                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_1.prePowerDownEnergy       112117440                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_1.selfRefreshEnergy     1243980.000000                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_1.totalEnergy             2227193655                       # Total energy per rank (pJ)
+system.mem_ctrls_1.averagePower            697.946597                       # Core power per rank (mW)
+system.mem_ctrls_1.totalIdleTime           1489826566                       # Total Idle time Per DRAM Rank
+system.mem_ctrls_1.memoryStateTime::IDLE      6477000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::REF     106340000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::SREF       390000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::PRE_PDN    291972726                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::ACT    1588367184                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::ACT_PDN   1197519090                       # Time in different power states
+system.pwrStateResidencyTicks::UNDEFINED   3191066000                       # Cumulative time (in ticks) in various power states
+system.cpu_voltage_domain.voltage                   1                       # Voltage in Volts
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+system.gemm_ncubed_datapath.clk_domain.clock         2000                       # Clock period in ticks
+system.gemm_ncubed_datapath.pwrStateResidencyTicks::UNDEFINED   3191066000                       # Cumulative time (in ticks) in various power states
+system.gemm_ncubed_datapath.cache_queue_reads            0                       # Number of reads to the gemm_ncubed_datapath.cache_queue
+system.gemm_ncubed_datapath.cache_queue_writes            0                       # Number of writes to the gemm_ncubed_datapath.cache_queue
+system.gemm_ncubed_datapath.total_dcache_loads       327680                       # Total number of dcache loads
+system.gemm_ncubed_datapath.total_dcache_stores         4096                       # Total number of dcache stores.
+system.gemm_ncubed_datapath.dcache_latency::samples       331776                       # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::mean 83405.470791                       # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::gmean 46970.935264                       # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::stdev 51397.485325                       # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::0-32767        68022     20.50%     20.50% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::32768-65535         2010      0.61%     21.11% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::65536-98303        74863     22.56%     43.67% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::98304-131071       175202     52.81%     96.48% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::131072-163839         6515      1.96%     98.44% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::163840-196607          423      0.13%     98.57% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::196608-229375          506      0.15%     98.72% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::229376-262143          347      0.10%     98.83% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::262144-294911          505      0.15%     98.98% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::294912-327679          579      0.17%     99.15% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::327680-360447         1092      0.33%     99.48% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::360448-393215         1332      0.40%     99.89% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::393216-425983          240      0.07%     99.96% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::425984-458751           22      0.01%     99.96% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::458752-491519            1      0.00%     99.96% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::491520-524287           11      0.00%     99.97% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::524288-557055            0      0.00%     99.97% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::557056-589823            4      0.00%     99.97% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::589824-622591           18      0.01%     99.97% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::622592-655359           61      0.02%     99.99% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::655360-688127           23      0.01%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::688128-720895            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::720896-753663            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::753664-786431            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::786432-819199            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::819200-851967            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::851968-884735            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::884736-917503            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::917504-950271            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::950272-983039            0      0.00%    100.00% # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_latency::total       331776                       # Histogram of dcache total access latency
+system.gemm_ncubed_datapath.dcache_queue_time::samples       148805                       # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::mean 73264.500521                       # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::gmean 68587.026612                       # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::stdev 32628.001054                       # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::0-32767            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::32768-65535        65275     43.87%     43.87% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::65536-98303        73715     49.54%     93.40% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::98304-131071          496      0.33%     93.74% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::131072-163839         7452      5.01%     98.75% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::163840-196607         1118      0.75%     99.50% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::196608-229375           48      0.03%     99.53% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::229376-262143           40      0.03%     99.56% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::262144-294911           45      0.03%     99.59% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::294912-327679           75      0.05%     99.64% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::327680-360447          200      0.13%     99.77% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::360448-393215          139      0.09%     99.86% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::393216-425983          155      0.10%     99.97% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::425984-458751           34      0.02%     99.99% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::458752-491519            1      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::491520-524287            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::524288-557055            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::557056-589823            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::589824-622591            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::622592-655359            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::655360-688127           12      0.01%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::688128-720895            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::720896-753663            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::753664-786431            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::786432-819199            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::819200-851967            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::851968-884735            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::884736-917503            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::917504-950271            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::950272-983039            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.dcache_queue_time::total       148805                       # Histogram of time dcache request spent in queue
+system.gemm_ncubed_datapath.total_acp_loads            0                       # Total number of ACP loads
+system.gemm_ncubed_datapath.total_acp_stores            0                       # Total number of ACP stores.
+system.gemm_ncubed_datapath.acp_latency::samples            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::mean          nan                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::gmean          nan                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::stdev          nan                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::0            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::1            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::2            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::3            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::4            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::5            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::6            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::7            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::8            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::9            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::10            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::11            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::12            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::13            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::14            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::15            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::16            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::17            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::18            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::19            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::20            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::21            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::22            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::23            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::24            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::25            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::26            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::27            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::28            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::29            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_latency::total            0                       # Histogram of ACP transaction total latency
+system.gemm_ncubed_datapath.acp_queue_time::samples            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::mean          nan                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::gmean          nan                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::stdev          nan                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::0            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::1            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::2            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::3            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::4            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::5            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::6            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::7            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::8            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::9            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::10            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::11            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::12            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::13            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::14            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::15            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::16            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::17            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::18            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::19            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::20            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::21            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::22            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::23            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::24            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::25            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::26            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::27            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::28            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::29            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.acp_queue_time::total            0                       # Histogram of time ACP request spent in queue
+system.gemm_ncubed_datapath.dma_setup_cycles           15                       # Total number of cycles spent on setting up DMA transfers.
+system.gemm_ncubed_datapath.sim_cycles        1595518                       # Total accelerator cycles
+system.gemm_ncubed_datapath.tlb.hits           331776                       # TLB hits
+system.gemm_ncubed_datapath.tlb.misses         204773                       # TLB misses
+system.gemm_ncubed_datapath.tlb.reads          536549                       # TLB reads
+system.gemm_ncubed_datapath.tlb.updates         37044                       # TLB updates
+system.gemm_ncubed_datapath.tlb.hitRate      0.618352                       # TLB hit rate
+system.gemm_ncubed_datapath.cache.prefetcher.pwrStateResidencyTicks::UNDEFINED   3191066000                       # Cumulative time (in ticks) in various power states
+system.gemm_ncubed_datapath.cache.prefetcher.num_hwpf_issued       208760                       # number of hwpf issued
+system.gemm_ncubed_datapath.cache.prefetcher.pfIdentified      1400803                       # number of prefetch candidates identified
+system.gemm_ncubed_datapath.cache.prefetcher.pfBufferHit       940731                       # number of redundant prefetches already in prefetch queue
+system.gemm_ncubed_datapath.cache.prefetcher.pfInCache            0                       # number of redundant prefetches already in cache/mshr dropped
+system.gemm_ncubed_datapath.cache.prefetcher.pfRemovedFull            0                       # number of prefetches dropped due to prefetch queue size
+system.gemm_ncubed_datapath.cache.prefetcher.pfSpanPage      1253357                       # number of prefetches not generated due to page crossing
+system.gemm_ncubed_datapath.cache.tags.pwrStateResidencyTicks::UNDEFINED   3191066000                       # Cumulative time (in ticks) in various power states
+system.gemm_ncubed_datapath.cache.tags.tagsinuse   508.887280                       # Cycle average of tags in use
+system.gemm_ncubed_datapath.cache.tags.total_refs       353774                       # Total number of references to valid blocks.
+system.gemm_ncubed_datapath.cache.tags.sampled_refs       285754                       # Sample count of references to valid blocks.
+system.gemm_ncubed_datapath.cache.tags.avg_refs     1.238037                       # Average number of references to valid blocks.
+system.gemm_ncubed_datapath.cache.tags.warmup_cycle       196392                       # Cycle when the warmup percentage was hit.
+system.gemm_ncubed_datapath.cache.tags.occ_blocks::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache   435.083539                       # Average occupied blocks per requestor
+system.gemm_ncubed_datapath.cache.tags.occ_blocks::.gemm_ncubed_datapath.cache.prefetcher    73.803741                       # Average occupied blocks per requestor
+system.gemm_ncubed_datapath.cache.tags.occ_percent::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.849773                       # Average percentage of cache occupancy
+system.gemm_ncubed_datapath.cache.tags.occ_percent::.gemm_ncubed_datapath.cache.prefetcher     0.144148                       # Average percentage of cache occupancy
+system.gemm_ncubed_datapath.cache.tags.occ_percent::total     0.993920                       # Average percentage of cache occupancy
+system.gemm_ncubed_datapath.cache.tags.occ_task_id_blocks::1022           70                       # Occupied blocks per task id
+system.gemm_ncubed_datapath.cache.tags.occ_task_id_blocks::1024          442                       # Occupied blocks per task id
+system.gemm_ncubed_datapath.cache.tags.age_task_id_blocks_1022::0           13                       # Occupied blocks per task id
+system.gemm_ncubed_datapath.cache.tags.age_task_id_blocks_1022::1           57                       # Occupied blocks per task id
+system.gemm_ncubed_datapath.cache.tags.age_task_id_blocks_1024::0          118                       # Occupied blocks per task id
+system.gemm_ncubed_datapath.cache.tags.age_task_id_blocks_1024::1          324                       # Occupied blocks per task id
+system.gemm_ncubed_datapath.cache.tags.occ_task_id_percent::1022     0.136719                       # Percentage of cache occupancy per task id
+system.gemm_ncubed_datapath.cache.tags.occ_task_id_percent::1024     0.863281                       # Percentage of cache occupancy per task id
+system.gemm_ncubed_datapath.cache.tags.tag_accesses      1612858                       # Number of tag accesses
+system.gemm_ncubed_datapath.cache.tags.data_accesses      1612858                       # Number of data accesses
+system.gemm_ncubed_datapath.cache.pwrStateResidencyTicks::UNDEFINED   3191066000                       # Cumulative time (in ticks) in various power states
+system.gemm_ncubed_datapath.cache.ReadReq_hits::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache        67860                       # number of ReadReq hits
+system.gemm_ncubed_datapath.cache.ReadReq_hits::total        67860                       # number of ReadReq hits
+system.gemm_ncubed_datapath.cache.WriteReq_hits::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache          160                       # number of WriteReq hits
+system.gemm_ncubed_datapath.cache.WriteReq_hits::total          160                       # number of WriteReq hits
+system.gemm_ncubed_datapath.cache.demand_hits::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache        68020                       # number of demand (read+write) hits
+system.gemm_ncubed_datapath.cache.demand_hits::total        68020                       # number of demand (read+write) hits
+system.gemm_ncubed_datapath.cache.overall_hits::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache        68020                       # number of overall hits
+system.gemm_ncubed_datapath.cache.overall_hits::total        68020                       # number of overall hits
+system.gemm_ncubed_datapath.cache.ReadReq_misses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       259820                       # number of ReadReq misses
+system.gemm_ncubed_datapath.cache.ReadReq_misses::total       259820                       # number of ReadReq misses
+system.gemm_ncubed_datapath.cache.WriteReq_misses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache         3936                       # number of WriteReq misses
+system.gemm_ncubed_datapath.cache.WriteReq_misses::total         3936                       # number of WriteReq misses
+system.gemm_ncubed_datapath.cache.demand_misses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       263756                       # number of demand (read+write) misses
+system.gemm_ncubed_datapath.cache.demand_misses::total       263756                       # number of demand (read+write) misses
+system.gemm_ncubed_datapath.cache.overall_misses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       263756                       # number of overall misses
+system.gemm_ncubed_datapath.cache.overall_misses::total       263756                       # number of overall misses
+system.gemm_ncubed_datapath.cache.ReadReq_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache  27267557588                       # number of ReadReq miss cycles
+system.gemm_ncubed_datapath.cache.ReadReq_miss_latency::total  27267557588                       # number of ReadReq miss cycles
+system.gemm_ncubed_datapath.cache.WriteReq_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache    238200000                       # number of WriteReq miss cycles
+system.gemm_ncubed_datapath.cache.WriteReq_miss_latency::total    238200000                       # number of WriteReq miss cycles
+system.gemm_ncubed_datapath.cache.demand_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache  27505757588                       # number of demand (read+write) miss cycles
+system.gemm_ncubed_datapath.cache.demand_miss_latency::total  27505757588                       # number of demand (read+write) miss cycles
+system.gemm_ncubed_datapath.cache.overall_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache  27505757588                       # number of overall miss cycles
+system.gemm_ncubed_datapath.cache.overall_miss_latency::total  27505757588                       # number of overall miss cycles
+system.gemm_ncubed_datapath.cache.ReadReq_accesses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       327680                       # number of ReadReq accesses(hits+misses)
+system.gemm_ncubed_datapath.cache.ReadReq_accesses::total       327680                       # number of ReadReq accesses(hits+misses)
+system.gemm_ncubed_datapath.cache.WriteReq_accesses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache         4096                       # number of WriteReq accesses(hits+misses)
+system.gemm_ncubed_datapath.cache.WriteReq_accesses::total         4096                       # number of WriteReq accesses(hits+misses)
+system.gemm_ncubed_datapath.cache.demand_accesses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       331776                       # number of demand (read+write) accesses
+system.gemm_ncubed_datapath.cache.demand_accesses::total       331776                       # number of demand (read+write) accesses
+system.gemm_ncubed_datapath.cache.overall_accesses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       331776                       # number of overall (read+write) accesses
+system.gemm_ncubed_datapath.cache.overall_accesses::total       331776                       # number of overall (read+write) accesses
+system.gemm_ncubed_datapath.cache.ReadReq_miss_rate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.792908                       # miss rate for ReadReq accesses
+system.gemm_ncubed_datapath.cache.ReadReq_miss_rate::total     0.792908                       # miss rate for ReadReq accesses
+system.gemm_ncubed_datapath.cache.WriteReq_miss_rate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.960938                       # miss rate for WriteReq accesses
+system.gemm_ncubed_datapath.cache.WriteReq_miss_rate::total     0.960938                       # miss rate for WriteReq accesses
+system.gemm_ncubed_datapath.cache.demand_miss_rate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.794982                       # miss rate for demand accesses
+system.gemm_ncubed_datapath.cache.demand_miss_rate::total     0.794982                       # miss rate for demand accesses
+system.gemm_ncubed_datapath.cache.overall_miss_rate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.794982                       # miss rate for overall accesses
+system.gemm_ncubed_datapath.cache.overall_miss_rate::total     0.794982                       # miss rate for overall accesses
+system.gemm_ncubed_datapath.cache.ReadReq_avg_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 104947.877715                       # average ReadReq miss latency
+system.gemm_ncubed_datapath.cache.ReadReq_avg_miss_latency::total 104947.877715                       # average ReadReq miss latency
+system.gemm_ncubed_datapath.cache.WriteReq_avg_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 60518.292683                       # average WriteReq miss latency
+system.gemm_ncubed_datapath.cache.WriteReq_avg_miss_latency::total 60518.292683                       # average WriteReq miss latency
+system.gemm_ncubed_datapath.cache.demand_avg_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 104284.860204                       # average overall miss latency
+system.gemm_ncubed_datapath.cache.demand_avg_miss_latency::total 104284.860204                       # average overall miss latency
+system.gemm_ncubed_datapath.cache.overall_avg_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 104284.860204                       # average overall miss latency
+system.gemm_ncubed_datapath.cache.overall_avg_miss_latency::total 104284.860204                       # average overall miss latency
+system.gemm_ncubed_datapath.cache.blocked_cycles::no_mshrs       664654                       # number of cycles access was blocked
+system.gemm_ncubed_datapath.cache.blocked_cycles::no_targets            0                       # number of cycles access was blocked
+system.gemm_ncubed_datapath.cache.blocked::no_mshrs       187709                       # number of cycles access was blocked
+system.gemm_ncubed_datapath.cache.blocked::no_targets            0                       # number of cycles access was blocked
+system.gemm_ncubed_datapath.cache.avg_blocked_cycles::no_mshrs     3.540874                       # average number of cycles each access was blocked
+system.gemm_ncubed_datapath.cache.avg_blocked_cycles::no_targets          nan                       # average number of cycles each access was blocked
+system.gemm_ncubed_datapath.cache.unused_prefetches        15195                       # number of HardPF blocks evicted w/o reference
+system.gemm_ncubed_datapath.cache.writebacks::.writebacks         4080                       # number of writebacks
+system.gemm_ncubed_datapath.cache.writebacks::total         4080                       # number of writebacks
+system.gemm_ncubed_datapath.cache.ReadReq_mshr_hits::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache         1235                       # number of ReadReq MSHR hits
+system.gemm_ncubed_datapath.cache.ReadReq_mshr_hits::total         1235                       # number of ReadReq MSHR hits
+system.gemm_ncubed_datapath.cache.demand_mshr_hits::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache         1235                       # number of demand (read+write) MSHR hits
+system.gemm_ncubed_datapath.cache.demand_mshr_hits::total         1235                       # number of demand (read+write) MSHR hits
+system.gemm_ncubed_datapath.cache.overall_mshr_hits::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache         1235                       # number of overall MSHR hits
+system.gemm_ncubed_datapath.cache.overall_mshr_hits::total         1235                       # number of overall MSHR hits
+system.gemm_ncubed_datapath.cache.ReadReq_mshr_misses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       258585                       # number of ReadReq MSHR misses
+system.gemm_ncubed_datapath.cache.ReadReq_mshr_misses::total       258585                       # number of ReadReq MSHR misses
+system.gemm_ncubed_datapath.cache.WriteReq_mshr_misses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache         3936                       # number of WriteReq MSHR misses
+system.gemm_ncubed_datapath.cache.WriteReq_mshr_misses::total         3936                       # number of WriteReq MSHR misses
+system.gemm_ncubed_datapath.cache.HardPFReq_mshr_misses::.gemm_ncubed_datapath.cache.prefetcher        23233                       # number of HardPFReq MSHR misses
+system.gemm_ncubed_datapath.cache.HardPFReq_mshr_misses::total        23233                       # number of HardPFReq MSHR misses
+system.gemm_ncubed_datapath.cache.demand_mshr_misses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       262521                       # number of demand (read+write) MSHR misses
+system.gemm_ncubed_datapath.cache.demand_mshr_misses::total       262521                       # number of demand (read+write) MSHR misses
+system.gemm_ncubed_datapath.cache.overall_mshr_misses::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache       262521                       # number of overall MSHR misses
+system.gemm_ncubed_datapath.cache.overall_mshr_misses::.gemm_ncubed_datapath.cache.prefetcher        23233                       # number of overall MSHR misses
+system.gemm_ncubed_datapath.cache.overall_mshr_misses::total       285754                       # number of overall MSHR misses
+system.gemm_ncubed_datapath.cache.ReadReq_mshr_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache  26396995557                       # number of ReadReq MSHR miss cycles
+system.gemm_ncubed_datapath.cache.ReadReq_mshr_miss_latency::total  26396995557                       # number of ReadReq MSHR miss cycles
+system.gemm_ncubed_datapath.cache.WriteReq_mshr_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache    226457148                       # number of WriteReq MSHR miss cycles
+system.gemm_ncubed_datapath.cache.WriteReq_mshr_miss_latency::total    226457148                       # number of WriteReq MSHR miss cycles
+system.gemm_ncubed_datapath.cache.HardPFReq_mshr_miss_latency::.gemm_ncubed_datapath.cache.prefetcher   2140777932                       # number of HardPFReq MSHR miss cycles
+system.gemm_ncubed_datapath.cache.HardPFReq_mshr_miss_latency::total   2140777932                       # number of HardPFReq MSHR miss cycles
+system.gemm_ncubed_datapath.cache.demand_mshr_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache  26623452705                       # number of demand (read+write) MSHR miss cycles
+system.gemm_ncubed_datapath.cache.demand_mshr_miss_latency::total  26623452705                       # number of demand (read+write) MSHR miss cycles
+system.gemm_ncubed_datapath.cache.overall_mshr_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache  26623452705                       # number of overall MSHR miss cycles
+system.gemm_ncubed_datapath.cache.overall_mshr_miss_latency::.gemm_ncubed_datapath.cache.prefetcher   2140777932                       # number of overall MSHR miss cycles
+system.gemm_ncubed_datapath.cache.overall_mshr_miss_latency::total  28764230637                       # number of overall MSHR miss cycles
+system.gemm_ncubed_datapath.cache.ReadReq_mshr_miss_rate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.789139                       # mshr miss rate for ReadReq accesses
+system.gemm_ncubed_datapath.cache.ReadReq_mshr_miss_rate::total     0.789139                       # mshr miss rate for ReadReq accesses
+system.gemm_ncubed_datapath.cache.WriteReq_mshr_miss_rate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.960938                       # mshr miss rate for WriteReq accesses
+system.gemm_ncubed_datapath.cache.WriteReq_mshr_miss_rate::total     0.960938                       # mshr miss rate for WriteReq accesses
+system.gemm_ncubed_datapath.cache.HardPFReq_mshr_miss_rate::.gemm_ncubed_datapath.cache.prefetcher          inf                       # mshr miss rate for HardPFReq accesses
+system.gemm_ncubed_datapath.cache.HardPFReq_mshr_miss_rate::total          inf                       # mshr miss rate for HardPFReq accesses
+system.gemm_ncubed_datapath.cache.demand_mshr_miss_rate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.791260                       # mshr miss rate for demand accesses
+system.gemm_ncubed_datapath.cache.demand_mshr_miss_rate::total     0.791260                       # mshr miss rate for demand accesses
+system.gemm_ncubed_datapath.cache.overall_mshr_miss_rate::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache     0.791260                       # mshr miss rate for overall accesses
+system.gemm_ncubed_datapath.cache.overall_mshr_miss_rate::.gemm_ncubed_datapath.cache.prefetcher          inf                       # mshr miss rate for overall accesses
+system.gemm_ncubed_datapath.cache.overall_mshr_miss_rate::total     0.861286                       # mshr miss rate for overall accesses
+system.gemm_ncubed_datapath.cache.ReadReq_avg_mshr_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 102082.470201                       # average ReadReq mshr miss latency
+system.gemm_ncubed_datapath.cache.ReadReq_avg_mshr_miss_latency::total 102082.470201                       # average ReadReq mshr miss latency
+system.gemm_ncubed_datapath.cache.WriteReq_avg_mshr_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 57534.844512                       # average WriteReq mshr miss latency
+system.gemm_ncubed_datapath.cache.WriteReq_avg_mshr_miss_latency::total 57534.844512                       # average WriteReq mshr miss latency
+system.gemm_ncubed_datapath.cache.HardPFReq_avg_mshr_miss_latency::.gemm_ncubed_datapath.cache.prefetcher 92143.844187                       # average HardPFReq mshr miss latency
+system.gemm_ncubed_datapath.cache.HardPFReq_avg_mshr_miss_latency::total 92143.844187                       # average HardPFReq mshr miss latency
+system.gemm_ncubed_datapath.cache.demand_avg_mshr_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 101414.563806                       # average overall mshr miss latency
+system.gemm_ncubed_datapath.cache.demand_avg_mshr_miss_latency::total 101414.563806                       # average overall mshr miss latency
+system.gemm_ncubed_datapath.cache.overall_avg_mshr_miss_latency::.gemm_ncubed_datapath.system.gemm_ncubed_datapath.cache 101414.563806                       # average overall mshr miss latency
+system.gemm_ncubed_datapath.cache.overall_avg_mshr_miss_latency::.gemm_ncubed_datapath.cache.prefetcher 92143.844187                       # average overall mshr miss latency
+system.gemm_ncubed_datapath.cache.overall_avg_mshr_miss_latency::total 100660.815376                       # average overall mshr miss latency
+system.gemm_ncubed_datapath.cache.replacements       285242                       # number of replacements
+system.membus.snoop_filter.tot_requests        570996                       # Total number of requests made to the snoop filter.
+system.membus.snoop_filter.hit_single_requests       285242                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_multi_requests            0                       # Number of requests hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.snoop_filter.tot_snoops               0                       # Total number of snoops made to the snoop filter.
+system.membus.snoop_filter.hit_single_snoops            0                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_multi_snoops            0                       # Number of snoops hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.pwrStateResidencyTicks::UNDEFINED   3191066000                       # Cumulative time (in ticks) in various power states
+system.membus.trans_dist::ReadResp             281818                       # Transaction distribution
+system.membus.trans_dist::WritebackDirty         4080                       # Transaction distribution
+system.membus.trans_dist::CleanEvict           281162                       # Transaction distribution
+system.membus.trans_dist::ReadExReq              3936                       # Transaction distribution
+system.membus.trans_dist::ReadExResp             3936                       # Transaction distribution
+system.membus.trans_dist::ReadSharedReq        281818                       # Transaction distribution
+system.membus.pkt_count_system.gemm_ncubed_datapath.cache.mem_side::system.mem_ctrls.port       856750                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count::total                 856750                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_size_system.gemm_ncubed_datapath.cache.mem_side::system.mem_ctrls.port      9274688                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size::total                 9274688                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.snoops                                0                       # Total snoops (count)
+system.membus.snoopTraffic                          0                       # Total snoop traffic (bytes)
+system.membus.snoop_fanout::samples            285754                       # Request fanout histogram
+system.membus.snoop_fanout::mean                    0                       # Request fanout histogram
+system.membus.snoop_fanout::stdev                   0                       # Request fanout histogram
+system.membus.snoop_fanout::underflows              0      0.00%      0.00% # Request fanout histogram
+system.membus.snoop_fanout::0                  285754    100.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::1                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::2                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::overflows               0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::min_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::max_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::total              285754                       # Request fanout histogram
+system.membus.reqLayer0.occupancy          1434657802                       # Layer occupancy (ticks)
+system.membus.reqLayer0.utilization              45.0                       # Layer utilization (%)
+system.membus.respLayer1.occupancy         1732482119                       # Layer occupancy (ticks)
+system.membus.respLayer1.utilization             54.3                       # Layer utilization (%)
+
+---------- End Simulation Statistics   ----------

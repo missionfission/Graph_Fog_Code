@@ -1,0 +1,80 @@
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 8, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 8, word size = 1, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 8, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 8, word size = 2, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 8, word size = 2, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 8, word size = 2, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 8, word size = 4, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 8, word size = 4, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 8, word size = 4, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 4, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 4, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 4, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 8, word size = 8, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 8, word size = 8, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 8, word size = 8, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 4, word size = 4, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 4, word size = 4, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 4, word size = 4, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 2, word size = 4, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 2, word size = 4, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 2, word size = 4, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 2, word size = 2, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 2, word size = 2, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 2, word size = 2, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 2, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 2, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 2, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 4, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 4, reads = 16384, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 4, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 32768, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 65536, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 131072, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============
+Array: m2, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: m1, size = 32768, partitions = 1, word size = 1, reads = 262144, writes = 0
+Array: prod, size = 32768, partitions = 1, word size = 1, reads = 0, writes = 4096
+===============

@@ -1,0 +1,22 @@
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/outputs/sort_merge
+Top level function: ms_mergesort
+Cycle : 2249350 cycles
+Avg Power: 2.08826 mW
+Idle FU Cycles: 2249328 cycles
+Avg FU Power: 0.0272726 mW
+Avg FU Dynamic Power: 0.0160965 mW
+Avg FU leakage Power: 0.0111761 mW
+Avg MEM Power: 2.06099 mW
+Avg MEM Dynamic Power: 0.768221 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 303457 uM^2
+FU Area: 1015.27 uM^2
+MEM Area: 302442 uM^2
+Num of Shifters (32-bit): 1
+Num of Registers (32-bit): 4
+===============================
+        Aladdin Results        
+===============================

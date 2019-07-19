@@ -1,0 +1,22 @@
+===============================
+        Aladdin Results        
+===============================
+Running : sort_merge
+Top level function: ms_mergesort
+Cycle : 24577 cycles
+Avg Power: 10.5663 mW
+Idle FU Cycles: 24555 cycles
+Avg FU Power: 2.17752 mW
+Avg FU Dynamic Power: 2.11969 mW
+Avg FU leakage Power: 0.0578252 mW
+Avg MEM Power: 8.38873 mW
+Avg MEM Dynamic Power: 8.26173 mW
+Avg MEM Leakage Power: 0.127007 mW
+Total Area: 57544.8 uM^2
+FU Area: 4901.63 uM^2
+MEM Area: 52643.1 uM^2
+Num of Shifters (32-bit): 2
+Num of Registers (32-bit): 23
+===============================
+        Aladdin Results        
+===============================

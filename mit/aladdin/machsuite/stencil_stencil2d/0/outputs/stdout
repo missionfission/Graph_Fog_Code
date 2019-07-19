@@ -1,0 +1,142 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  2 2019 14:47:48
+gem5 started Jun 11 2019 01:19:25
+gem5 executing on 5e24d8f23dc5, pid 18605
+command line: /workspace/gem5-aladdin/build/X86/gem5.opt --stats-db-file=stats.db --outdir=/workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/outputs /workspace/gem5-aladdin/configs/aladdin/aladdin_se.py --num-cpus=0 --mem-size=4GB --enable-stats-dump --enable_prefetchers --prefetcher-type=stride --mem-type=DDR3_1600_8x8 --sys-clock=499MHz --cpu-type=DerivO3CPU --caches --cacheline_size=32 --accel_cfg_file=/workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/gem5.cfg -c stencil-stencil2d-gem5-accel -o ''
+
+Global frequency set at 1000000000000 ticks per second
+-------------------------------
+      Setting ScratchPad       
+-------------------------------
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Num of Nodes: 1211618
+Num of Edges: 2696400
+Num of Reg Edges: 1484783
+Num of MEM Edges: 0
+Num of Control Edges: 1211617
+-------------------------------
+-------------------------------
+    Initializing BaseDatapath      
+-------------------------------
+ Top level: stencil
+=============================================
+      Optimizing...            /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/outputs/stencil_stencil2d
+=============================================
+-------------------------------
+  Remove PHI and Convert Nodes 
+-------------------------------
+  Removing 765953 edges.
+  Adding 475965 new edges.
+  Removing 15624 isolated nodes.
+-------------------------------
+  Remove Induction Dependence  
+-------------------------------
+-------------------------------
+       Init Base Address       
+-------------------------------
+-------------------------------
+     Init DMA Base Address     
+-------------------------------
+-------------------------------
+        Mem to Reg Conv        
+-------------------------------
+-------------------------------
+      ScratchPad Partition     
+-------------------------------
+-------------------------------
+         Loop Flatten          
+-------------------------------
+  Removing 124992 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+         Loop Unrolling        
+-------------------------------
+  Adding 2024442 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+          Load Buffer          
+-------------------------------
+  Adding 0 new edges.
+  Removing 0 edges.
+  Removing 0 isolated nodes.
+-------------------------------
+          Store Buffer         
+-------------------------------
+  Adding 0 new edges.
+  Removing 0 isolated nodes.
+  Removing 0 isolated nodes.
+-------------------------------
+    Remove Repeated Stores     
+-------------------------------
+-------------------------------
+      Memory Ambiguation       
+-------------------------------
+  Adding 0 new edges.
+-------------------------------
+     Tree Height Reduction     
+-------------------------------
+  Removing 124992 edges.
+  Adding 124992 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+  Fuse register loads/stores   
+-------------------------------
+  Removing 70308 edges.
+  Adding 70308 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+   Fuse consecutive branches   
+-------------------------------
+  Removing 124992 edges.
+  Adding 124992 new edges.
+  Removing 0 isolated nodes.
+-------------------------------
+      Per Loop Pipelining      
+-------------------------------
+-------------------------------
+         Loop Pipelining        
+-------------------------------
+=============================================
+      Scheduling...            /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/outputs/stencil_stencil2d
+=============================================
+  Total connected nodes: 1016192
+  Total edges: 4040003
+=============================================
+**** REAL SIMULATION ****
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/outputs/stencil_stencil2d
+Top level function: stencil
+Cycle : 461861 cycles
+Avg Power: 3.95482 mW
+Idle FU Cycles: 414863 cycles
+Avg FU Power: 1.436 mW
+Avg FU Dynamic Power: 0.937361 mW
+Avg FU leakage Power: 0.498641 mW
+Avg MEM Power: 2.51882 mW
+Avg MEM Dynamic Power: 1.22605 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 353164 uM^2
+FU Area: 50722.6 uM^2
+MEM Area: 302442 uM^2
+Num of Multipliers (32-bit): 8
+Num of Adders (32-bit): 9
+Num of Shifters (32-bit): 6
+Num of Registers (32-bit): 25
+===============================
+        Aladdin Results        
+===============================
+-------------------------------
+      Generating DDDG          
+-------------------------------
+-------------------------------
+Reached end of trace.
+-------------------------------
+Exiting @ tick 923722000 because Aladdin called exit()

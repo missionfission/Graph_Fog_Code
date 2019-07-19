@@ -1,0 +1,646 @@
+
+---------- Begin Simulation Statistics ----------
+sim_seconds                                  0.007465                       # Number of seconds simulated
+sim_ticks                                  7464926000                       # Number of ticks simulated
+final_tick                                 7464926000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+sim_freq                                 1000000000000                       # Frequency of simulated ticks
+host_tick_rate                              319271112                       # Simulator tick rate (ticks/s)
+host_mem_usage                                7445264                       # Number of bytes of host memory used
+host_seconds                                    23.38                       # Real time elapsed on the host
+system.voltage_domain.voltage                       1                       # Voltage in Volts
+system.clk_domain.clock                          2004                       # Clock period in ticks
+system.mem_ctrls.pwrStateResidencyTicks::UNDEFINED   7464926000                       # Cumulative time (in ticks) in various power states
+system.mem_ctrls.bytes_read::.sort_radix_datapath.system.sort_radix_datapath.cache       159744                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::.sort_radix_datapath.cache.prefetcher       242912                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::total             402656                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_written::.writebacks       204768                       # Number of bytes written to this memory
+system.mem_ctrls.bytes_written::total          204768                       # Number of bytes written to this memory
+system.mem_ctrls.num_reads::.sort_radix_datapath.system.sort_radix_datapath.cache         4992                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::.sort_radix_datapath.cache.prefetcher         7591                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::total               12583                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_writes::.writebacks         6399                       # Number of write requests responded to by this memory
+system.mem_ctrls.num_writes::total               6399                       # Number of write requests responded to by this memory
+system.mem_ctrls.bw_read::.sort_radix_datapath.system.sort_radix_datapath.cache     21399274                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::.sort_radix_datapath.cache.prefetcher     32540443                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::total              53939718                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::.writebacks       27430680                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::total             27430680                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_total::.writebacks       27430680                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.sort_radix_datapath.system.sort_radix_datapath.cache     21399274                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.sort_radix_datapath.cache.prefetcher     32540443                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::total             81370398                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.avgPriority_.writebacks::samples      3880.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.avgPriority_.sort_radix_datapath.system.sort_radix_datapath.cache::samples      4338.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.avgPriority_.sort_radix_datapath.cache.prefetcher::samples      6972.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.priorityMinLatency      0.000000018750                       # per QoS priority minimum request to response latency (s)
+system.mem_ctrls.priorityMaxLatency      0.000662799250                       # per QoS priority maximum request to response latency (s)
+system.mem_ctrls.numReadWriteTurnArounds          215                       # Number of turnarounds from READ to WRITE
+system.mem_ctrls.numWriteReadTurnArounds          215                       # Number of turnarounds from WRITE to READ
+system.mem_ctrls.numStayReadState               29720                       # Number of times bus staying in READ state
+system.mem_ctrls.numStayWriteState               3638                       # Number of times bus staying in WRITE state
+system.mem_ctrls.readReqs                       12583                       # Number of read requests accepted
+system.mem_ctrls.writeReqs                       6399                       # Number of write requests accepted
+system.mem_ctrls.readBursts                     12583                       # Number of DRAM read bursts, including those serviced by the write queue
+system.mem_ctrls.writeBursts                     6399                       # Number of DRAM write bursts, including those merged in the write queue
+system.mem_ctrls.bytesReadDRAM                 723840                       # Total number of bytes read from DRAM
+system.mem_ctrls.bytesReadWrQ                   81472                       # Total number of bytes read from write queue
+system.mem_ctrls.bytesWritten                  246336                       # Total number of bytes written to DRAM
+system.mem_ctrls.bytesReadSys                  402656                       # Total read bytes from the system interface side
+system.mem_ctrls.bytesWrittenSys               204768                       # Total written bytes from the system interface side
+system.mem_ctrls.servicedByWrQ                   1273                       # Number of DRAM read bursts serviced by the write queue
+system.mem_ctrls.mergedWrBursts                  2519                       # Number of DRAM write bursts merged with an existing one
+system.mem_ctrls.neitherReadNorWriteReqs            0                       # Number of requests that are neither read nor write
+system.mem_ctrls.perBankRdBursts::0                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::1                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::2                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::3                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::4                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::5                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::6                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::7                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::8                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::9               639                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::10             4691                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::11             4168                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::12             1812                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::13                0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::14                0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::15                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::0                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::1                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::2                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::3                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::4                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::5                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::6                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::7                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::8                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::9               163                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::10             1087                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::11             1270                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::12             1329                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::13                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::14                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::15                0                       # Per bank write bursts
+system.mem_ctrls.numRdRetry                         0                       # Number of times read queue was full causing retry
+system.mem_ctrls.numWrRetry                         0                       # Number of times write queue was full causing retry
+system.mem_ctrls.totGap                    7463820080                       # Total gap between requests
+system.mem_ctrls.readPktSize::0                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::1                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::2                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::3                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::4                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::5                 12583                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::6                     0                       # Read request sizes (log2)
+system.mem_ctrls.writePktSize::0                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::1                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::2                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::3                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::4                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::5                 6399                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::6                    0                       # Write request sizes (log2)
+system.mem_ctrls.rdQLenPdf::0                   10464                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::1                     248                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::2                     139                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::3                     117                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::4                      92                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::5                      85                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::6                      78                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::7                      66                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::8                      21                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::9                       0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::10                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::11                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::12                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::13                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::14                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::15                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::16                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::17                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::18                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::19                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::20                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::21                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::22                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::23                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::24                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::25                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::26                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::27                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::28                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::29                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::30                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::31                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::0                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::1                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::2                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::3                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::4                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::5                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::6                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::7                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::8                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::9                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::10                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::11                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::12                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::13                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::14                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::15                    196                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::16                    197                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::17                    215                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::18                    217                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::19                    217                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::20                    216                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::21                    216                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::22                    216                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::23                    216                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::24                    219                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::25                    223                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::26                    219                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::27                    220                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::28                    216                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::29                    216                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::30                    216                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::31                    215                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::32                    215                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::33                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::34                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::35                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::36                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::37                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::38                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::39                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::40                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::41                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::42                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::43                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::44                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::45                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::46                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::47                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::48                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::49                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::50                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::51                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::52                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::53                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::54                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::55                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::56                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::57                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::58                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::59                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::60                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::61                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::62                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::63                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.bytesPerActivate::samples         1778                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::mean    545.475816                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::gmean   411.258512                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::stdev   334.021858                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::0-127          136      7.65%      7.65% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::128-255          331     18.62%     26.27% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::256-383          178     10.01%     36.28% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::384-511          159      8.94%     45.22% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::512-639          203     11.42%     56.64% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::640-767          155      8.72%     65.35% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::768-895          187     10.52%     75.87% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::896-1023          129      7.26%     83.13% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::1024-1151          300     16.87%    100.00% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::total         1778                       # Bytes accessed per row activation
+system.mem_ctrls.rdPerTurnAround::samples          215                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::mean      52.423256                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::gmean     42.741202                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::stdev     57.018135                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::0-31             59     27.44%     27.44% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::32-63           123     57.21%     84.65% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::64-95            14      6.51%     91.16% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::96-127            3      1.40%     92.56% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::128-159            6      2.79%     95.35% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::160-191            8      3.72%     99.07% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::192-223            1      0.47%     99.53% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::672-703            1      0.47%    100.00% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::total           215                       # Reads before turning the bus around for writes
+system.mem_ctrls.wrPerTurnAround::samples          215                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::mean      17.902326                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::gmean     17.887536                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::stdev      0.720036                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::16               20      9.30%      9.30% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::18              182     84.65%     93.95% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::19                8      3.72%     97.67% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::20                4      1.86%     99.53% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::21                1      0.47%    100.00% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::total           215                       # Writes before turning the bus around for reads
+system.mem_ctrls.masterReadBytes::.sort_radix_datapath.system.sort_radix_datapath.cache       138816                       # Per-master bytes read from memory
+system.mem_ctrls.masterReadBytes::.sort_radix_datapath.cache.prefetcher       223104                       # Per-master bytes read from memory
+system.mem_ctrls.masterWriteBytes::.writebacks       123168                       # Per-master bytes write to memory
+system.mem_ctrls.masterReadRate::.sort_radix_datapath.system.sort_radix_datapath.cache 18595763.708843193948                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrls.masterReadRate::.sort_radix_datapath.cache.prefetcher 29886967.399274956435                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrls.masterWriteRate::.writebacks 16499560.745813153684                       # Per-master bytes write to memory rate (Bytes/sec)
+system.mem_ctrls.masterReadAccesses::.sort_radix_datapath.system.sort_radix_datapath.cache         4992                       # Per-master read serviced memory accesses
+system.mem_ctrls.masterReadAccesses::.sort_radix_datapath.cache.prefetcher         7591                       # Per-master read serviced memory accesses
+system.mem_ctrls.masterWriteAccesses::.writebacks         6399                       # Per-master write serviced memory accesses
+system.mem_ctrls.masterReadTotalLat::.sort_radix_datapath.system.sort_radix_datapath.cache    149700522                       # Per-master read total memory access latency
+system.mem_ctrls.masterReadTotalLat::.sort_radix_datapath.cache.prefetcher    305836359                       # Per-master read total memory access latency
+system.mem_ctrls.masterWriteTotalLat::.writebacks 167349249460                       # Per-master write total memory access latency
+system.mem_ctrls.masterReadAvgLat::.sort_radix_datapath.system.sort_radix_datapath.cache     29988.09                       # Per-master read average memory access latency
+system.mem_ctrls.masterReadAvgLat::.sort_radix_datapath.cache.prefetcher     40289.34                       # Per-master read average memory access latency
+system.mem_ctrls.masterWriteAvgLat::.writebacks  26152406.54                       # Per-master write average memory access latency
+system.mem_ctrls.totQLat                    243474381                       # Total ticks spent queuing
+system.mem_ctrls.totMemAccLat               455536881                       # Total ticks spent from burst creation until serviced by the DRAM
+system.mem_ctrls.totBusLat                   56550000                       # Total ticks spent in databus transfers
+system.mem_ctrls.avgQLat                     21527.35                       # Average queueing delay per DRAM burst
+system.mem_ctrls.avgBusLat                    5000.00                       # Average bus latency per DRAM burst
+system.mem_ctrls.avgMemAccLat                40277.35                       # Average memory access latency per DRAM burst
+system.mem_ctrls.avgRdBW                        96.97                       # Average DRAM read bandwidth in MiByte/s
+system.mem_ctrls.avgWrBW                        33.00                       # Average achieved write bandwidth in MiByte/s
+system.mem_ctrls.avgRdBWSys                     53.94                       # Average system read bandwidth in MiByte/s
+system.mem_ctrls.avgWrBWSys                     27.43                       # Average system write bandwidth in MiByte/s
+system.mem_ctrls.peakBW                      12800.00                       # Theoretical peak bandwidth in MiByte/s
+system.mem_ctrls.busUtil                         1.02                       # Data bus utilization in percentage
+system.mem_ctrls.busUtilRead                     0.76                       # Data bus utilization in percentage for reads
+system.mem_ctrls.busUtilWrite                    0.26                       # Data bus utilization in percentage for writes
+system.mem_ctrls.avgRdQLen                       1.16                       # Average read queue length when enqueuing
+system.mem_ctrls.avgWrQLen                      23.17                       # Average write queue length when enqueuing
+system.mem_ctrls.readRowHits                     9716                       # Number of row buffer hits during reads
+system.mem_ctrls.writeRowHits                    3663                       # Number of row buffer hits during writes
+system.mem_ctrls.readRowHitRate                 85.91                       # Row buffer hit rate for reads
+system.mem_ctrls.writeRowHitRate                94.41                       # Row buffer hit rate for writes
+system.mem_ctrls.avgGap                     393205.15                       # Average gap between requests
+system.mem_ctrls.pageHitRate                    88.08                       # Row buffer hit rate, read and write combined
+system.mem_ctrls_0.actEnergy                        0                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_0.preEnergy                        0                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_0.readEnergy                       0                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_0.writeEnergy                      0                       # Energy for write commands per rank (pJ)
+system.mem_ctrls_0.refreshEnergy         614640.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_0.actBackEnergy               112290                       # Energy for active background per rank (pJ)
+system.mem_ctrls_0.preBackEnergy              2997600                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_0.actPowerDownEnergy               0                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_0.prePowerDownEnergy         2890080                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_0.selfRefreshEnergy       1788395640                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_0.totalEnergy             1795010250                       # Total energy per rank (pJ)
+system.mem_ctrls_0.averagePower            240.459216                       # Core power per rank (mW)
+system.mem_ctrls_0.totalIdleTime              7526250                       # Total Idle time Per DRAM Rank
+system.mem_ctrls_0.memoryStateTime::IDLE      7792250                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::REF        260000                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::SREF   7449347500                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::PRE_PDN      7526250                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::ACT             0                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::ACT_PDN            0                       # Time in different power states
+system.mem_ctrls_1.actEnergy                 12709200                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_1.preEnergy                  6747510                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_1.readEnergy                80753400                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_1.writeEnergy               20091780                       # Energy for write commands per rank (pJ)
+system.mem_ctrls_1.refreshEnergy         535351440.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_1.actBackEnergy            287960010                       # Energy for active background per rank (pJ)
+system.mem_ctrls_1.preBackEnergy             21505440                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_1.actPowerDownEnergy      2305761150                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_1.prePowerDownEnergy       410989440                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_1.selfRefreshEnergy        212485080                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_1.totalEnergy             3894433410                       # Total energy per rank (pJ)
+system.mem_ctrls_1.averagePower            521.697524                       # Core power per rank (mW)
+system.mem_ctrls_1.totalIdleTime           6776329878                       # Total Idle time Per DRAM Rank
+system.mem_ctrls_1.memoryStateTime::IDLE     33028000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::REF     226460000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::SREF    650473250                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::PRE_PDN   1070277384                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::ACT     428164623                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::ACT_PDN   5056522743                       # Time in different power states
+system.pwrStateResidencyTicks::UNDEFINED   7464926000                       # Cumulative time (in ticks) in various power states
+system.cpu_voltage_domain.voltage                   1                       # Voltage in Volts
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+system.membus.snoop_filter.tot_requests         24654                       # Total number of requests made to the snoop filter.
+system.membus.snoop_filter.hit_single_requests        12071                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_multi_requests            0                       # Number of requests hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.snoop_filter.tot_snoops               0                       # Total number of snoops made to the snoop filter.
+system.membus.snoop_filter.hit_single_snoops            0                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_multi_snoops            0                       # Number of snoops hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.pwrStateResidencyTicks::UNDEFINED   7464926000                       # Cumulative time (in ticks) in various power states
+system.membus.trans_dist::ReadResp               8708                       # Transaction distribution
+system.membus.trans_dist::WritebackDirty         6399                       # Transaction distribution
+system.membus.trans_dist::CleanEvict             5672                       # Transaction distribution
+system.membus.trans_dist::ReadExReq              3875                       # Transaction distribution
+system.membus.trans_dist::ReadExResp             3875                       # Transaction distribution
+system.membus.trans_dist::ReadSharedReq          8708                       # Transaction distribution
+system.membus.pkt_count_system.sort_radix_datapath.cache.mem_side::system.mem_ctrls.port        37237                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count::total                  37237                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_size_system.sort_radix_datapath.cache.mem_side::system.mem_ctrls.port       607424                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size::total                  607424                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.snoops                                0                       # Total snoops (count)
+system.membus.snoopTraffic                          0                       # Total snoop traffic (bytes)
+system.membus.snoop_fanout::samples             12583                       # Request fanout histogram
+system.membus.snoop_fanout::mean                    0                       # Request fanout histogram
+system.membus.snoop_fanout::stdev                   0                       # Request fanout histogram
+system.membus.snoop_fanout::underflows              0      0.00%      0.00% # Request fanout histogram
+system.membus.snoop_fanout::0                   12583    100.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::1                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::2                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::overflows               0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::min_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::max_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::total               12583                       # Request fanout histogram
+system.membus.reqLayer0.occupancy            98621490                       # Layer occupancy (ticks)
+system.membus.reqLayer0.utilization               1.3                       # Layer utilization (%)
+system.membus.respLayer1.occupancy           89889355                       # Layer occupancy (ticks)
+system.membus.respLayer1.utilization              1.2                       # Layer utilization (%)
+system.sort_radix_datapath.clk_domain.clock         2000                       # Clock period in ticks
+system.sort_radix_datapath.pwrStateResidencyTicks::UNDEFINED   7464926000                       # Cumulative time (in ticks) in various power states
+system.sort_radix_datapath.cache_queue_reads            0                       # Number of reads to the sort_radix_datapath.cache_queue
+system.sort_radix_datapath.cache_queue_writes            0                       # Number of writes to the sort_radix_datapath.cache_queue
+system.sort_radix_datapath.total_dcache_loads        74832                       # Total number of dcache loads
+system.sort_radix_datapath.total_dcache_stores       196608                       # Total number of dcache stores.
+system.sort_radix_datapath.dcache_latency::samples       271440                       # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::mean  3366.919507                       # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::gmean  2136.080957                       # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::stdev 11775.268359                       # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::0-32767       266438     98.16%     98.16% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::32768-65535          654      0.24%     98.40% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::65536-98303         4172      1.54%     99.94% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::98304-131071           22      0.01%     99.94% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::131072-163839           21      0.01%     99.95% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::163840-196607           18      0.01%     99.96% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::196608-229375           16      0.01%     99.96% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::229376-262143           24      0.01%     99.97% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::262144-294911           19      0.01%     99.98% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::294912-327679           18      0.01%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::327680-360447           18      0.01%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::360448-393215            4      0.00%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::393216-425983            0      0.00%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::425984-458751            0      0.00%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::458752-491519            0      0.00%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::491520-524287            0      0.00%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::524288-557055            0      0.00%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::557056-589823            0      0.00%     99.99% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::589824-622591           16      0.01%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::622592-655359            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::655360-688127            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::688128-720895            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::720896-753663            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::753664-786431            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::786432-819199            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::819200-851967            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::851968-884735            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::884736-917503            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::917504-950271            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::950272-983039            0      0.00%    100.00% # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_latency::total       271440                       # Histogram of dcache total access latency
+system.sort_radix_datapath.dcache_queue_time::samples       271440                       # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::mean 42363.387857                       # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::gmean 42345.805773                       # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::stdev  1268.624525                       # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::0-4095            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::4096-8191            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::8192-12287            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::12288-16383            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::16384-20479            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::20480-24575            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::24576-28671            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::28672-32767            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::32768-36863            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::36864-40959            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::40960-45055       255048     93.96%     93.96% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::45056-49151        16384      6.04%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::49152-53247            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::53248-57343            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::57344-61439            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::61440-65535            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::65536-69631            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::69632-73727            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::73728-77823            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::77824-81919            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::81920-86015            8      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::86016-90111            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::90112-94207            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::94208-98303            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::98304-102399            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::102400-106495            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::106496-110591            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::110592-114687            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::114688-118783            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::118784-122879            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.dcache_queue_time::total       271440                       # Histogram of time dcache request spent in queue
+system.sort_radix_datapath.total_acp_loads            0                       # Total number of ACP loads
+system.sort_radix_datapath.total_acp_stores            0                       # Total number of ACP stores.
+system.sort_radix_datapath.acp_latency::samples            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::mean          nan                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::gmean          nan                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::stdev          nan                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::0            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::1            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::2            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::3            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::4            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::5            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::6            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::7            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::8            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::9            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::10            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::11            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::12            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::13            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::14            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::15            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::16            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::17            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::18            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::19            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::20            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::21            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::22            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::23            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::24            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::25            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::26            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::27            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::28            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::29            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_latency::total            0                       # Histogram of ACP transaction total latency
+system.sort_radix_datapath.acp_queue_time::samples            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::mean          nan                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::gmean          nan                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::stdev          nan                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::0            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::1            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::2            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::3            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::4            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::5            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::6            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::7            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::8            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::9            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::10            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::11            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::12            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::13            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::14            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::15            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::16            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::17            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::18            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::19            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::20            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::21            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::22            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::23            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::24            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::25            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::26            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::27            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::28            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::29            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.acp_queue_time::total            0                       # Histogram of time ACP request spent in queue
+system.sort_radix_datapath.dma_setup_cycles           15                       # Total number of cycles spent on setting up DMA transfers.
+system.sort_radix_datapath.sim_cycles         3732448                       # Total accelerator cycles
+system.sort_radix_datapath.tlb.hits            271440                       # TLB hits
+system.sort_radix_datapath.tlb.misses               8                       # TLB misses
+system.sort_radix_datapath.tlb.reads           271448                       # TLB reads
+system.sort_radix_datapath.tlb.updates              7                       # TLB updates
+system.sort_radix_datapath.tlb.hitRate       0.999971                       # TLB hit rate
+system.sort_radix_datapath.cache.prefetcher.pwrStateResidencyTicks::UNDEFINED   7464926000                       # Cumulative time (in ticks) in various power states
+system.sort_radix_datapath.cache.prefetcher.num_hwpf_issued       614387                       # number of hwpf issued
+system.sort_radix_datapath.cache.prefetcher.pfIdentified       963698                       # number of prefetch candidates identified
+system.sort_radix_datapath.cache.prefetcher.pfBufferHit       345232                       # number of redundant prefetches already in prefetch queue
+system.sort_radix_datapath.cache.prefetcher.pfInCache            0                       # number of redundant prefetches already in cache/mshr dropped
+system.sort_radix_datapath.cache.prefetcher.pfRemovedFull            0                       # number of prefetches dropped due to prefetch queue size
+system.sort_radix_datapath.cache.prefetcher.pfSpanPage        34702                       # number of prefetches not generated due to page crossing
+system.sort_radix_datapath.cache.tags.pwrStateResidencyTicks::UNDEFINED   7464926000                       # Cumulative time (in ticks) in various power states
+system.sort_radix_datapath.cache.tags.tagsinuse   504.461377                       # Cycle average of tags in use
+system.sort_radix_datapath.cache.tags.total_refs       279020                       # Total number of references to valid blocks.
+system.sort_radix_datapath.cache.tags.sampled_refs        12583                       # Sample count of references to valid blocks.
+system.sort_radix_datapath.cache.tags.avg_refs    22.174362                       # Average number of references to valid blocks.
+system.sort_radix_datapath.cache.tags.warmup_cycle       192384                       # Cycle when the warmup percentage was hit.
+system.sort_radix_datapath.cache.tags.occ_blocks::.sort_radix_datapath.system.sort_radix_datapath.cache   219.382387                       # Average occupied blocks per requestor
+system.sort_radix_datapath.cache.tags.occ_blocks::.sort_radix_datapath.cache.prefetcher   285.078990                       # Average occupied blocks per requestor
+system.sort_radix_datapath.cache.tags.occ_percent::.sort_radix_datapath.system.sort_radix_datapath.cache     0.428481                       # Average percentage of cache occupancy
+system.sort_radix_datapath.cache.tags.occ_percent::.sort_radix_datapath.cache.prefetcher     0.556795                       # Average percentage of cache occupancy
+system.sort_radix_datapath.cache.tags.occ_percent::total     0.985276                       # Average percentage of cache occupancy
+system.sort_radix_datapath.cache.tags.occ_task_id_blocks::1022          352                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.occ_task_id_blocks::1024          160                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.age_task_id_blocks_1022::0           16                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.age_task_id_blocks_1022::1          249                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.age_task_id_blocks_1022::2           75                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.age_task_id_blocks_1022::3           12                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.age_task_id_blocks_1024::0            8                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.age_task_id_blocks_1024::1           69                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.age_task_id_blocks_1024::2           64                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.age_task_id_blocks_1024::3           19                       # Occupied blocks per task id
+system.sort_radix_datapath.cache.tags.occ_task_id_percent::1022     0.687500                       # Percentage of cache occupancy per task id
+system.sort_radix_datapath.cache.tags.occ_task_id_percent::1024     0.312500                       # Percentage of cache occupancy per task id
+system.sort_radix_datapath.cache.tags.tag_accesses      1098343                       # Number of tag accesses
+system.sort_radix_datapath.cache.tags.data_accesses      1098343                       # Number of data accesses
+system.sort_radix_datapath.cache.pwrStateResidencyTicks::UNDEFINED   7464926000                       # Cumulative time (in ticks) in various power states
+system.sort_radix_datapath.cache.ReadReq_hits::.sort_radix_datapath.system.sort_radix_datapath.cache        73714                       # number of ReadReq hits
+system.sort_radix_datapath.cache.ReadReq_hits::total        73714                       # number of ReadReq hits
+system.sort_radix_datapath.cache.WriteReq_hits::.sort_radix_datapath.system.sort_radix_datapath.cache       192723                       # number of WriteReq hits
+system.sort_radix_datapath.cache.WriteReq_hits::total       192723                       # number of WriteReq hits
+system.sort_radix_datapath.cache.demand_hits::.sort_radix_datapath.system.sort_radix_datapath.cache       266437                       # number of demand (read+write) hits
+system.sort_radix_datapath.cache.demand_hits::total       266437                       # number of demand (read+write) hits
+system.sort_radix_datapath.cache.overall_hits::.sort_radix_datapath.system.sort_radix_datapath.cache       266437                       # number of overall hits
+system.sort_radix_datapath.cache.overall_hits::total       266437                       # number of overall hits
+system.sort_radix_datapath.cache.ReadReq_misses::.sort_radix_datapath.system.sort_radix_datapath.cache         1118                       # number of ReadReq misses
+system.sort_radix_datapath.cache.ReadReq_misses::total         1118                       # number of ReadReq misses
+system.sort_radix_datapath.cache.WriteReq_misses::.sort_radix_datapath.system.sort_radix_datapath.cache         3885                       # number of WriteReq misses
+system.sort_radix_datapath.cache.WriteReq_misses::total         3885                       # number of WriteReq misses
+system.sort_radix_datapath.cache.demand_misses::.sort_radix_datapath.system.sort_radix_datapath.cache         5003                       # number of demand (read+write) misses
+system.sort_radix_datapath.cache.demand_misses::total         5003                       # number of demand (read+write) misses
+system.sort_radix_datapath.cache.overall_misses::.sort_radix_datapath.system.sort_radix_datapath.cache         5003                       # number of overall misses
+system.sort_radix_datapath.cache.overall_misses::total         5003                       # number of overall misses
+system.sort_radix_datapath.cache.ReadReq_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache     73354000                       # number of ReadReq miss cycles
+system.sort_radix_datapath.cache.ReadReq_miss_latency::total     73354000                       # number of ReadReq miss cycles
+system.sort_radix_datapath.cache.WriteReq_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache    307590024                       # number of WriteReq miss cycles
+system.sort_radix_datapath.cache.WriteReq_miss_latency::total    307590024                       # number of WriteReq miss cycles
+system.sort_radix_datapath.cache.demand_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache    380944024                       # number of demand (read+write) miss cycles
+system.sort_radix_datapath.cache.demand_miss_latency::total    380944024                       # number of demand (read+write) miss cycles
+system.sort_radix_datapath.cache.overall_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache    380944024                       # number of overall miss cycles
+system.sort_radix_datapath.cache.overall_miss_latency::total    380944024                       # number of overall miss cycles
+system.sort_radix_datapath.cache.ReadReq_accesses::.sort_radix_datapath.system.sort_radix_datapath.cache        74832                       # number of ReadReq accesses(hits+misses)
+system.sort_radix_datapath.cache.ReadReq_accesses::total        74832                       # number of ReadReq accesses(hits+misses)
+system.sort_radix_datapath.cache.WriteReq_accesses::.sort_radix_datapath.system.sort_radix_datapath.cache       196608                       # number of WriteReq accesses(hits+misses)
+system.sort_radix_datapath.cache.WriteReq_accesses::total       196608                       # number of WriteReq accesses(hits+misses)
+system.sort_radix_datapath.cache.demand_accesses::.sort_radix_datapath.system.sort_radix_datapath.cache       271440                       # number of demand (read+write) accesses
+system.sort_radix_datapath.cache.demand_accesses::total       271440                       # number of demand (read+write) accesses
+system.sort_radix_datapath.cache.overall_accesses::.sort_radix_datapath.system.sort_radix_datapath.cache       271440                       # number of overall (read+write) accesses
+system.sort_radix_datapath.cache.overall_accesses::total       271440                       # number of overall (read+write) accesses
+system.sort_radix_datapath.cache.ReadReq_miss_rate::.sort_radix_datapath.system.sort_radix_datapath.cache     0.014940                       # miss rate for ReadReq accesses
+system.sort_radix_datapath.cache.ReadReq_miss_rate::total     0.014940                       # miss rate for ReadReq accesses
+system.sort_radix_datapath.cache.WriteReq_miss_rate::.sort_radix_datapath.system.sort_radix_datapath.cache     0.019760                       # miss rate for WriteReq accesses
+system.sort_radix_datapath.cache.WriteReq_miss_rate::total     0.019760                       # miss rate for WriteReq accesses
+system.sort_radix_datapath.cache.demand_miss_rate::.sort_radix_datapath.system.sort_radix_datapath.cache     0.018431                       # miss rate for demand accesses
+system.sort_radix_datapath.cache.demand_miss_rate::total     0.018431                       # miss rate for demand accesses
+system.sort_radix_datapath.cache.overall_miss_rate::.sort_radix_datapath.system.sort_radix_datapath.cache     0.018431                       # miss rate for overall accesses
+system.sort_radix_datapath.cache.overall_miss_rate::total     0.018431                       # miss rate for overall accesses
+system.sort_radix_datapath.cache.ReadReq_avg_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache 65611.806798                       # average ReadReq miss latency
+system.sort_radix_datapath.cache.ReadReq_avg_miss_latency::total 65611.806798                       # average ReadReq miss latency
+system.sort_radix_datapath.cache.WriteReq_avg_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache 79173.751351                       # average WriteReq miss latency
+system.sort_radix_datapath.cache.WriteReq_avg_miss_latency::total 79173.751351                       # average WriteReq miss latency
+system.sort_radix_datapath.cache.demand_avg_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache 76143.118929                       # average overall miss latency
+system.sort_radix_datapath.cache.demand_avg_miss_latency::total 76143.118929                       # average overall miss latency
+system.sort_radix_datapath.cache.overall_avg_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache 76143.118929                       # average overall miss latency
+system.sort_radix_datapath.cache.overall_avg_miss_latency::total 76143.118929                       # average overall miss latency
+system.sort_radix_datapath.cache.blocked_cycles::no_mshrs            0                       # number of cycles access was blocked
+system.sort_radix_datapath.cache.blocked_cycles::no_targets            0                       # number of cycles access was blocked
+system.sort_radix_datapath.cache.blocked::no_mshrs            0                       # number of cycles access was blocked
+system.sort_radix_datapath.cache.blocked::no_targets            0                       # number of cycles access was blocked
+system.sort_radix_datapath.cache.avg_blocked_cycles::no_mshrs          nan                       # average number of cycles each access was blocked
+system.sort_radix_datapath.cache.avg_blocked_cycles::no_targets          nan                       # average number of cycles each access was blocked
+system.sort_radix_datapath.cache.unused_prefetches          423                       # number of HardPF blocks evicted w/o reference
+system.sort_radix_datapath.cache.writebacks::.writebacks         6399                       # number of writebacks
+system.sort_radix_datapath.cache.writebacks::total         6399                       # number of writebacks
+system.sort_radix_datapath.cache.ReadReq_mshr_hits::.sort_radix_datapath.system.sort_radix_datapath.cache            1                       # number of ReadReq MSHR hits
+system.sort_radix_datapath.cache.ReadReq_mshr_hits::total            1                       # number of ReadReq MSHR hits
+system.sort_radix_datapath.cache.WriteReq_mshr_hits::.sort_radix_datapath.system.sort_radix_datapath.cache           10                       # number of WriteReq MSHR hits
+system.sort_radix_datapath.cache.WriteReq_mshr_hits::total           10                       # number of WriteReq MSHR hits
+system.sort_radix_datapath.cache.demand_mshr_hits::.sort_radix_datapath.system.sort_radix_datapath.cache           11                       # number of demand (read+write) MSHR hits
+system.sort_radix_datapath.cache.demand_mshr_hits::total           11                       # number of demand (read+write) MSHR hits
+system.sort_radix_datapath.cache.overall_mshr_hits::.sort_radix_datapath.system.sort_radix_datapath.cache           11                       # number of overall MSHR hits
+system.sort_radix_datapath.cache.overall_mshr_hits::total           11                       # number of overall MSHR hits
+system.sort_radix_datapath.cache.ReadReq_mshr_misses::.sort_radix_datapath.system.sort_radix_datapath.cache         1117                       # number of ReadReq MSHR misses
+system.sort_radix_datapath.cache.ReadReq_mshr_misses::total         1117                       # number of ReadReq MSHR misses
+system.sort_radix_datapath.cache.WriteReq_mshr_misses::.sort_radix_datapath.system.sort_radix_datapath.cache         3875                       # number of WriteReq MSHR misses
+system.sort_radix_datapath.cache.WriteReq_mshr_misses::total         3875                       # number of WriteReq MSHR misses
+system.sort_radix_datapath.cache.HardPFReq_mshr_misses::.sort_radix_datapath.cache.prefetcher         7591                       # number of HardPFReq MSHR misses
+system.sort_radix_datapath.cache.HardPFReq_mshr_misses::total         7591                       # number of HardPFReq MSHR misses
+system.sort_radix_datapath.cache.demand_mshr_misses::.sort_radix_datapath.system.sort_radix_datapath.cache         4992                       # number of demand (read+write) MSHR misses
+system.sort_radix_datapath.cache.demand_mshr_misses::total         4992                       # number of demand (read+write) MSHR misses
+system.sort_radix_datapath.cache.overall_mshr_misses::.sort_radix_datapath.system.sort_radix_datapath.cache         4992                       # number of overall MSHR misses
+system.sort_radix_datapath.cache.overall_mshr_misses::.sort_radix_datapath.cache.prefetcher         7591                       # number of overall MSHR misses
+system.sort_radix_datapath.cache.overall_mshr_misses::total        12583                       # number of overall MSHR misses
+system.sort_radix_datapath.cache.ReadReq_mshr_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache     69830000                       # number of ReadReq MSHR miss cycles
+system.sort_radix_datapath.cache.ReadReq_mshr_miss_latency::total     69830000                       # number of ReadReq MSHR miss cycles
+system.sort_radix_datapath.cache.WriteReq_mshr_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache    294738044                       # number of WriteReq MSHR miss cycles
+system.sort_radix_datapath.cache.WriteReq_mshr_miss_latency::total    294738044                       # number of WriteReq MSHR miss cycles
+system.sort_radix_datapath.cache.HardPFReq_mshr_miss_latency::.sort_radix_datapath.cache.prefetcher    624971200                       # number of HardPFReq MSHR miss cycles
+system.sort_radix_datapath.cache.HardPFReq_mshr_miss_latency::total    624971200                       # number of HardPFReq MSHR miss cycles
+system.sort_radix_datapath.cache.demand_mshr_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache    364568044                       # number of demand (read+write) MSHR miss cycles
+system.sort_radix_datapath.cache.demand_mshr_miss_latency::total    364568044                       # number of demand (read+write) MSHR miss cycles
+system.sort_radix_datapath.cache.overall_mshr_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache    364568044                       # number of overall MSHR miss cycles
+system.sort_radix_datapath.cache.overall_mshr_miss_latency::.sort_radix_datapath.cache.prefetcher    624971200                       # number of overall MSHR miss cycles
+system.sort_radix_datapath.cache.overall_mshr_miss_latency::total    989539244                       # number of overall MSHR miss cycles
+system.sort_radix_datapath.cache.ReadReq_mshr_miss_rate::.sort_radix_datapath.system.sort_radix_datapath.cache     0.014927                       # mshr miss rate for ReadReq accesses
+system.sort_radix_datapath.cache.ReadReq_mshr_miss_rate::total     0.014927                       # mshr miss rate for ReadReq accesses
+system.sort_radix_datapath.cache.WriteReq_mshr_miss_rate::.sort_radix_datapath.system.sort_radix_datapath.cache     0.019709                       # mshr miss rate for WriteReq accesses
+system.sort_radix_datapath.cache.WriteReq_mshr_miss_rate::total     0.019709                       # mshr miss rate for WriteReq accesses
+system.sort_radix_datapath.cache.HardPFReq_mshr_miss_rate::.sort_radix_datapath.cache.prefetcher          inf                       # mshr miss rate for HardPFReq accesses
+system.sort_radix_datapath.cache.HardPFReq_mshr_miss_rate::total          inf                       # mshr miss rate for HardPFReq accesses
+system.sort_radix_datapath.cache.demand_mshr_miss_rate::.sort_radix_datapath.system.sort_radix_datapath.cache     0.018391                       # mshr miss rate for demand accesses
+system.sort_radix_datapath.cache.demand_mshr_miss_rate::total     0.018391                       # mshr miss rate for demand accesses
+system.sort_radix_datapath.cache.overall_mshr_miss_rate::.sort_radix_datapath.system.sort_radix_datapath.cache     0.018391                       # mshr miss rate for overall accesses
+system.sort_radix_datapath.cache.overall_mshr_miss_rate::.sort_radix_datapath.cache.prefetcher          inf                       # mshr miss rate for overall accesses
+system.sort_radix_datapath.cache.overall_mshr_miss_rate::total     0.046356                       # mshr miss rate for overall accesses
+system.sort_radix_datapath.cache.ReadReq_avg_mshr_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache 62515.666965                       # average ReadReq mshr miss latency
+system.sort_radix_datapath.cache.ReadReq_avg_mshr_miss_latency::total 62515.666965                       # average ReadReq mshr miss latency
+system.sort_radix_datapath.cache.WriteReq_avg_mshr_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache 76061.430710                       # average WriteReq mshr miss latency
+system.sort_radix_datapath.cache.WriteReq_avg_mshr_miss_latency::total 76061.430710                       # average WriteReq mshr miss latency
+system.sort_radix_datapath.cache.HardPFReq_avg_mshr_miss_latency::.sort_radix_datapath.cache.prefetcher 82330.549335                       # average HardPFReq mshr miss latency
+system.sort_radix_datapath.cache.HardPFReq_avg_mshr_miss_latency::total 82330.549335                       # average HardPFReq mshr miss latency
+system.sort_radix_datapath.cache.demand_avg_mshr_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache 73030.457532                       # average overall mshr miss latency
+system.sort_radix_datapath.cache.demand_avg_mshr_miss_latency::total 73030.457532                       # average overall mshr miss latency
+system.sort_radix_datapath.cache.overall_avg_mshr_miss_latency::.sort_radix_datapath.system.sort_radix_datapath.cache 73030.457532                       # average overall mshr miss latency
+system.sort_radix_datapath.cache.overall_avg_mshr_miss_latency::.sort_radix_datapath.cache.prefetcher 82330.549335                       # average overall mshr miss latency
+system.sort_radix_datapath.cache.overall_avg_mshr_miss_latency::total 78640.963522                       # average overall mshr miss latency
+system.sort_radix_datapath.cache.replacements        12071                       # number of replacements
+
+---------- End Simulation Statistics   ----------

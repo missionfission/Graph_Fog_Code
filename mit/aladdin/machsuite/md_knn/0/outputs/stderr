@@ -1,0 +1,72 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+[WARNING]: Overlapping array declarations found!
+  force_x: 0x1a23b00 - 0x1a24300
+  position_z: 0x1a26300 - 0x1a26b00
+[WARNING]: Overlapping array declarations found!
+  force_x: 0x1a23b00 - 0x1a24300
+  position_x: 0x1a25300 - 0x1a25b00
+[WARNING]: Overlapping array declarations found!
+  force_x: 0x1a23b00 - 0x1a24300
+  NL: 0x1a26b00 - 0x1a2eb00
+[WARNING]: Overlapping array declarations found!
+  force_x: 0x1a23b00 - 0x1a24300
+  force_y: 0x1a24300 - 0x1a24b00
+[WARNING]: Overlapping array declarations found!
+  force_x: 0x1a23b00 - 0x1a24300
+  position_y: 0x1a25b00 - 0x1a26300
+[WARNING]: Overlapping array declarations found!
+  force_x: 0x1a23b00 - 0x1a24300
+  force_z: 0x1a24b00 - 0x1a25300
+[WARNING]: Overlapping array declarations found!
+  position_z: 0x1a26300 - 0x1a26b00
+  NL: 0x1a26b00 - 0x1a2eb00
+[WARNING]: Overlapping array declarations found!
+  position_x: 0x1a25300 - 0x1a25b00
+  position_z: 0x1a26300 - 0x1a26b00
+[WARNING]: Overlapping array declarations found!
+  position_x: 0x1a25300 - 0x1a25b00
+  NL: 0x1a26b00 - 0x1a2eb00
+[WARNING]: Overlapping array declarations found!
+  position_x: 0x1a25300 - 0x1a25b00
+  position_y: 0x1a25b00 - 0x1a26300
+[WARNING]: Overlapping array declarations found!
+  force_y: 0x1a24300 - 0x1a24b00
+  position_z: 0x1a26300 - 0x1a26b00
+[WARNING]: Overlapping array declarations found!
+  force_y: 0x1a24300 - 0x1a24b00
+  position_x: 0x1a25300 - 0x1a25b00
+[WARNING]: Overlapping array declarations found!
+  force_y: 0x1a24300 - 0x1a24b00
+  NL: 0x1a26b00 - 0x1a2eb00
+[WARNING]: Overlapping array declarations found!
+  force_y: 0x1a24300 - 0x1a24b00
+  position_y: 0x1a25b00 - 0x1a26300
+[WARNING]: Overlapping array declarations found!
+  force_y: 0x1a24300 - 0x1a24b00
+  force_z: 0x1a24b00 - 0x1a25300
+[WARNING]: Overlapping array declarations found!
+  position_y: 0x1a25b00 - 0x1a26300
+  position_z: 0x1a26300 - 0x1a26b00
+[WARNING]: Overlapping array declarations found!
+  position_y: 0x1a25b00 - 0x1a26300
+  NL: 0x1a26b00 - 0x1a2eb00
+[WARNING]: Overlapping array declarations found!
+  force_z: 0x1a24b00 - 0x1a25300
+  position_z: 0x1a26300 - 0x1a26b00
+[WARNING]: Overlapping array declarations found!
+  force_z: 0x1a24b00 - 0x1a25300
+  position_x: 0x1a25300 - 0x1a25b00
+[WARNING]: Overlapping array declarations found!
+  force_z: 0x1a24b00 - 0x1a25300
+  NL: 0x1a26b00 - 0x1a2eb00
+[WARNING]: Overlapping array declarations found!
+  force_z: 0x1a24b00 - 0x1a25300
+  position_y: 0x1a25b00 - 0x1a26300
+[WARNING]: Overlapping array declarations found!
+  force_z: 0x1a24b00 - 0x1a25300
+  force_y: 0x1a24300 - 0x1a24b00
+Overlapping array address ranges can lead to incorrect behavior, such as DMA nodes trying to access the wrong arrays, ACP accessing the wrong memory, etc. Please check your Aladdin configuration file and the mapArrayToAccelerator() calls to verify that they are correct.
+Global loop pipelining is not ON.
+info: Entering event queue @ 0.  Starting simulation...
+ Current power model supports trig functions running at 10 ns. 
+ Cycle time: 2 is not supported yet. Use 10ns power model instead.

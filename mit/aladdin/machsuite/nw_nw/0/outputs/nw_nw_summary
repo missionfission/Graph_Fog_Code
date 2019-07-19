@@ -1,0 +1,24 @@
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/0/outputs/nw_nw
+Top level function: needwun
+Cycle : 55268 cycles
+Avg Power: 15.7277 mW
+Idle FU Cycles: 51246 cycles
+Avg FU Power: 2.06574 mW
+Avg FU Dynamic Power: 0.60792 mW
+Avg FU leakage Power: 1.45782 mW
+Avg MEM Power: 13.6619 mW
+Avg MEM Dynamic Power: 12.3692 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 415538 uM^2
+FU Area: 113096 uM^2
+MEM Area: 302442 uM^2
+Num of Adders (32-bit): 384
+Num of Bit-wise Operators (32-bit): 1
+Num of Shifters (32-bit): 2
+Num of Registers (32-bit): 228
+===============================
+        Aladdin Results        
+===============================

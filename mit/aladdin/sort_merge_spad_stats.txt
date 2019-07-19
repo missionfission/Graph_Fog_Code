@@ -1,0 +1,33 @@
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 4, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 4, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 2, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 2, word size = 1, reads = 22528, writes = 22528
+===============
+Array: temp, size = 8192, partitions = 1, word size = 1, reads = 0, writes = 22528
+Array: a, size = 8192, partitions = 1, word size = 1, reads = 22528, writes = 22528
+===============

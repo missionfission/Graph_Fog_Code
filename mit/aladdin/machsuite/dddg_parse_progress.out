@@ -1,0 +1,7 @@
+   0%	(0.02 seconds elapsed, 127202 bytes/sec, -49 nodes/sec)
+   5%	(4.19 seconds elapsed, 1271352 bytes/sec, 124562 nodes/sec)
+  10%	(4.20 seconds elapsed, 1267520 bytes/sec, 124207 nodes/sec)
+  15%	(4.21 seconds elapsed, 1263476 bytes/sec, 123414 nodes/sec)
+  20%	(4.00 seconds elapsed, 1330785 bytes/sec, 130542 nodes/sec)
+  25%	(4.27 seconds elapsed, 1246495 bytes/sec, 122072 nodes/sec)
+  30%	(4.55 seconds elapsed, 1170282 bytes/sec, 114715 nodes/sec)

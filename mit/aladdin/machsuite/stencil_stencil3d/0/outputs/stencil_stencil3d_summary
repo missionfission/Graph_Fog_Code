@@ -1,0 +1,25 @@
+===============================
+        Aladdin Results        
+===============================
+Running : /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/0/outputs/stencil_stencil3d
+Top level function: stencil3d
+Cycle : 108400 cycles
+Avg Power: 8.79152 mW
+Idle FU Cycles: 94340 cycles
+Avg FU Power: 2.55684 mW
+Avg FU Dynamic Power: 1.71679 mW
+Avg FU leakage Power: 0.840047 mW
+Avg MEM Power: 6.23469 mW
+Avg MEM Dynamic Power: 4.94192 mW
+Avg MEM Leakage Power: 1.29277 mW
+Total Area: 382605 uM^2
+FU Area: 80163.5 uM^2
+MEM Area: 302442 uM^2
+Num of Multipliers (32-bit): 8
+Num of Adders (32-bit): 84
+Num of Bit-wise Operators (32-bit): 30
+Num of Shifters (32-bit): 31
+Num of Registers (32-bit): 77
+===============================
+        Aladdin Results        
+===============================

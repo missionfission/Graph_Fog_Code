@@ -1,0 +1,14 @@
+Array: input, size = 64822, partitions = 1, word size = 1, reads = 32411, writes = 0
+===============
+Array: input, size = 64822, partitions = 2, word size = 1, reads = 32411, writes = 0
+===============
+Array: input, size = 64822, partitions = 4, word size = 1, reads = 32411, writes = 0
+===============
+Array: input, size = 64822, partitions = 1, word size = 1, reads = 32411, writes = 0
+===============
+Array: input, size = 64822, partitions = 1, word size = 1, reads = 32411, writes = 0
+===============
+Array: input, size = 64822, partitions = 1, word size = 1, reads = 32411, writes = 0
+===============
+Array: input, size = 64822, partitions = 1, word size = 1, reads = 32411, writes = 0
+===============

@@ -1,0 +1,23 @@
+===============================
+        Aladdin Results        
+===============================
+Running : spmv_crs
+Top level function: spmv
+Cycle : 2172 cycles
+Avg Power: 72.4795 mW
+Idle FU Cycles: 272 cycles
+Avg FU Power: 63.2902 mW
+Avg FU Dynamic Power: 59.2375 mW
+Avg FU leakage Power: 4.05261 mW
+Avg MEM Power: 9.18931 mW
+Avg MEM Dynamic Power: 7.68931 mW
+Avg MEM Leakage Power: 1.5 mW
+Total Area: 886540 uM^2
+FU Area: 401823 uM^2
+MEM Area: 484716 uM^2
+Num of Double Precision FP Multipliers: 17
+Num of Double Precision FP Adders: 14
+Num of Registers (32-bit): 47
+===============================
+        Aladdin Results        
+===============================

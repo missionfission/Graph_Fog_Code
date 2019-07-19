@@ -1,0 +1,65 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+[WARNING]: Overlapping array declarations found!
+  init: 0x1a7bb90 - 0x1a7bd90
+  emission: 0x1a83d90 - 0x1a8bd90
+[WARNING]: Overlapping array declarations found!
+  init: 0x1a7bb90 - 0x1a7bd90
+  transition: 0x1a7bd90 - 0x1a83d90
+[WARNING]: Overlapping array declarations found!
+  init: 0x1a7bb90 - 0x1a7bd90
+  llike: 0x7ffc405dcb90 - 0x405e4b90
+[WARNING]: Overlapping array declarations found!
+  init: 0x1a7bb90 - 0x1a7bd90
+  path: 0x1a8bd90 - 0x1a8be1c
+[WARNING]: Overlapping array declarations found!
+  emission: 0x1a83d90 - 0x1a8bd90
+  llike: 0x7ffc405dcb90 - 0x405e4b90
+[WARNING]: Overlapping array declarations found!
+  emission: 0x1a83d90 - 0x1a8bd90
+  path: 0x1a8bd90 - 0x1a8be1c
+[WARNING]: Overlapping array declarations found!
+  transition: 0x1a7bd90 - 0x1a83d90
+  emission: 0x1a83d90 - 0x1a8bd90
+[WARNING]: Overlapping array declarations found!
+  transition: 0x1a7bd90 - 0x1a83d90
+  llike: 0x7ffc405dcb90 - 0x405e4b90
+[WARNING]: Overlapping array declarations found!
+  transition: 0x1a7bd90 - 0x1a83d90
+  path: 0x1a8bd90 - 0x1a8be1c
+[WARNING]: Overlapping array declarations found!
+  obs: 0x1a7bb00 - 0x1a7bb8c
+  init: 0x1a7bb90 - 0x1a7bd90
+[WARNING]: Overlapping array declarations found!
+  obs: 0x1a7bb00 - 0x1a7bb8c
+  emission: 0x1a83d90 - 0x1a8bd90
+[WARNING]: Overlapping array declarations found!
+  obs: 0x1a7bb00 - 0x1a7bb8c
+  transition: 0x1a7bd90 - 0x1a83d90
+[WARNING]: Overlapping array declarations found!
+  obs: 0x1a7bb00 - 0x1a7bb8c
+  llike: 0x7ffc405dcb90 - 0x405e4b90
+[WARNING]: Overlapping array declarations found!
+  obs: 0x1a7bb00 - 0x1a7bb8c
+  path: 0x1a8bd90 - 0x1a8be1c
+[WARNING]: Overlapping array declarations found!
+  path: 0x1a8bd90 - 0x1a8be1c
+  llike: 0x7ffc405dcb90 - 0x405e4b90
+[WARNING]: Overlapping array declarations found!
+  path: 0x1a8bd90 - 0x1a8be1c
+  obs: 0x1a7bb00 - 0x1a7bb8c
+Overlapping array address ranges can lead to incorrect behavior, such as DMA nodes trying to access the wrong arrays, ACP accessing the wrong memory, etc. Please check your Aladdin configuration file and the mapArrayToAccelerator() calls to verify that they are correct.
+Global loop pipelining is not ON.
+info: Entering event queue @ 0.  Starting simulation...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/workspace/gem5-aladdin/src/python/m5/main.py", line 446, in main
+    exec filecode in scope
+  File "/workspace/gem5-aladdin/configs/aladdin/aladdin_se.py", line 355, in <module>
+    Simulation.run(options, root, system, FutureClass)
+  File "/workspace/gem5-aladdin/configs/common/Simulation.py", line 740, in run
+    exit_event = dumpStatsInterval(options, maxtick)
+  File "/workspace/gem5-aladdin/configs/common/Simulation.py", line 274, in dumpStatsInterval
+    exit_event = m5.simulate(maxtick - m5.curTick())
+  File "/workspace/gem5-aladdin/src/python/m5/simulate.py", line 176, in simulate
+    return _m5.event.simulate(*args, **kwargs)
+IndexError: vector::_M_range_check: __n (which is 27124767) >= this->size() (which is 27124767)

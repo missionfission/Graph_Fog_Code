@@ -1,0 +1,23 @@
+===============================
+        Aladdin Results        
+===============================
+Running : fft
+Top level function: fft
+Cycle : 155735 cycles
+Avg Power: 534.681 mW
+Idle FU Cycles: 4103 cycles
+Avg FU Power: 456.227 mW
+Avg FU Dynamic Power: 304.08 mW
+Avg FU leakage Power: 152.146 mW
+Avg MEM Power: 78.4545 mW
+Avg MEM Dynamic Power: 77.0382 mW
+Avg MEM Leakage Power: 1.41629 mW
+Total Area: 1.29068e+07 uM^2
+FU Area: 1.22952e+07 uM^2
+MEM Area: 611546 uM^2
+Num of Double Precision FP Multipliers: 20
+Num of Double Precision FP Adders: 10
+Num of Registers (32-bit): 61393
+===============================
+        Aladdin Results        
+===============================

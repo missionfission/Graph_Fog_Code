@@ -1,0 +1,461 @@
+#Submit this file in the directory where the input and output files live
+Universe        = vanilla
+# With the following setting, Condor will try to copy and use the environ-
+# ment of the submitter, provided its not too large.
+GetEnv          = True
+# This forces the jobs to be run on the less crowded server
+Requirements    = (OpSys == "LINUX") && (Arch == "X86_64") && ( TotalMemory > 128000)
+# Change the email address to suit yourself
+Notification    = Error
+Executable = /bin/bash
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/0/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/1
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/1/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/1/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/2
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/2/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/2/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_grid/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/viterbi_viterbi/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil2d/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_ncubed/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_transpose/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_crs/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_queue/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/aes_aes/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/md_knn/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/kmp_kmp/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/nw_nw/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/spmv_ellpack/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/bfs_bulk/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/stencil_stencil3d/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_radix/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/gemm_blocked/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/fft_strided/3/log
+Queue
+
+InitialDir = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/3
+Arguments = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/3/run.sh
+Log = /workspace/gem5-aladdin/sweeps/machsuite/sort_merge/3/log
+Queue
+

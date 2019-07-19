@@ -1,0 +1,18 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+[WARNING]: Overlapping array declarations found!
+  force: 0x91cc00 - 0x920800
+  position: 0x920800 - 0x924400
+[WARNING]: Overlapping array declarations found!
+  n_points: 0x91cb00 - 0x91cc00
+  force: 0x91cc00 - 0x920800
+[WARNING]: Overlapping array declarations found!
+  n_points: 0x91cb00 - 0x91cc00
+  position: 0x920800 - 0x924400
+[WARNING]: Overlapping array declarations found!
+  position: 0x920800 - 0x924400
+  n_points: 0x91cb00 - 0x91cc00
+Overlapping array address ranges can lead to incorrect behavior, such as DMA nodes trying to access the wrong arrays, ACP accessing the wrong memory, etc. Please check your Aladdin configuration file and the mapArrayToAccelerator() calls to verify that they are correct.
+Global loop pipelining is not ON.
+info: Entering event queue @ 0.  Starting simulation...
+ Current power model supports trig functions running at 10 ns. 
+ Cycle time: 2 is not supported yet. Use 10ns power model instead.

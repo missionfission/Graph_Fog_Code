@@ -1,0 +1,643 @@
+
+---------- Begin Simulation Statistics ----------
+sim_seconds                                  0.000646                       # Number of seconds simulated
+sim_ticks                                   645556000                       # Number of ticks simulated
+final_tick                                  645556000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+sim_freq                                 1000000000000                       # Frequency of simulated ticks
+host_tick_rate                              281360545                       # Simulator tick rate (ticks/s)
+host_mem_usage                                5135248                       # Number of bytes of host memory used
+host_seconds                                     2.29                       # Real time elapsed on the host
+system.voltage_domain.voltage                       1                       # Voltage in Volts
+system.clk_domain.clock                          2004                       # Clock period in ticks
+system.mem_ctrls.pwrStateResidencyTicks::UNDEFINED    645556000                       # Cumulative time (in ticks) in various power states
+system.mem_ctrls.bytes_read::.fft_strided_datapath.system.fft_strided_datapath.cache        60288                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::.fft_strided_datapath.cache.prefetcher       432576                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::total             492864                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_written::.writebacks       105984                       # Number of bytes written to this memory
+system.mem_ctrls.bytes_written::total          105984                       # Number of bytes written to this memory
+system.mem_ctrls.num_reads::.fft_strided_datapath.system.fft_strided_datapath.cache         1884                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::.fft_strided_datapath.cache.prefetcher        13518                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::total               15402                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_writes::.writebacks         3312                       # Number of write requests responded to by this memory
+system.mem_ctrls.num_writes::total               3312                       # Number of write requests responded to by this memory
+system.mem_ctrls.bw_read::.fft_strided_datapath.system.fft_strided_datapath.cache     93389264                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::.fft_strided_datapath.cache.prefetcher    670082843                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::total             763472108                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::.writebacks      164174758                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::total            164174758                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_total::.writebacks      164174758                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.fft_strided_datapath.system.fft_strided_datapath.cache     93389264                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.fft_strided_datapath.cache.prefetcher    670082843                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::total            927646866                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.avgPriority_.writebacks::samples      1733.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.avgPriority_.fft_strided_datapath.system.fft_strided_datapath.cache::samples      1355.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.avgPriority_.fft_strided_datapath.cache.prefetcher::samples     13223.00                       # Average QoS priority value for accepted requests
+system.mem_ctrls.priorityMinLatency      0.000000018750                       # per QoS priority minimum request to response latency (s)
+system.mem_ctrls.priorityMaxLatency      0.000117569000                       # per QoS priority maximum request to response latency (s)
+system.mem_ctrls.numReadWriteTurnArounds           94                       # Number of turnarounds from READ to WRITE
+system.mem_ctrls.numWriteReadTurnArounds           94                       # Number of turnarounds from WRITE to READ
+system.mem_ctrls.numStayReadState               27491                       # Number of times bus staying in READ state
+system.mem_ctrls.numStayWriteState               1624                       # Number of times bus staying in WRITE state
+system.mem_ctrls.readReqs                       15402                       # Number of read requests accepted
+system.mem_ctrls.writeReqs                       3312                       # Number of write requests accepted
+system.mem_ctrls.readBursts                     15402                       # Number of DRAM read bursts, including those serviced by the write queue
+system.mem_ctrls.writeBursts                     3312                       # Number of DRAM write bursts, including those merged in the write queue
+system.mem_ctrls.bytesReadDRAM                 932992                       # Total number of bytes read from DRAM
+system.mem_ctrls.bytesReadWrQ                   52736                       # Total number of bytes read from write queue
+system.mem_ctrls.bytesWritten                  109120                       # Total number of bytes written to DRAM
+system.mem_ctrls.bytesReadSys                  492864                       # Total read bytes from the system interface side
+system.mem_ctrls.bytesWrittenSys               105984                       # Total written bytes from the system interface side
+system.mem_ctrls.servicedByWrQ                    824                       # Number of DRAM read bursts serviced by the write queue
+system.mem_ctrls.mergedWrBursts                  1579                       # Number of DRAM write bursts merged with an existing one
+system.mem_ctrls.neitherReadNorWriteReqs            0                       # Number of requests that are neither read nor write
+system.mem_ctrls.perBankRdBursts::0                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::1                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::2                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::3                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::4                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::5                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::6                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::7                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::8                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::9                 0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::10                0                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::11              794                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::12             4971                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::13             5009                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::14             3804                       # Per bank write bursts
+system.mem_ctrls.perBankRdBursts::15                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::0                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::1                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::2                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::3                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::4                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::5                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::6                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::7                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::8                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::9                 0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::10                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::11              179                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::12              843                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::13              683                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::14                0                       # Per bank write bursts
+system.mem_ctrls.perBankWrBursts::15                0                       # Per bank write bursts
+system.mem_ctrls.numRdRetry                         0                       # Number of times read queue was full causing retry
+system.mem_ctrls.numWrRetry                         0                       # Number of times write queue was full causing retry
+system.mem_ctrls.totGap                     645436000                       # Total gap between requests
+system.mem_ctrls.readPktSize::0                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::1                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::2                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::3                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::4                     0                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::5                 15402                       # Read request sizes (log2)
+system.mem_ctrls.readPktSize::6                     0                       # Read request sizes (log2)
+system.mem_ctrls.writePktSize::0                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::1                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::2                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::3                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::4                    0                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::5                 3312                       # Write request sizes (log2)
+system.mem_ctrls.writePktSize::6                    0                       # Write request sizes (log2)
+system.mem_ctrls.rdQLenPdf::0                    2063                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::1                    1757                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::2                    1200                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::3                    1247                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::4                    1430                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::5                    1564                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::6                    1072                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::7                     989                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::8                     945                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::9                     795                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::10                    698                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::11                    515                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::12                    272                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::13                     30                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::14                      1                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::15                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::16                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::17                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::18                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::19                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::20                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::21                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::22                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::23                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::24                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::25                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::26                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::27                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::28                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::29                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::30                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.rdQLenPdf::31                      0                       # What read queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::0                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::1                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::2                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::3                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::4                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::5                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::6                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::7                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::8                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::9                       1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::10                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::11                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::12                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::13                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::14                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::15                     63                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::16                     69                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::17                     78                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::18                     88                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::19                     89                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::20                     97                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::21                     98                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::22                     96                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::23                    100                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::24                    102                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::25                    104                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::26                    115                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::27                    127                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::28                     98                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::29                     98                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::30                     96                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::31                     96                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::32                     96                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::33                      6                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::34                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::35                      1                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::36                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::37                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::38                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::39                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::40                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::41                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::42                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::43                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::44                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::45                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::46                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::47                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::48                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::49                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::50                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::51                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::52                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::53                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::54                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::55                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::56                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::57                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::58                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::59                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::60                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::61                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::62                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.wrQLenPdf::63                      0                       # What write queue length does an incoming req see
+system.mem_ctrls.bytesPerActivate::samples         1140                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::mean    913.515789                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::gmean   827.670173                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::stdev   258.756784                       # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::0-127           22      1.93%      1.93% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::128-255           45      3.95%      5.88% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::256-383           31      2.72%      8.60% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::384-511           26      2.28%     10.88% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::512-639           20      1.75%     12.63% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::640-767           20      1.75%     14.39% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::768-895           27      2.37%     16.75% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::896-1023           37      3.25%     20.00% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::1024-1151          912     80.00%    100.00% # Bytes accessed per row activation
+system.mem_ctrls.bytesPerActivate::total         1140                       # Bytes accessed per row activation
+system.mem_ctrls.rdPerTurnAround::samples           94                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::mean     154.840426                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::gmean     57.105352                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::stdev    283.354154                       # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::0-63             72     76.60%     76.60% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::64-127            6      6.38%     82.98% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::192-255            1      1.06%     84.04% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::448-511            2      2.13%     86.17% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::576-639            1      1.06%     87.23% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::704-767            7      7.45%     94.68% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::768-831            3      3.19%     97.87% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::832-895            1      1.06%     98.94% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::1536-1599            1      1.06%    100.00% # Reads before turning the bus around for writes
+system.mem_ctrls.rdPerTurnAround::total            94                       # Reads before turning the bus around for writes
+system.mem_ctrls.wrPerTurnAround::samples           94                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::mean      18.138298                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::gmean     18.055862                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::stdev      1.745046                       # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::16               28     29.79%     29.79% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::17                3      3.19%     32.98% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::18               27     28.72%     61.70% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::19               12     12.77%     74.47% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::20               13     13.83%     88.30% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::21               10     10.64%     98.94% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::22                1      1.06%    100.00% # Writes before turning the bus around for reads
+system.mem_ctrls.wrPerTurnAround::total            94                       # Writes before turning the bus around for reads
+system.mem_ctrls.masterReadBytes::.fft_strided_datapath.system.fft_strided_datapath.cache        43360                       # Per-master bytes read from memory
+system.mem_ctrls.masterReadBytes::.fft_strided_datapath.cache.prefetcher       423136                       # Per-master bytes read from memory
+system.mem_ctrls.masterWriteBytes::.writebacks        54560                       # Per-master bytes write to memory
+system.mem_ctrls.masterReadRate::.fft_strided_datapath.system.fft_strided_datapath.cache 67166907.286122351885                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrls.masterReadRate::.fft_strided_datapath.cache.prefetcher 655459789.700661063194                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrls.masterWriteRate::.writebacks 84516292.931984201074                       # Per-master bytes write to memory rate (Bytes/sec)
+system.mem_ctrls.masterReadAccesses::.fft_strided_datapath.system.fft_strided_datapath.cache         1884                       # Per-master read serviced memory accesses
+system.mem_ctrls.masterReadAccesses::.fft_strided_datapath.cache.prefetcher        13518                       # Per-master read serviced memory accesses
+system.mem_ctrls.masterWriteAccesses::.writebacks         3312                       # Per-master write serviced memory accesses
+system.mem_ctrls.masterReadTotalLat::.fft_strided_datapath.system.fft_strided_datapath.cache     46167856                       # Per-master read total memory access latency
+system.mem_ctrls.masterReadTotalLat::.fft_strided_datapath.cache.prefetcher    640392584                       # Per-master read total memory access latency
+system.mem_ctrls.masterWriteTotalLat::.writebacks  13125854253                       # Per-master write total memory access latency
+system.mem_ctrls.masterReadAvgLat::.fft_strided_datapath.system.fft_strided_datapath.cache     24505.23                       # Per-master read average memory access latency
+system.mem_ctrls.masterReadAvgLat::.fft_strided_datapath.cache.prefetcher     47373.32                       # Per-master read average memory access latency
+system.mem_ctrls.masterWriteAvgLat::.writebacks   3963120.25                       # Per-master write average memory access latency
+system.mem_ctrls.totQLat                    413222940                       # Total ticks spent queuing
+system.mem_ctrls.totMemAccLat               686560440                       # Total ticks spent from burst creation until serviced by the DRAM
+system.mem_ctrls.totBusLat                   72890000                       # Total ticks spent in databus transfers
+system.mem_ctrls.avgQLat                     28345.65                       # Average queueing delay per DRAM burst
+system.mem_ctrls.avgBusLat                    5000.00                       # Average bus latency per DRAM burst
+system.mem_ctrls.avgMemAccLat                47095.65                       # Average memory access latency per DRAM burst
+system.mem_ctrls.avgRdBW                      1445.25                       # Average DRAM read bandwidth in MiByte/s
+system.mem_ctrls.avgWrBW                       169.03                       # Average achieved write bandwidth in MiByte/s
+system.mem_ctrls.avgRdBWSys                    763.47                       # Average system read bandwidth in MiByte/s
+system.mem_ctrls.avgWrBWSys                    164.17                       # Average system write bandwidth in MiByte/s
+system.mem_ctrls.peakBW                      12800.00                       # Theoretical peak bandwidth in MiByte/s
+system.mem_ctrls.busUtil                        12.61                       # Data bus utilization in percentage
+system.mem_ctrls.busUtilRead                    11.29                       # Data bus utilization in percentage for reads
+system.mem_ctrls.busUtilWrite                    1.32                       # Data bus utilization in percentage for writes
+system.mem_ctrls.avgRdQLen                       3.05                       # Average read queue length when enqueuing
+system.mem_ctrls.avgWrQLen                      24.52                       # Average write queue length when enqueuing
+system.mem_ctrls.readRowHits                    13501                       # Number of row buffer hits during reads
+system.mem_ctrls.writeRowHits                    1640                       # Number of row buffer hits during writes
+system.mem_ctrls.readRowHitRate                 92.61                       # Row buffer hit rate for reads
+system.mem_ctrls.writeRowHitRate                94.63                       # Row buffer hit rate for writes
+system.mem_ctrls.avgGap                      34489.47                       # Average gap between requests
+system.mem_ctrls.pageHitRate                    92.83                       # Row buffer hit rate, read and write combined
+system.mem_ctrls_0.actEnergy                        0                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_0.preEnergy                        0                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_0.readEnergy                       0                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_0.writeEnergy                      0                       # Energy for write commands per rank (pJ)
+system.mem_ctrls_0.refreshEnergy         614640.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_0.actBackEnergy               112290                       # Energy for active background per rank (pJ)
+system.mem_ctrls_0.preBackEnergy              2997600                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_0.actPowerDownEnergy               0                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_0.prePowerDownEnergy         2890080                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_0.selfRefreshEnergy        151746840                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_0.totalEnergy              158361450                       # Total energy per rank (pJ)
+system.mem_ctrls_0.averagePower            245.310167                       # Core power per rank (mW)
+system.mem_ctrls_0.totalIdleTime              7526250                       # Total Idle time Per DRAM Rank
+system.mem_ctrls_0.memoryStateTime::IDLE      7792250                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::REF        260000                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::SREF    629977500                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::PRE_PDN      7526250                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::ACT             0                       # Time in different power states
+system.mem_ctrls_0.memoryStateTime::ACT_PDN            0                       # Time in different power states
+system.mem_ctrls_1.actEnergy                  8153880                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_1.preEnergy                  4326300                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_1.readEnergy               104086920                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_1.writeEnergy                8900100                       # Energy for write commands per rank (pJ)
+system.mem_ctrls_1.refreshEnergy         49171200.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_1.actBackEnergy             90409980                       # Energy for active background per rank (pJ)
+system.mem_ctrls_1.preBackEnergy              1344480                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_1.actPowerDownEnergy       169226160                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_1.prePowerDownEnergy        20083200                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_1.selfRefreshEnergy          6547320                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_1.totalEnergy              462249540                       # Total energy per rank (pJ)
+system.mem_ctrls_1.averagePower            716.048708                       # Core power per rank (mW)
+system.mem_ctrls_1.totalIdleTime            443803304                       # Total Idle time Per DRAM Rank
+system.mem_ctrls_1.memoryStateTime::IDLE      1278000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::REF      20800000                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::SREF     20378014                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::PRE_PDN     52293068                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::ACT     179629452                       # Time in different power states
+system.mem_ctrls_1.memoryStateTime::ACT_PDN    371177466                       # Time in different power states
+system.pwrStateResidencyTicks::UNDEFINED    645556000                       # Cumulative time (in ticks) in various power states
+system.cpu_voltage_domain.voltage                   1                       # Voltage in Volts
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+system.fft_strided_datapath.clk_domain.clock         2000                       # Clock period in ticks
+system.fft_strided_datapath.pwrStateResidencyTicks::UNDEFINED    645556000                       # Cumulative time (in ticks) in various power states
+system.fft_strided_datapath.cache_queue_reads            0                       # Number of reads to the fft_strided_datapath.cache_queue
+system.fft_strided_datapath.cache_queue_writes            0                       # Number of writes to the fft_strided_datapath.cache_queue
+system.fft_strided_datapath.total_dcache_loads        26626                       # Total number of dcache loads
+system.fft_strided_datapath.total_dcache_stores        21153                       # Total number of dcache stores.
+system.fft_strided_datapath.dcache_latency::samples        47779                       # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::mean  4820.402018                       # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::gmean  2304.104392                       # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::stdev 15448.088677                       # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::0-16383        45872     96.01%     96.01% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::16384-32767           12      0.03%     96.03% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::32768-49151          448      0.94%     96.97% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::49152-65535           87      0.18%     97.15% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::65536-81919          763      1.60%     98.75% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::81920-98303          480      1.00%     99.76% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::98304-114687           58      0.12%     99.88% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::114688-131071           24      0.05%     99.93% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::131072-147455            4      0.01%     99.94% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::147456-163839            5      0.01%     99.95% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::163840-180223            0      0.00%     99.95% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::180224-196607            0      0.00%     99.95% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::196608-212991            1      0.00%     99.95% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::212992-229375            1      0.00%     99.95% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::229376-245759            2      0.00%     99.95% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::245760-262143            2      0.00%     99.96% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::262144-278527            2      0.00%     99.96% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::278528-294911            1      0.00%     99.96% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::294912-311295            4      0.01%     99.97% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::311296-327679            3      0.01%     99.98% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::327680-344063            5      0.01%     99.99% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::344064-360447            2      0.00%     99.99% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::360448-376831            2      0.00%    100.00% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::376832-393215            0      0.00%    100.00% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::393216-409599            1      0.00%    100.00% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::409600-425983            0      0.00%    100.00% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::425984-442367            0      0.00%    100.00% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::442368-458751            0      0.00%    100.00% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::458752-475135            0      0.00%    100.00% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::475136-491519            0      0.00%    100.00% # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_latency::total        47779                       # Histogram of dcache total access latency
+system.fft_strided_datapath.dcache_queue_time::samples        47778                       # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::mean 42327.724057                       # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::gmean 42319.563068                       # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::stdev   897.078078                       # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::0-4095            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::4096-8191            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::8192-12287            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::12288-16383            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::16384-20479            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::20480-24575            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::24576-28671            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::28672-32767            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::32768-36863            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::36864-40959            0      0.00%      0.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::40960-45055        47771     99.99%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::45056-49151            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::49152-53247            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::53248-57343            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::57344-61439            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::61440-65535            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::65536-69631            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::69632-73727            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::73728-77823            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::77824-81919            0      0.00%     99.99% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::81920-86015            7      0.01%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::86016-90111            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::90112-94207            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::94208-98303            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::98304-102399            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::102400-106495            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::106496-110591            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::110592-114687            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::114688-118783            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::118784-122879            0      0.00%    100.00% # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.dcache_queue_time::total        47778                       # Histogram of time dcache request spent in queue
+system.fft_strided_datapath.total_acp_loads            0                       # Total number of ACP loads
+system.fft_strided_datapath.total_acp_stores            0                       # Total number of ACP stores.
+system.fft_strided_datapath.acp_latency::samples            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::mean          nan                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::gmean          nan                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::stdev          nan                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::0            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::1            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::2            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::3            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::4            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::5            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::6            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::7            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::8            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::9            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::10            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::11            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::12            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::13            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::14            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::15            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::16            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::17            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::18            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::19            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::20            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::21            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::22            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::23            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::24            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::25            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::26            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::27            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::28            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::29            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_latency::total            0                       # Histogram of ACP transaction total latency
+system.fft_strided_datapath.acp_queue_time::samples            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::mean          nan                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::gmean          nan                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::stdev          nan                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::0            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::1            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::2            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::3            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::4            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::5            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::6            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::7            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::8            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::9            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::10            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::11            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::12            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::13            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::14            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::15            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::16            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::17            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::18            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::19            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::20            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::21            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::22            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::23            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::24            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::25            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::26            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::27            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::28            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::29            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.acp_queue_time::total            0                       # Histogram of time ACP request spent in queue
+system.fft_strided_datapath.dma_setup_cycles           15                       # Total number of cycles spent on setting up DMA transfers.
+system.fft_strided_datapath.sim_cycles         322763                       # Total accelerator cycles
+system.fft_strided_datapath.tlb.hits            47779                       # TLB hits
+system.fft_strided_datapath.tlb.misses              7                       # TLB misses
+system.fft_strided_datapath.tlb.reads           47786                       # TLB reads
+system.fft_strided_datapath.tlb.updates             7                       # TLB updates
+system.fft_strided_datapath.tlb.hitRate      0.999854                       # TLB hit rate
+system.fft_strided_datapath.cache.prefetcher.pwrStateResidencyTicks::UNDEFINED    645556000                       # Cumulative time (in ticks) in various power states
+system.fft_strided_datapath.cache.prefetcher.num_hwpf_issued       261131                       # number of hwpf issued
+system.fft_strided_datapath.cache.prefetcher.pfIdentified       345281                       # number of prefetch candidates identified
+system.fft_strided_datapath.cache.prefetcher.pfBufferHit        46002                       # number of redundant prefetches already in prefetch queue
+system.fft_strided_datapath.cache.prefetcher.pfInCache            0                       # number of redundant prefetches already in cache/mshr dropped
+system.fft_strided_datapath.cache.prefetcher.pfRemovedFull        37586                       # number of prefetches dropped due to prefetch queue size
+system.fft_strided_datapath.cache.prefetcher.pfSpanPage        22175                       # number of prefetches not generated due to page crossing
+system.fft_strided_datapath.cache.tags.pwrStateResidencyTicks::UNDEFINED    645556000                       # Cumulative time (in ticks) in various power states
+system.fft_strided_datapath.cache.tags.tagsinuse   466.512578                       # Cycle average of tags in use
+system.fft_strided_datapath.cache.tags.total_refs        61263                       # Total number of references to valid blocks.
+system.fft_strided_datapath.cache.tags.sampled_refs        15402                       # Sample count of references to valid blocks.
+system.fft_strided_datapath.cache.tags.avg_refs     3.977600                       # Average number of references to valid blocks.
+system.fft_strided_datapath.cache.tags.warmup_cycle       194388                       # Cycle when the warmup percentage was hit.
+system.fft_strided_datapath.cache.tags.occ_blocks::.fft_strided_datapath.system.fft_strided_datapath.cache    78.591685                       # Average occupied blocks per requestor
+system.fft_strided_datapath.cache.tags.occ_blocks::.fft_strided_datapath.cache.prefetcher   387.920893                       # Average occupied blocks per requestor
+system.fft_strided_datapath.cache.tags.occ_percent::.fft_strided_datapath.system.fft_strided_datapath.cache     0.153499                       # Average percentage of cache occupancy
+system.fft_strided_datapath.cache.tags.occ_percent::.fft_strided_datapath.cache.prefetcher     0.757658                       # Average percentage of cache occupancy
+system.fft_strided_datapath.cache.tags.occ_percent::total     0.911157                       # Average percentage of cache occupancy
+system.fft_strided_datapath.cache.tags.occ_task_id_blocks::1022          504                       # Occupied blocks per task id
+system.fft_strided_datapath.cache.tags.occ_task_id_blocks::1024            8                       # Occupied blocks per task id
+system.fft_strided_datapath.cache.tags.age_task_id_blocks_1022::0           13                       # Occupied blocks per task id
+system.fft_strided_datapath.cache.tags.age_task_id_blocks_1022::1           38                       # Occupied blocks per task id
+system.fft_strided_datapath.cache.tags.age_task_id_blocks_1022::2          453                       # Occupied blocks per task id
+system.fft_strided_datapath.cache.tags.age_task_id_blocks_1024::2            8                       # Occupied blocks per task id
+system.fft_strided_datapath.cache.tags.occ_task_id_percent::1022     0.984375                       # Percentage of cache occupancy per task id
+system.fft_strided_datapath.cache.tags.occ_task_id_percent::1024     0.015625                       # Percentage of cache occupancy per task id
+system.fft_strided_datapath.cache.tags.tag_accesses       206518                       # Number of tag accesses
+system.fft_strided_datapath.cache.tags.data_accesses       206518                       # Number of data accesses
+system.fft_strided_datapath.cache.pwrStateResidencyTicks::UNDEFINED    645556000                       # Cumulative time (in ticks) in various power states
+system.fft_strided_datapath.cache.ReadReq_hits::.fft_strided_datapath.system.fft_strided_datapath.cache        25461                       # number of ReadReq hits
+system.fft_strided_datapath.cache.ReadReq_hits::total        25461                       # number of ReadReq hits
+system.fft_strided_datapath.cache.WriteReq_hits::.fft_strided_datapath.system.fft_strided_datapath.cache        20400                       # number of WriteReq hits
+system.fft_strided_datapath.cache.WriteReq_hits::total        20400                       # number of WriteReq hits
+system.fft_strided_datapath.cache.demand_hits::.fft_strided_datapath.system.fft_strided_datapath.cache        45861                       # number of demand (read+write) hits
+system.fft_strided_datapath.cache.demand_hits::total        45861                       # number of demand (read+write) hits
+system.fft_strided_datapath.cache.overall_hits::.fft_strided_datapath.system.fft_strided_datapath.cache        45861                       # number of overall hits
+system.fft_strided_datapath.cache.overall_hits::total        45861                       # number of overall hits
+system.fft_strided_datapath.cache.ReadReq_misses::.fft_strided_datapath.system.fft_strided_datapath.cache         1165                       # number of ReadReq misses
+system.fft_strided_datapath.cache.ReadReq_misses::total         1165                       # number of ReadReq misses
+system.fft_strided_datapath.cache.WriteReq_misses::.fft_strided_datapath.system.fft_strided_datapath.cache          753                       # number of WriteReq misses
+system.fft_strided_datapath.cache.WriteReq_misses::total          753                       # number of WriteReq misses
+system.fft_strided_datapath.cache.demand_misses::.fft_strided_datapath.system.fft_strided_datapath.cache         1918                       # number of demand (read+write) misses
+system.fft_strided_datapath.cache.demand_misses::total         1918                       # number of demand (read+write) misses
+system.fft_strided_datapath.cache.overall_misses::.fft_strided_datapath.system.fft_strided_datapath.cache         1918                       # number of overall misses
+system.fft_strided_datapath.cache.overall_misses::total         1918                       # number of overall misses
+system.fft_strided_datapath.cache.ReadReq_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache     89346000                       # number of ReadReq miss cycles
+system.fft_strided_datapath.cache.ReadReq_miss_latency::total     89346000                       # number of ReadReq miss cycles
+system.fft_strided_datapath.cache.WriteReq_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache     49128000                       # number of WriteReq miss cycles
+system.fft_strided_datapath.cache.WriteReq_miss_latency::total     49128000                       # number of WriteReq miss cycles
+system.fft_strided_datapath.cache.demand_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache    138474000                       # number of demand (read+write) miss cycles
+system.fft_strided_datapath.cache.demand_miss_latency::total    138474000                       # number of demand (read+write) miss cycles
+system.fft_strided_datapath.cache.overall_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache    138474000                       # number of overall miss cycles
+system.fft_strided_datapath.cache.overall_miss_latency::total    138474000                       # number of overall miss cycles
+system.fft_strided_datapath.cache.ReadReq_accesses::.fft_strided_datapath.system.fft_strided_datapath.cache        26626                       # number of ReadReq accesses(hits+misses)
+system.fft_strided_datapath.cache.ReadReq_accesses::total        26626                       # number of ReadReq accesses(hits+misses)
+system.fft_strided_datapath.cache.WriteReq_accesses::.fft_strided_datapath.system.fft_strided_datapath.cache        21153                       # number of WriteReq accesses(hits+misses)
+system.fft_strided_datapath.cache.WriteReq_accesses::total        21153                       # number of WriteReq accesses(hits+misses)
+system.fft_strided_datapath.cache.demand_accesses::.fft_strided_datapath.system.fft_strided_datapath.cache        47779                       # number of demand (read+write) accesses
+system.fft_strided_datapath.cache.demand_accesses::total        47779                       # number of demand (read+write) accesses
+system.fft_strided_datapath.cache.overall_accesses::.fft_strided_datapath.system.fft_strided_datapath.cache        47779                       # number of overall (read+write) accesses
+system.fft_strided_datapath.cache.overall_accesses::total        47779                       # number of overall (read+write) accesses
+system.fft_strided_datapath.cache.ReadReq_miss_rate::.fft_strided_datapath.system.fft_strided_datapath.cache     0.043754                       # miss rate for ReadReq accesses
+system.fft_strided_datapath.cache.ReadReq_miss_rate::total     0.043754                       # miss rate for ReadReq accesses
+system.fft_strided_datapath.cache.WriteReq_miss_rate::.fft_strided_datapath.system.fft_strided_datapath.cache     0.035598                       # miss rate for WriteReq accesses
+system.fft_strided_datapath.cache.WriteReq_miss_rate::total     0.035598                       # miss rate for WriteReq accesses
+system.fft_strided_datapath.cache.demand_miss_rate::.fft_strided_datapath.system.fft_strided_datapath.cache     0.040143                       # miss rate for demand accesses
+system.fft_strided_datapath.cache.demand_miss_rate::total     0.040143                       # miss rate for demand accesses
+system.fft_strided_datapath.cache.overall_miss_rate::.fft_strided_datapath.system.fft_strided_datapath.cache     0.040143                       # miss rate for overall accesses
+system.fft_strided_datapath.cache.overall_miss_rate::total     0.040143                       # miss rate for overall accesses
+system.fft_strided_datapath.cache.ReadReq_avg_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache 76691.845494                       # average ReadReq miss latency
+system.fft_strided_datapath.cache.ReadReq_avg_miss_latency::total 76691.845494                       # average ReadReq miss latency
+system.fft_strided_datapath.cache.WriteReq_avg_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache 65243.027888                       # average WriteReq miss latency
+system.fft_strided_datapath.cache.WriteReq_avg_miss_latency::total 65243.027888                       # average WriteReq miss latency
+system.fft_strided_datapath.cache.demand_avg_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache 72197.080292                       # average overall miss latency
+system.fft_strided_datapath.cache.demand_avg_miss_latency::total 72197.080292                       # average overall miss latency
+system.fft_strided_datapath.cache.overall_avg_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache 72197.080292                       # average overall miss latency
+system.fft_strided_datapath.cache.overall_avg_miss_latency::total 72197.080292                       # average overall miss latency
+system.fft_strided_datapath.cache.blocked_cycles::no_mshrs           16                       # number of cycles access was blocked
+system.fft_strided_datapath.cache.blocked_cycles::no_targets            0                       # number of cycles access was blocked
+system.fft_strided_datapath.cache.blocked::no_mshrs            2                       # number of cycles access was blocked
+system.fft_strided_datapath.cache.blocked::no_targets            0                       # number of cycles access was blocked
+system.fft_strided_datapath.cache.avg_blocked_cycles::no_mshrs            8                       # average number of cycles each access was blocked
+system.fft_strided_datapath.cache.avg_blocked_cycles::no_targets          nan                       # average number of cycles each access was blocked
+system.fft_strided_datapath.cache.unused_prefetches        10274                       # number of HardPF blocks evicted w/o reference
+system.fft_strided_datapath.cache.writebacks::.writebacks         3312                       # number of writebacks
+system.fft_strided_datapath.cache.writebacks::total         3312                       # number of writebacks
+system.fft_strided_datapath.cache.ReadReq_mshr_hits::.fft_strided_datapath.system.fft_strided_datapath.cache           34                       # number of ReadReq MSHR hits
+system.fft_strided_datapath.cache.ReadReq_mshr_hits::total           34                       # number of ReadReq MSHR hits
+system.fft_strided_datapath.cache.demand_mshr_hits::.fft_strided_datapath.system.fft_strided_datapath.cache           34                       # number of demand (read+write) MSHR hits
+system.fft_strided_datapath.cache.demand_mshr_hits::total           34                       # number of demand (read+write) MSHR hits
+system.fft_strided_datapath.cache.overall_mshr_hits::.fft_strided_datapath.system.fft_strided_datapath.cache           34                       # number of overall MSHR hits
+system.fft_strided_datapath.cache.overall_mshr_hits::total           34                       # number of overall MSHR hits
+system.fft_strided_datapath.cache.ReadReq_mshr_misses::.fft_strided_datapath.system.fft_strided_datapath.cache         1131                       # number of ReadReq MSHR misses
+system.fft_strided_datapath.cache.ReadReq_mshr_misses::total         1131                       # number of ReadReq MSHR misses
+system.fft_strided_datapath.cache.WriteReq_mshr_misses::.fft_strided_datapath.system.fft_strided_datapath.cache          753                       # number of WriteReq MSHR misses
+system.fft_strided_datapath.cache.WriteReq_mshr_misses::total          753                       # number of WriteReq MSHR misses
+system.fft_strided_datapath.cache.HardPFReq_mshr_misses::.fft_strided_datapath.cache.prefetcher        13518                       # number of HardPFReq MSHR misses
+system.fft_strided_datapath.cache.HardPFReq_mshr_misses::total        13518                       # number of HardPFReq MSHR misses
+system.fft_strided_datapath.cache.demand_mshr_misses::.fft_strided_datapath.system.fft_strided_datapath.cache         1884                       # number of demand (read+write) MSHR misses
+system.fft_strided_datapath.cache.demand_mshr_misses::total         1884                       # number of demand (read+write) MSHR misses
+system.fft_strided_datapath.cache.overall_mshr_misses::.fft_strided_datapath.system.fft_strided_datapath.cache         1884                       # number of overall MSHR misses
+system.fft_strided_datapath.cache.overall_mshr_misses::.fft_strided_datapath.cache.prefetcher        13518                       # number of overall MSHR misses
+system.fft_strided_datapath.cache.overall_mshr_misses::total        15402                       # number of overall MSHR misses
+system.fft_strided_datapath.cache.ReadReq_mshr_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache     84219292                       # number of ReadReq MSHR miss cycles
+system.fft_strided_datapath.cache.ReadReq_mshr_miss_latency::total     84219292                       # number of ReadReq MSHR miss cycles
+system.fft_strided_datapath.cache.WriteReq_mshr_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache     46857596                       # number of WriteReq MSHR miss cycles
+system.fft_strided_datapath.cache.WriteReq_mshr_miss_latency::total     46857596                       # number of WriteReq MSHR miss cycles
+system.fft_strided_datapath.cache.HardPFReq_mshr_miss_latency::.fft_strided_datapath.cache.prefetcher   1293489303                       # number of HardPFReq MSHR miss cycles
+system.fft_strided_datapath.cache.HardPFReq_mshr_miss_latency::total   1293489303                       # number of HardPFReq MSHR miss cycles
+system.fft_strided_datapath.cache.demand_mshr_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache    131076888                       # number of demand (read+write) MSHR miss cycles
+system.fft_strided_datapath.cache.demand_mshr_miss_latency::total    131076888                       # number of demand (read+write) MSHR miss cycles
+system.fft_strided_datapath.cache.overall_mshr_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache    131076888                       # number of overall MSHR miss cycles
+system.fft_strided_datapath.cache.overall_mshr_miss_latency::.fft_strided_datapath.cache.prefetcher   1293489303                       # number of overall MSHR miss cycles
+system.fft_strided_datapath.cache.overall_mshr_miss_latency::total   1424566191                       # number of overall MSHR miss cycles
+system.fft_strided_datapath.cache.ReadReq_mshr_miss_rate::.fft_strided_datapath.system.fft_strided_datapath.cache     0.042477                       # mshr miss rate for ReadReq accesses
+system.fft_strided_datapath.cache.ReadReq_mshr_miss_rate::total     0.042477                       # mshr miss rate for ReadReq accesses
+system.fft_strided_datapath.cache.WriteReq_mshr_miss_rate::.fft_strided_datapath.system.fft_strided_datapath.cache     0.035598                       # mshr miss rate for WriteReq accesses
+system.fft_strided_datapath.cache.WriteReq_mshr_miss_rate::total     0.035598                       # mshr miss rate for WriteReq accesses
+system.fft_strided_datapath.cache.HardPFReq_mshr_miss_rate::.fft_strided_datapath.cache.prefetcher          inf                       # mshr miss rate for HardPFReq accesses
+system.fft_strided_datapath.cache.HardPFReq_mshr_miss_rate::total          inf                       # mshr miss rate for HardPFReq accesses
+system.fft_strided_datapath.cache.demand_mshr_miss_rate::.fft_strided_datapath.system.fft_strided_datapath.cache     0.039432                       # mshr miss rate for demand accesses
+system.fft_strided_datapath.cache.demand_mshr_miss_rate::total     0.039432                       # mshr miss rate for demand accesses
+system.fft_strided_datapath.cache.overall_mshr_miss_rate::.fft_strided_datapath.system.fft_strided_datapath.cache     0.039432                       # mshr miss rate for overall accesses
+system.fft_strided_datapath.cache.overall_mshr_miss_rate::.fft_strided_datapath.cache.prefetcher          inf                       # mshr miss rate for overall accesses
+system.fft_strided_datapath.cache.overall_mshr_miss_rate::total     0.322359                       # mshr miss rate for overall accesses
+system.fft_strided_datapath.cache.ReadReq_avg_mshr_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache 74464.449160                       # average ReadReq mshr miss latency
+system.fft_strided_datapath.cache.ReadReq_avg_mshr_miss_latency::total 74464.449160                       # average ReadReq mshr miss latency
+system.fft_strided_datapath.cache.WriteReq_avg_mshr_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache 62227.883134                       # average WriteReq mshr miss latency
+system.fft_strided_datapath.cache.WriteReq_avg_mshr_miss_latency::total 62227.883134                       # average WriteReq mshr miss latency
+system.fft_strided_datapath.cache.HardPFReq_avg_mshr_miss_latency::.fft_strided_datapath.cache.prefetcher 95686.440524                       # average HardPFReq mshr miss latency
+system.fft_strided_datapath.cache.HardPFReq_avg_mshr_miss_latency::total 95686.440524                       # average HardPFReq mshr miss latency
+system.fft_strided_datapath.cache.demand_avg_mshr_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache 69573.719745                       # average overall mshr miss latency
+system.fft_strided_datapath.cache.demand_avg_mshr_miss_latency::total 69573.719745                       # average overall mshr miss latency
+system.fft_strided_datapath.cache.overall_avg_mshr_miss_latency::.fft_strided_datapath.system.fft_strided_datapath.cache 69573.719745                       # average overall mshr miss latency
+system.fft_strided_datapath.cache.overall_avg_mshr_miss_latency::.fft_strided_datapath.cache.prefetcher 95686.440524                       # average overall mshr miss latency
+system.fft_strided_datapath.cache.overall_avg_mshr_miss_latency::total 92492.286132                       # average overall mshr miss latency
+system.fft_strided_datapath.cache.replacements        14890                       # number of replacements
+system.membus.snoop_filter.tot_requests         30292                       # Total number of requests made to the snoop filter.
+system.membus.snoop_filter.hit_single_requests        14890                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_multi_requests            0                       # Number of requests hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.snoop_filter.tot_snoops               0                       # Total number of snoops made to the snoop filter.
+system.membus.snoop_filter.hit_single_snoops            0                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_multi_snoops            0                       # Number of snoops hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.pwrStateResidencyTicks::UNDEFINED    645556000                       # Cumulative time (in ticks) in various power states
+system.membus.trans_dist::ReadResp              14649                       # Transaction distribution
+system.membus.trans_dist::WritebackDirty         3312                       # Transaction distribution
+system.membus.trans_dist::CleanEvict            11578                       # Transaction distribution
+system.membus.trans_dist::ReadExReq               753                       # Transaction distribution
+system.membus.trans_dist::ReadExResp              753                       # Transaction distribution
+system.membus.trans_dist::ReadSharedReq         14649                       # Transaction distribution
+system.membus.pkt_count_system.fft_strided_datapath.cache.mem_side::system.mem_ctrls.port        45694                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count::total                  45694                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_size_system.fft_strided_datapath.cache.mem_side::system.mem_ctrls.port       598848                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size::total                  598848                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.snoops                                0                       # Total snoops (count)
+system.membus.snoopTraffic                          0                       # Total snoop traffic (bytes)
+system.membus.snoop_fanout::samples             15402                       # Request fanout histogram
+system.membus.snoop_fanout::mean                    0                       # Request fanout histogram
+system.membus.snoop_fanout::stdev                   0                       # Request fanout histogram
+system.membus.snoop_fanout::underflows              0      0.00%      0.00% # Request fanout histogram
+system.membus.snoop_fanout::0                   15402    100.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::1                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::2                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::overflows               0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::min_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::max_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::total               15402                       # Request fanout histogram
+system.membus.reqLayer0.occupancy            87208503                       # Layer occupancy (ticks)
+system.membus.reqLayer0.utilization              13.5                       # Layer utilization (%)
+system.membus.respLayer1.occupancy           96092331                       # Layer occupancy (ticks)
+system.membus.respLayer1.utilization             14.9                       # Layer utilization (%)
+
+---------- End Simulation Statistics   ----------
