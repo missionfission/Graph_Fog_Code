@@ -3,22 +3,22 @@
 ===============================
 Running : gemm
 Top level function: gemm
-Cycle : 273309 cycles
-Avg Power: 267.517 mW
-Idle FU Cycles: 839 cycles
-Avg FU Power: 253.287 mW
-Avg FU Dynamic Power: 168.794 mW
-Avg FU leakage Power: 84.4926 mW
-Avg MEM Power: 14.2303 mW
-Avg MEM Dynamic Power: 13.5186 mW
-Avg MEM Leakage Power: 0.71168 mW
-Total Area: 7.03135e+06 uM^2
-FU Area: 6.7382e+06 uM^2
-MEM Area: 293157 uM^2
-Num of Double Precision FP Multipliers: 191
-Num of Double Precision FP Adders: 219
-Num of Shifters (32-bit): 1024
-Num of Registers (32-bit): 336
+Cycle : 35595 cycles
+Avg Power: 2060.43 mW
+Idle FU Cycles: 260 cycles
+Avg FU Power: 1763.35 mW
+Avg FU Dynamic Power: 1300.47 mW
+Avg FU leakage Power: 462.873 mW
+Avg MEM Power: 297.081 mW
+Avg MEM Dynamic Power: 290.507 mW
+Avg MEM Leakage Power: 6.57452 mW
+Total Area: 3.71895e+07 uM^2
+FU Area: 3.68434e+07 uM^2
+MEM Area: 346109 uM^2
+Num of Double Precision FP Multipliers: 1264
+Num of Double Precision FP Adders: 808
+Num of Shifters (32-bit): 2048
+Num of Registers (32-bit): 1027
 ===============================
         Aladdin Results        
 ===============================

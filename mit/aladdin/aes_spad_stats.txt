@@ -71,3 +71,7 @@ Array: k, size = 32, partitions = 1, word size = 1, reads = 32, writes = 0
 Array: buf, size = 16, partitions = 1, word size = 1, reads = 996, writes = 840
 Array: ctx, size = 96, partitions = 1, word size = 1, reads = 704, writes = 544
 ===============
+Array: k, size = 32, partitions = 1, word size = 1, reads = 32, writes = 0
+Array: buf, size = 16, partitions = 1, word size = 1, reads = 996, writes = 840
+Array: ctx, size = 96, partitions = 1, word size = 1, reads = 704, writes = 544
+===============
