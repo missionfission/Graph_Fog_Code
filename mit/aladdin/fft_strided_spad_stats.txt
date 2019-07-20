@@ -75,3 +75,43 @@ Array: img_twid, size = 8192, partitions = 1, word size = 1, reads = 511, writes
 Array: real_twid, size = 8192, partitions = 1, word size = 1, reads = 511, writes = 0
 Array: real, size = 16384, partitions = 1, word size = 1, reads = 14337, writes = 14337
 ===============
+Array: img, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+===============
+Array: img, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+===============
+Array: img, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+===============
+Array: img, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+===============
+Array: img, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+===============
+Array: img, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+===============
+Array: img, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 1, reads = 4095, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 1, reads = 151553, writes = 151553
+===============
+Array: img, size = 65536, partitions = 1, word size = 4, reads = 151553, writes = 151553
+Array: img_twid, size = 32768, partitions = 1, word size = 4, reads = 4095, writes = 0
+Array: real_twid, size = 32768, partitions = 1, word size = 4, reads = 4095, writes = 0
+Array: real, size = 65536, partitions = 1, word size = 4, reads = 151553, writes = 151553
+===============
